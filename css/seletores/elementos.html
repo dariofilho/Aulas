@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	body {
+		font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	
+	h1 {
+		font-size: 1em;
+	}
+	.exemplo {
+		border: 0.1em solid #eee;
+		padding: 1em;
+		width: 13em;
+		float: left;
+		margin-right: inherit;
+		margin-bottom: inherit;
+		min-height: 280px;
+	}
+	
+	.exemplo p,
+	.exemplo div {
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+	
+	.elementos {
+		border-left: 1px solid #ccc;
+		padding-left: 1em;
+	}
+	
+	.elementos:empty{
+		background-color: red;
+		height: 1em;
+	}
+	
+	.target		 	p:target,
+	.active		 	p:active,
+	.hover		 	p:hover,
+	.selection	 	p::selection,
+	.firstLetter	p:first-letter,
+	.firstLine		p:first-line,
+	.num 			p:nth-child(3),
+	.lastNum 		p:nth-last-child(3),
+	.odd 			p:nth-child(odd),
+	.even 			p:nth-child(even),
+	.first-child 	p:first-child,
+	.last-child 	p:last-child,
+	.exp2n 			p:nth-child(2n),
+	.exp2np1 		p:nth-child(2n+1),
+	.exp3nm1 		p:nth-child(3n-1),
+	.exp3n 			p:nth-child(3n),
+	.exp3np1 		p:nth-child(3n+1),
+	.exp3np2 		p:nth-child(3n+2),
+	.expm1np5 		p:nth-child(-1n+5),
+	.exm1np2 		p:nth-last-child(-1n+2),
+	.expnp6 		p:nth-child(n+6),
+	.onlyChild		p:only-child,
+	.onlyOfType		p:only-of-type,
+	.not4			p:nth-of-type(4),
+	.not4div		div:nth-of-type(4),
+	.lastNot2		p:nth-last-of-type(2),
+	.firstOfType	p:first-of-type,
+	.lastOfType		div:last-of-type {
+		color: red;
+	}
+	</style></head>
+<body>
+	
+	<a href="#target4">Mostrar 4o parágrafo</a><br/>
+	<div class="exemplo">
+		<h1>p:target</h1>
+		<div class="elementos target">
+<p id="target1">Parágrafo 1</p>
+<p id="target2">Parágrafo 2</p>
+<p id="target3">Parágrafo 3</p>
+<p id="target4">Parágrafo 4</p>
+<p id="target5">Parágrafo 5</p>
+<p id="target6">Parágrafo 6</p>
+<p id="target7">Parágrafo 7</p>
+<p id="target8">Parágrafo 8</p>
+<p id="target9">Parágrafo 9</p>
+<p id="target10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:active</h1>
+		<div class="elementos active">
+<p id="active1">Parágrafo 1</p>
+<p id="active2">Parágrafo 2</p>
+<p id="active3">Parágrafo 3</p>
+<p id="active4">Parágrafo 4</p>
+<p id="active5">Parágrafo 5</p>
+<p id="active6">Parágrafo 6</p>
+<p id="active7">Parágrafo 7</p>
+<p id="active8">Parágrafo 8</p>
+<p id="active9">Parágrafo 9</p>
+<p id="active10">Parágrafo 10</p>
+</div>	</div>
+	
+	
+	<div class="exemplo">
+		<h1>p:hover</h1>
+		<div class="elementos hover">
+<p id="hover1">Parágrafo 1</p>
+<p id="hover2">Parágrafo 2</p>
+<p id="hover3">Parágrafo 3</p>
+<p id="hover4">Parágrafo 4</p>
+<p id="hover5">Parágrafo 5</p>
+<p id="hover6">Parágrafo 6</p>
+<p id="hover7">Parágrafo 7</p>
+<p id="hover8">Parágrafo 8</p>
+<p id="hover9">Parágrafo 9</p>
+<p id="hover10">Parágrafo 10</p>
+</div>	</div>
+	
+	
+	<div class="exemplo">
+		<h1>p:selection</h1>
+		<div class="elementos selection">
+<p id="selection1">Parágrafo 1</p>
+<p id="selection2">Parágrafo 2</p>
+<p id="selection3">Parágrafo 3</p>
+<p id="selection4">Parágrafo 4</p>
+<p id="selection5">Parágrafo 5</p>
+<p id="selection6">Parágrafo 6</p>
+<p id="selection7">Parágrafo 7</p>
+<p id="selection8">Parágrafo 8</p>
+<p id="selection9">Parágrafo 9</p>
+<p id="selection10">Parágrafo 10</p>
+</div>	</div>
+	
+	
+	<div class="exemplo">
+		<h1>p:first-letter</h1>
+		<div class="elementos firstLetter">
+<p id="firstLetter1">Parágrafo 1</p>
+<p id="firstLetter2">Parágrafo 2</p>
+<p id="firstLetter3">Parágrafo 3</p>
+<p id="firstLetter4">Parágrafo 4</p>
+<p id="firstLetter5">Parágrafo 5</p>
+<p id="firstLetter6">Parágrafo 6</p>
+<p id="firstLetter7">Parágrafo 7</p>
+<p id="firstLetter8">Parágrafo 8</p>
+<p id="firstLetter9">Parágrafo 9</p>
+<p id="firstLetter10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+			<h1>p:first-line</h1>
+			<div class="elementos firstLine">
+	<p>Lorem ipsum dolor sit amet, consectetur   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+	</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(3)</h1>
+		<div class="elementos num">
+<p id="num1">Parágrafo 1</p>
+<p id="num2">Parágrafo 2</p>
+<p id="num3">Parágrafo 3</p>
+<p id="num4">Parágrafo 4</p>
+<p id="num5">Parágrafo 5</p>
+<p id="num6">Parágrafo 6</p>
+<p id="num7">Parágrafo 7</p>
+<p id="num8">Parágrafo 8</p>
+<p id="num9">Parágrafo 9</p>
+<p id="num10">Parágrafo 10</p>
+</div>	</div>
+
+	
+	<div class="exemplo">
+		<h1>p:nth-last-child(3)</h1>
+		<div class="elementos lastNum">
+<p id="lastNum1">Parágrafo 1</p>
+<p id="lastNum2">Parágrafo 2</p>
+<p id="lastNum3">Parágrafo 3</p>
+<p id="lastNum4">Parágrafo 4</p>
+<p id="lastNum5">Parágrafo 5</p>
+<p id="lastNum6">Parágrafo 6</p>
+<p id="lastNum7">Parágrafo 7</p>
+<p id="lastNum8">Parágrafo 8</p>
+<p id="lastNum9">Parágrafo 9</p>
+<p id="lastNum10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(odd)</h1>
+		<div class="elementos odd">
+<p id="odd1">Parágrafo 1</p>
+<p id="odd2">Parágrafo 2</p>
+<p id="odd3">Parágrafo 3</p>
+<p id="odd4">Parágrafo 4</p>
+<p id="odd5">Parágrafo 5</p>
+<p id="odd6">Parágrafo 6</p>
+<p id="odd7">Parágrafo 7</p>
+<p id="odd8">Parágrafo 8</p>
+<p id="odd9">Parágrafo 9</p>
+<p id="odd10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(even)</h1>
+		<div class="elementos even">
+<p id="even1">Parágrafo 1</p>
+<p id="even2">Parágrafo 2</p>
+<p id="even3">Parágrafo 3</p>
+<p id="even4">Parágrafo 4</p>
+<p id="even5">Parágrafo 5</p>
+<p id="even6">Parágrafo 6</p>
+<p id="even7">Parágrafo 7</p>
+<p id="even8">Parágrafo 8</p>
+<p id="even9">Parágrafo 9</p>
+<p id="even10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:first-child</h1>
+		<div class="elementos first-child">
+<p id="first-child1">Parágrafo 1</p>
+<p id="first-child2">Parágrafo 2</p>
+<p id="first-child3">Parágrafo 3</p>
+<p id="first-child4">Parágrafo 4</p>
+<p id="first-child5">Parágrafo 5</p>
+<p id="first-child6">Parágrafo 6</p>
+<p id="first-child7">Parágrafo 7</p>
+<p id="first-child8">Parágrafo 8</p>
+<p id="first-child9">Parágrafo 9</p>
+<p id="first-child10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:last-child</h1>
+		<div class="elementos last-child">
+<p id="last-child1">Parágrafo 1</p>
+<p id="last-child2">Parágrafo 2</p>
+<p id="last-child3">Parágrafo 3</p>
+<p id="last-child4">Parágrafo 4</p>
+<p id="last-child5">Parágrafo 5</p>
+<p id="last-child6">Parágrafo 6</p>
+<p id="last-child7">Parágrafo 7</p>
+<p id="last-child8">Parágrafo 8</p>
+<p id="last-child9">Parágrafo 9</p>
+<p id="last-child10">Parágrafo 10</p>
+</div>	</div>
+
+	<div class="exemplo">
+		<h1>p:nth-child(2n)</h1>
+		<div class="elementos exp2n">
+<p id="exp2n1">Parágrafo 1</p>
+<p id="exp2n2">Parágrafo 2</p>
+<p id="exp2n3">Parágrafo 3</p>
+<p id="exp2n4">Parágrafo 4</p>
+<p id="exp2n5">Parágrafo 5</p>
+<p id="exp2n6">Parágrafo 6</p>
+<p id="exp2n7">Parágrafo 7</p>
+<p id="exp2n8">Parágrafo 8</p>
+<p id="exp2n9">Parágrafo 9</p>
+<p id="exp2n10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(2n+1)</h1>
+		<div class="elementos exp2np1">
+<p id="exp2np11">Parágrafo 1</p>
+<p id="exp2np12">Parágrafo 2</p>
+<p id="exp2np13">Parágrafo 3</p>
+<p id="exp2np14">Parágrafo 4</p>
+<p id="exp2np15">Parágrafo 5</p>
+<p id="exp2np16">Parágrafo 6</p>
+<p id="exp2np17">Parágrafo 7</p>
+<p id="exp2np18">Parágrafo 8</p>
+<p id="exp2np19">Parágrafo 9</p>
+<p id="exp2np110">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(3n)</h1>
+		<div class="elementos exp3n">
+<p id="exp3n1">Parágrafo 1</p>
+<p id="exp3n2">Parágrafo 2</p>
+<p id="exp3n3">Parágrafo 3</p>
+<p id="exp3n4">Parágrafo 4</p>
+<p id="exp3n5">Parágrafo 5</p>
+<p id="exp3n6">Parágrafo 6</p>
+<p id="exp3n7">Parágrafo 7</p>
+<p id="exp3n8">Parágrafo 8</p>
+<p id="exp3n9">Parágrafo 9</p>
+<p id="exp3n10">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(3n-1)</h1>
+		<div class="elementos exp3nm1">
+<p id="exp3nm11">Parágrafo 1</p>
+<p id="exp3nm12">Parágrafo 2</p>
+<p id="exp3nm13">Parágrafo 3</p>
+<p id="exp3nm14">Parágrafo 4</p>
+<p id="exp3nm15">Parágrafo 5</p>
+<p id="exp3nm16">Parágrafo 6</p>
+<p id="exp3nm17">Parágrafo 7</p>
+<p id="exp3nm18">Parágrafo 8</p>
+<p id="exp3nm19">Parágrafo 9</p>
+<p id="exp3nm110">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(3n+1)</h1>
+		<div class="elementos exp3np1">
+<p id="exp3np11">Parágrafo 1</p>
+<p id="exp3np12">Parágrafo 2</p>
+<p id="exp3np13">Parágrafo 3</p>
+<p id="exp3np14">Parágrafo 4</p>
+<p id="exp3np15">Parágrafo 5</p>
+<p id="exp3np16">Parágrafo 6</p>
+<p id="exp3np17">Parágrafo 7</p>
+<p id="exp3np18">Parágrafo 8</p>
+<p id="exp3np19">Parágrafo 9</p>
+<p id="exp3np110">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(3n+2)</h1>
+		<div class="elementos exp3np2">
+<p id="exp3np21">Parágrafo 1</p>
+<p id="exp3np22">Parágrafo 2</p>
+<p id="exp3np23">Parágrafo 3</p>
+<p id="exp3np24">Parágrafo 4</p>
+<p id="exp3np25">Parágrafo 5</p>
+<p id="exp3np26">Parágrafo 6</p>
+<p id="exp3np27">Parágrafo 7</p>
+<p id="exp3np28">Parágrafo 8</p>
+<p id="exp3np29">Parágrafo 9</p>
+<p id="exp3np210">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(-1n+5)</h1>
+		<div class="elementos expm1np5">
+<p id="expm1np51">Parágrafo 1</p>
+<p id="expm1np52">Parágrafo 2</p>
+<p id="expm1np53">Parágrafo 3</p>
+<p id="expm1np54">Parágrafo 4</p>
+<p id="expm1np55">Parágrafo 5</p>
+<p id="expm1np56">Parágrafo 6</p>
+<p id="expm1np57">Parágrafo 7</p>
+<p id="expm1np58">Parágrafo 8</p>
+<p id="expm1np59">Parágrafo 9</p>
+<p id="expm1np510">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:nth-child(n+6)</h1>
+		<div class="elementos expnp6">
+<p id="expnp61">Parágrafo 1</p>
+<p id="expnp62">Parágrafo 2</p>
+<p id="expnp63">Parágrafo 3</p>
+<p id="expnp64">Parágrafo 4</p>
+<p id="expnp65">Parágrafo 5</p>
+<p id="expnp66">Parágrafo 6</p>
+<p id="expnp67">Parágrafo 7</p>
+<p id="expnp68">Parágrafo 8</p>
+<p id="expnp69">Parágrafo 9</p>
+<p id="expnp610">Parágrafo 10</p>
+</div>	</div>
+
+	
+	<div class="exemplo">
+		<h1>div:nth-last-child(-1n+2)</h1>
+		<div class="elementos exm1np2">
+<p id="exm1np21">Parágrafo 1</p>
+<p id="exm1np22">Parágrafo 2</p>
+<p id="exm1np23">Parágrafo 3</p>
+<p id="exm1np24">Parágrafo 4</p>
+<p id="exm1np25">Parágrafo 5</p>
+<p id="exm1np26">Parágrafo 6</p>
+<p id="exm1np27">Parágrafo 7</p>
+<p id="exm1np28">Parágrafo 8</p>
+<p id="exm1np29">Parágrafo 9</p>
+<p id="exm1np210">Parágrafo 10</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:only-child</h1>
+		<div class="elementos onlyChild">
+			<p>Parágrafo</p>
+		</div>
+	</div>
+	
+	<div class="exemplo">
+		<h1>p:only-child</h1>
+		<div class="elementos onlyChild">
+			<p>Parágrafo</p>
+			<p>Parágrafo</p>
+		</div>
+	</div>
+
+	<div class="exemplo">
+		<h1>p:only-of-type</h1>
+		<div class="elementos onlyOfType">
+			<p>Parágrafo</p>
+		</div>
+	</div>
+
+	<div class="exemplo">
+		<h1>p:only-of-type</h1>
+		<div class="elementos onlyOfType">
+			<p>Parágrafo</p>
+			<p>Parágrafo</p>
+		</div>
+	</div>
+	
+	<div class="exemplo">
+		<h1>p:only-of-type</h1>
+		<div class="elementos onlyOfType">
+			<div>Div</div>
+			<p>Parágrafo</p>
+		</div>
+	</div>
+	
+	<div class="exemplo">
+		<h1>p:only-of-type</h1>
+		<div class="elementos onlyOfType">
+			<div>Div</div>
+			<p>Parágrafo</p>
+			<p>Parágrafo</p>
+		</div>
+	</div>
+	
+	<div class="exemplo">
+		<h1>.elementos:empty</h1>
+		<div class="elementos"></div>
+	</div>
+
+	<div class="exemplo">
+		<h1>p:nth-of-type(4)</h1>
+		<div class="elementos not4"><div>Div 1</div>
+<div>Div 2</div>
+<div>Div 3</div>
+<div>Div 4</div>
+<div>Div 5</div>
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p>
+<p>Parágrafo 4</p>
+<p>Parágrafo 5</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>div:nth-of-type(4)</h1>
+		<div class="elementos not4div"><div>Div 1</div>
+<div>Div 2</div>
+<div>Div 3</div>
+<div>Div 4</div>
+<div>Div 5</div>
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p>
+<p>Parágrafo 4</p>
+<p>Parágrafo 5</p>
+</div>	</div>
+
+	<div class="exemplo">
+		<h1>p:nth-last-of-type(2)</h1>
+		<div class="elementos lastNot2"><div>Div 1</div>
+<div>Div 2</div>
+<div>Div 3</div>
+<div>Div 4</div>
+<div>Div 5</div>
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p>
+<p>Parágrafo 4</p>
+<p>Parágrafo 5</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>p:first-of-type</h1>
+		<div class="elementos firstOfType"><div>Div 1</div>
+<div>Div 2</div>
+<div>Div 3</div>
+<div>Div 4</div>
+<div>Div 5</div>
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p>
+<p>Parágrafo 4</p>
+<p>Parágrafo 5</p>
+</div>	</div>
+	
+	<div class="exemplo">
+		<h1>div:last-of-type</h1>
+		<div class="elementos lastOfType"><div>Div 1</div>
+<div>Div 2</div>
+<div>Div 3</div>
+<div>Div 4</div>
+<div>Div 5</div>
+<p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p>
+<p>Parágrafo 4</p>
+<p>Parágrafo 5</p>
+</div>	</div>
+	
+	
+</body>
+</html>

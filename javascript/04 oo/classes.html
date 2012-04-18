@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	//Classe Pessoa
+	function Pessoa(nome){
+		
+		//Atributos Públicos
+		this.nome = nome;
+		this.idade = 0;
+		
+		//Atributo privado
+		var numeroPoupanca = -1;
+		
+		//Atributo estático
+		//Declara-se usando prototype
+		
+		//Métodos públicos
+		this.falarNome = function() {
+			console.debug(this.nome);
+		}
+		
+		this.getNumeroPoupanca = function() {
+			return numeroPoupanca;
+		}
+		
+		this.setNumeroPoupanca = function(numero) {
+			numeroPoupanca = numero;
+		}
+		
+		//Construtor
+		console.debug("Nasceu", nome);
+	}
+	
+	Pessoa.prototype.nacionalidade = "brasileiro";
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

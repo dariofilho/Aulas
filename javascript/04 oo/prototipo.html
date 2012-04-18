@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	var Pessoa = function(nomeDeBatismo) {
+		this.nome = nomeDeBatismo;
+		
+		console.debug("Nasceu", this.nome);
+		
+		this.mudarNome = function(novoNome) {
+			console.debug(this.nome, "agora se chama", novoNome);
+			this.nome = novoNome;
+		}
+	}
+	
+	var pessoa1 = new Pessoa("Ciclone");
+		pessoa1.mudarNome("Ciclonete");
+		
+		pessoa1.mudarNome = function() {
+			console.debug('Não é possível mudar de nome');
+		}
+		
+		pessoa1.mudarNome("Ciclonão");
+	
+	var pessoa2 = new Pessoa("Pablo");
+		pessoa2.mudarNome("Pablett");
+		
+		pessoa2.mudarNome = function(novoNome) {
+			var sufixo = " Raio Laser";
+			console.debug(this.nome, "agora se chama", novoNome+sufixo);
+			this.nome = novoNome+sufixo;
+		}
+		pessoa2.mudarNome("Pablito");
+	
+	
+	var Carro = function(modelo, marca, ano, placa) {
+		this.modelo = modelo;
+		this.marca = marca;
+		this.ano = ano;
+		this.placa = placa;
+	}
+	
+	
+	Carro.prototype.getModelo = function() {
+		console.debug("O nome do carro é", this.modelo);
+	} 
+	
+	var carro1 = new Carro("gol", "vw", 2012, "kiw4288");
+		carro1.getModelo();
+		
+	var carro2 = new Carro("palio", "fiat", 1999, "www1999");
+		carro2.getModelo();
+		
+	Carro.prototype.getModelo = function() {
+		console.debug("O modelo do carro é", this.modelo);
+	}
+	
+	Carro.prototype.qtdRodas = 4;
+	Carro.prototype.getQtdRodas = function(){ 
+		console.debug(this.qtdRodas);
+	}
+	Carro.prototype.setQtdRodas = function(qtd) {
+		Carro.prototype.qtdRodas = qtd;
+	}
+	
+	carro1.getModelo();
+	carro2.getModelo();
+	
+	carro1.getQtdRodas();
+	//4
+	carro1.setQtdRodas(2);
+	
+	carro2.getQtdRodas();
+	//2
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

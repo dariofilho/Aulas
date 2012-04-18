@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	
+	body {
+		font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+		background-color: #ddd;
+	}
+	
+	
+	/* Estilos que podemos reutilizar */
+	.stage { overflow: hidden; }
+	
+	.stage-relativo { position: relative; }
+	.stage-absolute { position: absolute; }
+	
+	.stage-760x420 {
+		width: 760px;
+		height: 420px;
+	}
+	
+	
+	/* Estilos específicos da nossa peça */
+	.stage-760x420 #paginas {
+		width: 3800px;
+		height: 420px;
+		position: relative;
+		-webkit-transition: all 1s ease;
+		
+	}
+	
+	.stage-760x420 .pagina {
+		width: 760px;
+		height: 420px;
+		float: left;
+	}
+	
+	.stage-760x420 #pagina1 { background-color: red; }
+	.stage-760x420 #pagina2 { background-color: green; }
+	.stage-760x420 #pagina3 { background-color: blue; }
+	.stage-760x420 #pagina4 { background-color: yellow; }
+	.stage-760x420 #pagina5 { background-color: purple; }
+	
+	.stage-760x420 #paginas,
+	.stage-760x420 #paginas.pagina1 { left: 0%; }
+	.stage-760x420 #paginas.pagina2 { left: -100%; }
+	.stage-760x420 #paginas.pagina3 { left: -200%; }
+	.stage-760x420 #paginas.pagina4 { left: -300%; }
+	.stage-760x420 #paginas.pagina5 { left: -400%; }
+	
+	
+	#menu li {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	
+	#menu li[data-pagina=pagina1].aceso { color: red; }
+	#menu li[data-pagina=pagina2].aceso { color: green; }
+	#menu li[data-pagina=pagina3].aceso { color: blue; }
+	#menu li[data-pagina=pagina4].aceso { color: yellow; }
+	#menu li[data-pagina=pagina5].aceso { color: purple; }
+	
+	</style>
+</head>
+
+<body>
+	<ul id="menu">
+		<li data-pagina="pagina1" class="aceso">Página 1 - Vermelho</li>
+		<li data-pagina="pagina2">Página 2 - Verde</li>
+		<li data-pagina="pagina3">Página 3 - Azul</li>
+		<li data-pagina="pagina4">Página 4 - Amarelo</li>
+		<li data-pagina="pagina5">Página 5 - Roxo</li>
+	</ul>
+<div class="stage stage-relativo stage-760x420">
+	<div id="paginas">
+	    <div class="pagina" id="pagina1"></div>
+	    <div class="pagina" id="pagina2"></div>
+	    <div class="pagina" id="pagina3"></div>
+	    <div class="pagina" id="pagina4"></div>
+	    <div class="pagina" id="pagina5"></div>
+	</div>
+</div>
+
+<script src="../../libs/jquery-1.7.1.min.js"></script>
+<script>
+/**
+ * Vamos dar um pouco de dinamismo a nossa interface?
+ * Para isso, conversamos com o navegador.E
+ * E Primeiro a gente faz isso em português e depois traduzimos para JavaScript.
+ * Utilizaremos o jQuery como nossa ferramenta de tradução, ok?
+ */
+
+
+//1 - Navegador, convoque todos os itens do menu
+//2 - Ensine-os que sempre que forem clicados eles vão executar uma função que vai...
+$("ul#menu li").click(function() {
+	
+	//2.1 - Apagar qualquer link aceso
+	$("ul#menu li").removeClass('aceso');
+	
+	//2.2 - Acender o link clicado
+	$(this).addClass('aceso');
+	
+	//2.3 - Guardar o valor do seu atributo data-pagina
+	var paginaClicada = $(this).attr('data-pagina');
+	
+	//2.4 - Acessar o elemento #paginas
+	//2.4.1 - E substituir pelo valor do seu atributo data-pagina	
+	$("#paginas").attr('class',paginaClicada);
+});
+</script>
+</body>
+</html>

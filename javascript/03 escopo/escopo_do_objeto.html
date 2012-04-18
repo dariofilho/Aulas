@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	
+	var variavelGlobal = "valor";
+	function retornaVariavelGlobal() {
+		return variavelGlobal;
+		//return window.variavelGlobal
+		
+		//Como a função está no escopo global
+		//return this.variavelGlobal
+	}
+	
+	
+	
+	var Objeto = {
+		_titulo: "Título do meu APP",
+		
+		retornaTitulo: function() {
+			return this._titulo;
+		},
+		
+		retornaConfiguracao: function() {
+			return window.configuracao;
+		}, 
+		
+		variavelGlobal: function () {
+			var variavelGlobal = "Valor Local";
+
+			return this.variavelGlobal;
+		}
+	}
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

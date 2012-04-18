@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		//Escopo Global
+		var nomeCliente = "Ciclone Filho";
+		
+		function retornaNomeClienteGlobal() {
+			nomeCliente
+			//window.nomeCliente;
+			//this.nomeCliente;
+			
+			console.debug("retornaNomeClienteGlobal", nomeCliente);
+			//return this.nomeCliente;
+			//return window.nomeCliente;
+		}
+		this.retornaNomeClienteGlobal
+		window.retornaNomeClienteGlobal
+		
+		retornaNomeClienteGlobal();
+		//Cliclone Filho
+		
+		
+		function defineERetornaNomeClienteLocal() {
+			//Escopo Local
+			var nomeCliente = "Brenda";
+			console.debug("defineERetornaNomeClienteLocal", nomeCliente);
+		}
+		defineERetornaNomeClienteLocal();
+		//Brenda
+		
+		function defineERetornaNomeClienteGlobal() {
+			nomeCliente = "Klayton";
+			console.debug("defineERetornaNomeClienteGlobal", nomeCliente);
+		}
+		defineERetornaNomeClienteGlobal();
+		//Klayton
+		
+		retornaNomeClienteGlobal();
+		//Klayton e não Ciclone Filho
+		
+		console.debug(0, nomeCliente);
+		console.debug("Hasteamento ------");
+		
+		var nomeClienteGlobal = nomeCliente;
+		
+		
+		//Casca de banana, quem é Hasteamento 1? Klayton?
+		function hasteamento() {
+			//Existe o hasteamento de nomeCliente
+			//var nomeCliente;
+			var i = 0;
+			
+			console.debug("Hasteamento", i++, nomeClienteGlobal);
+			
+			console.debug("Hasteamento", i++, window.nomeCliente);
+			
+			console.debug("Hasteamento", i++, this.nomeCliente);
+			
+			console.debug("Hasteamento", i++, nomeCliente);
+			
+			nomeCliente = "Dennis";
+			console.debug("Hasteamento", i++, nomeCliente);
+			
+			var nomeCliente = "Brenda";
+			console.debug("Hasteamento", i++, nomeCliente);
+			
+			nomeCliente = "Gimene";
+			console.debug("Hasteamento", i++, nomeCliente)
+		}
+		
+		hasteamento();
+		//undefined, Dennis, Brenda, Gimene
+		
+		retornaNomeClienteGlobal();
+		//Klayton
+		
+	</script>
+	<script>
+	
+		//Escopo global (window)
+		var fruta = "Laranja";
+		var frase = "Gosto de suco de "+fruta;
+		
+		function falar(fruta) {
+			//Escopo local
+			var frase = "Minha fruta preferida é "+fruta;
+		
+			console.debug(frase);
+		}
+		
+		function valor() {
+			if(arguments.length == 1) {
+				return localStorage.getItem(arguments[0]);
+			} else if(arguments.length == 2) {
+				return localStorage.setItem(arguments[0], arguments[1]);
+			}
+		}
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

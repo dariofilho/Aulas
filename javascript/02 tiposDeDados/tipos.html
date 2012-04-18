@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	
+	var nome = "João da Silva"; //String
+	var idade = 54; //Inteiro
+	var placas = ["KIW4288", "PRS0001"]; //Array
+	var caracteresDaSorte = [8,13,18,"h","d","z",[1,2,3,4]]; //Array
+	
+	function somar(a,b) {
+		var resultado = 0;
+			resultado = a + b;
+	}
+	
+	var objetoLiteralCarro = {
+		"marca": "BMW",
+		"modelo": "120i",
+		"cor": "preto",
+		"ano": 2012,
+		"usuarios": [{ nome: "José", cnh: 98765432 }, {
+			nome: "João da Silva",
+			cnh: 23456789
+		}],
+		"bunizar": function() {
+			alert("Biii biii");
+		}
+	};	//Object
+	
+	var casa = new Object(); //Object
+		casa.endereco = "Av. Boa Viagem, 4000, apt 2401";
+		casa.bairro = "Boa Viagem";
+		casa.cidade = "Recife";
+		casa.uf = "PE";
+
+	//Definição de classe
+	var Pessoa = function(nome) {
+		//Atributo
+		this.nome = nome;
+		
+		//Método
+		this.falarNome = function() {
+			alert('Meu nome é '+this.nome);
+		}
+	}
+	
+	//Instância de Pessoa ou um objeto do tipo Pessoa
+	var novaPessoa = new Pessoa("Joana"); //Pessoa
+	 
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

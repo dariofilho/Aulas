@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	
+	@-webkit-keyframes pulsar {
+		from { -webkit-transform: scale(1); }
+		to { -webkit-transform: scale(1.5); }
+	}
+	.animado.pulsar { -webkit-animation-name: pulsar; }
+	.animado {
+		-webkit-animation-delay: 0;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-timing-function: ease;
+	}
+	.coracao {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+		color: white;
+		line-height: 200px;
+		font-weight: bold;
+		font-size: 30px;/*
+				border-radius: 100px;*/
+		margin: -100px 0 0 -100px;
+		
+	
+	}
+	</style>
+</head>
+<body>
+	<div class="coracao animado pulsar">Japão</div>
+</body>
+</html>

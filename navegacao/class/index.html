@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		#telas {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -240px 0 0 -380px;
+		}
+		
+		.tela {
+			width: 760px;
+			height: 420px;
+			border: 1px solid black;
+			display: none;
+			font-size: 60px;
+			text-align: center;
+		}
+		
+		/* .tela:target, */
+		.tela.ativa {
+			display: block;
+		}
+		
+	</style>
+	
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	
+</head>
+<body>
+	<div id="telas">
+		<nav>
+			<ul id="menu">
+			    <li>
+			        <a href="#tela1">Home</a>
+			    </li>
+			    <li>
+			        <a href="#tela2">Empresa</a>
+			    </li>
+			    <li>
+			        <a href="#tela3">Produtos</a>
+			    </li>
+			</ul>
+		</nav>
+	<section id="tela1" class="tela">Home</section>
+	<section id="tela2" class="tela">Empresa</section>
+	<section id="tela3" class="tela">Produtos</section>
+	</div>
+	
+	<script>
+	function clicouNoLink() {
+		//1 - Esconder qualquer tela ativa
+		//2 - Identificar qual foi a tela indicado pelo usuário
+		//3 - Exibir
+		
+		$(".tela").hide().filter($(this).attr('href')).show();		
+	}
+	
+	//Quando o usuário clicar no ítem referente a uma tela
+	$("ul#menu a").click(clicouNoLink)
+	
+	
+		
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	
+	//Objeto Literal
+	var objeto = {
+		atributo1: "GOL2012",
+		atributo2: "Pablito",
+		atributo3: "Black Gol",
+		metodoBuzinar: function() {
+			console.debug('Fon fon');
+		},
+		metodoAndar: function() {
+			console.debug('Vruuuumm!');
+		}
+	};
+	
+	for(propriedade in objeto) {
+		var nomeDaPropriedade = propriedade;
+		var valorDaPropriedade = objeto[propriedade];
+		
+		console.debug(nomeDaPropriedade, valorDaPropriedade);
+	}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
