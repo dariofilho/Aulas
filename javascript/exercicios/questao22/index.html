@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>Calculadora</h1>
+	<script>
+		var Calculadora = function(valorInicial) {
+			//Atribui 0, inicialmente
+			this.resultado = 0;
+			
+			//Atribui o valor informado na criação do objeto
+			if(valorInicial != undefined) {
+				this.resultado = valorInicial; 
+			}
+			
+			//Exibe o resultado
+			this.exibirResultado = function() {
+				console.debug('= ', this.resultado);
+			}
+			
+			//Exibe o resultado
+			this.exibirResultado();
+			
+			this.somar = function(valor) {
+				this.resultado += valor;
+				this.exibirResultado();
+			}
+			
+			this.subtrair = function(valor) {
+				this.resultado -= valor;
+				this.exibirResultado();
+			}
+			
+			this.multiplicar = function(valor) {
+				this.resultado *= valor;
+				this.exibirResultado();
+			}
+			
+			this.dividir = function(valor) {
+				if(valor != 0) {
+					this.resultado /= valor;
+				}
+				this.exibirResultado();
+			}
+		};
+	</script>
+</body>
+</html>

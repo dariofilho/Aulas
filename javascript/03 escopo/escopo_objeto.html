@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	
+	var nome = "Aquiles";
+	
+	var Pessoa = function() {
+		var nomeDaPessoa;
+		
+		//Exemplo de overload do método construtor
+		switch(arguments.length) {
+			case 0: 
+				nomeDaPessoa = "Anônimo(a)";
+			break;
+			
+			case 1: 
+				nomeDaPessoa = arguments[0];
+			break;
+		}
+		
+		this.nome = nomeDaPessoa;
+		
+		alert('Nasceu '+this.nome);
+	}
+	
+	var mulher = new Pessoa();
+		console.debug(mulher.nome); //Anônimo(a);
+		
+	var homem = new Pessoa("João");
+		console.debug(homem.nome); //João
+		
+	var meuArray = new Array(); //Padrão
+		meuArray.push(1);
+		meuArray.push(2);
+		meuArray.push(3);
+		meuArray.push(4);
+		
+	var seuArray = [1,2,3,4]; //Literal
+	
+	var minhaString = new String(); //Padrão
+	var suaString = "Texto"; //Literal
+	
+	
+	var meuObjeto = new Object();
+		meuObjeto.nome = "Dennis";
+		meuObjeto.altura = 167;
+		
+	var seuObjeto = {
+		nome: "Aquiles",
+		altura: 167
+	}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

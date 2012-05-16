@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		#appBar {
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+		}
+		#appBar li {
+			display: inline-block;
+			width: 33%;
+		}
+		
+		body.offLine .tela,	
+		body.offLine #appBar li {
+			display: none;
+		}
+		
+		body.offLine #appBar li.offLine {
+			display: inline-block;
+			width: 49%;
+		}
+		
+		.tela {
+			border: 1px solid black;
+			margin: 2em;
+		}
+		.tela.ativa {
+			border-color: red;
+		}
+		
+		
+		body.offLine .tela.offLine {
+			display: block;
+		}
+		
+	</style>
+</head>
+<body class="offLine">
+	<div id="appBar">
+			<ul>
+				<li class="ativo offLine"><a href="#Home">Home</a></li>
+				<li class="offLine"><a href="#Cardapio">Cardapio</a></li>
+				<li><a href="#Contato">Contato</a></li>
+			</ul>
+	</div>
+	
+	<!-- Tela Home - Restaurante -->
+	<div id="telaHome" class="tela offLine ativa">
+		<h1>Home - O Restaurante</h1>
+	</div>
+	
+	<!-- Tela Cardápio -->
+	<div id="telaCardapio" class="tela offLine">
+		<h1>Cardápio</h1>
+		<div id="listaCardapio">
+			<div class="categoria">
+				<h2>Categoria</h2>
+				<div id="produto1" class="produto">
+					<h3>Prato1</h3>
+				</div>
+				<div id="produto2" class="produto">
+					<h3>Prato2</h3>
+				</div>
+				<div id="produto3" class="produto">
+					<h3>Prato3</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Tela Contato -->
+	<div id="telaContato" class="tela">
+		<h1>Contato</h1>
+	</div>
+	<script src="js/APP.combined.js"></script>
+	<script>
+	
+	var APP = APP || {};
+	APP.OffLine = {
+			setUp: function() {
+				var that = this;
+				
+				//Verifica se está onLine ou offLine
+				that.verificar();
+				
+				//Configura o browser 
+				//para detectar a mudança de status
+				
+				$(window).on('online offline', function(){
+					that.verificar();
+				})
+			},
+			
+			verificar: function() {
+				if(navigator.onLine) {
+					this.onLine();
+				} else {
+					this.offLine();
+				}
+			},
+			
+			onLine: function() {
+				//Mostra todas as telas
+				$(document.body).removeClass('offLine');
+			},
+			
+			offLine: function() {
+				//Esconde todas as telas
+				$(document.body).addClass('offLine');
+			}
+		};
+		
+		//Home - Restaurante
+	APP.Home = {
+		setUp: function() {
+		
+		}
+	};
+		
+	APP.Cardapio = {
+		setUp: function() {
+	    	
+	    }
+	};
+		
+	APP.Contato = {
+			setUp: function() {
+			
+		},
+		
+		Formulario: {
+			setUp: function() {
+				//Aplica a validação no formulário 
+					//Usar jQuery Validate 
+			},
+			
+			aplicarValidacao: function() {
+				
+			},
+			
+			enviar: function() {
+				//Chamada Ajax aqui
+					//Apontar os eventos para os métodos
+					//this.enviando
+					//this.enviou
+					//this.naoEnviou
+			},
+			
+			enviando: function() {
+				//Mostra a animação de loading
+			},
+			
+			enviou: function() {
+				//Exibe que foi enviado com sucesso
+			},
+			
+			naoEnviou: function() {
+				//Exibe uma mensagem de erro
+			}
+		} 
+	}
+	APP.executarSetUps();
+	</script>
+</body>
+</html>

@@ -4,6 +4,11 @@ APP.Home = {
 	setUp: function() {
 		console.debug("APP.Home.setUp");
 	},
+	Geraldo: {
+		setUp: function() {
+			console.debug('Geraldo');
+		}
+	},
 	Menu: {
 		setUp: function() {
 			console.debug("APP.Home.Menu.setUp");

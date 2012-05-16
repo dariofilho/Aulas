@@ -1,5 +1,7 @@
+//Singleton
 var APP = APP || {};
 
+//Método setUp
 APP.setUp = function() {
 	console.debug("APP.setUp");
 }

@@ -1,0 +1,1 @@
+alert("Exercício 10 funcionou");

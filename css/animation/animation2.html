@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.transitionAll {
+			-webkit-transition-property: height, width, background-color;
+			-webkit-transition-duration:1s, 1s, 1s;
+			-webkit-transition-timing-function: linear, linear, linear;
+			-webkit-transition-delay: 0, 1s, 2s;
+		}
+		
+		#caixa {
+			width: 100px;
+			height: 100px;
+			background-color: white;
+			border: 1px solid black;
+		}
+		
+		#caixa:hover {
+			width: 150px;
+			height: 150px;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<div id="caixa" class="transitionAll"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	var Calculadora = function() {
+		this.resultado = 0;
+		
+		this.exibirResultado = function() {
+			console.debug('O resultado é: ', this.resultado);
+		}
+		
+		this.somar = function(valor) {
+			this.resultado += valor;
+			this.exibirResultado();
+		}
+		
+		this.subtrair = function(valor) {
+			this.resultado -= valor;
+			this.exibirResultado();
+		}
+		
+		this.multiplicar = function(valor) {
+			this.resultado *= valor;
+			this.exibirResultado();
+		}
+		
+		this.dividir = function(valor) {
+			if(valor != 0) this.resultado /= valor;
+			this.exibirResultado();
+		}
+	}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

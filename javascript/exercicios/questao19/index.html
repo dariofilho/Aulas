@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	Texto
+	<script>
+	document.body.style.fontSize = "30px";
+	function aumentarTamanhoTexto() {
+		var tamanhoAtual = document.body.style.fontSize;
+			tamanhoAtual = parseInt(tamanhoAtual, 10);
+			tamanhoAtual += 1;
+			document.body.style.fontSize = tamanhoAtual+"px";
+	}
+	function diminuirTamanhoTexto() {
+		var tamanhoAtual = document.body.style.fontSize;
+			tamanhoAtual = parseInt(tamanhoAtual, 10);
+			tamanhoAtual = tamanhoAtual -1;
+			document.body.style.fontSize = tamanhoAtual+"px";
+	}
+	</script>
+</body>
+</html>

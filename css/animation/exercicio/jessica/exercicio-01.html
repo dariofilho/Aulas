@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>Exerc&iacute;cio transition e animation</title>
+
+<style>
+.botao-exe01 {
+	width: 85px;
+	height: 45px;
+	background-color: #9DB7CC;
+	padding: 10px 15px;
+	border-radius: 5px 5px 5px 5px;
+	border: 2px solid #0070A6;
+	text-align: center;
+	-webkit-transition: background-color 3s ease,border 6s ease,border-radius 2s ease-out;
+	margin-bottom: 50px;
+}
+.botao-exe01:hover {
+	background-color: #C8FF91;
+	border-radius: 18px 8px 18px 8px;
+	border: 2px solid #5BCB25;
+}
+
+.botao-exe01 a {
+	display: block;
+	color: #001824;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.botao-exe01 a:hover {
+	color: #F44084;
+	-webkit-transition: ease 2s color;
+}
+
+.botao-exe02 img {
+	width: 109px;
+	height: 101px;
+	-webkit-animation-name: pulsar;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-direction: direction;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-time-fuction: ease;
+	-webkit-animation-iteration-count: infinite;
+	
+}
+
+@-webkit-keyframes pulsar {
+	to { width:109px; height: 101px;}
+	from { width:250px; height: 210px;}
+}
+
+
+
+</style>
+</head>
+
+<body>
+<p>Botão mudar de cor</p>
+<div class="botao-exe01">
+  <a href="#">Clique aqui</a>
+</div>
+
+<div class="botao-exe02">
+  <img src="heart1.png" width="109" height="101" alt="heart">
+</div>
+</body>
+</html>

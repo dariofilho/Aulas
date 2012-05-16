@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script>
+	
+	
+	var CV = {
+		
+		//Objeto HTML Canvas
+		_canvas: null,
+		
+		//Objeto CanvasRenderingContext2D do #meuCanvas
+		_contexto: null,
+		
+		//setUp inicial
+		setUp: function() {
+			
+			CV._canvas = $("#meuCanvas").get(0);
+			CV._contexto = CV._canvas.getContext('2d');
+		
+		},
+		
+		Estilo: {
+		
+			preenchimento: function(cor) {
+				CV._contexto.fillStyle = cor;
+			},
+			
+			Linha: {
+				
+				cor: function(cor) {
+					CV._contexto.strokeStyle = cor;
+				},
+			
+				//butt round square
+				tipoExtremidade: function(estilo) {
+					CV._contexto.lineCap = estilo;
+				}, 
+			
+				//bevel round miter
+				tipoUniao: function(estilo) {
+					CV._contexto.lineJoin = estilo;
+				},
+			
+				limiteUniaoMiter: function(tamanho) {
+					CV._contexto.miterLimit = tamanho;
+				},
+			
+				espessura: function(tamanho){
+					CV._contexto.lineWidth = tamanho;
+				}
+			},
+			
+			Sombra: {
+				conf: function(blur, cor, offX, offY) {
+					this.blur(blur);
+					this.cor(cor);
+					this.distanciaHorizontal(offX);
+					this.distanciaVertical(offY);
+				},
+				
+				blur: function(tamanho) {
+					CV._contexto.shadowBlur = tamanho;
+				},
+				
+				cor: function(cor) {
+					CV._contexto.shadowColor = cor;
+				},
+				
+				distanciaHorizontal: function(tamanho) {
+					CV._contexto.shadowOffsetX = tamanho;
+				},
+				
+				distanciaVertical: function(tamanho) {
+					CV._contexto.shadowOffsety = tamanho;
+				}
+			}
+			
+		},
+		
+		//Funções de desenho
+		Desenhar: {
+			
+			Retangulo: {
+				
+				solido: function(x, y, w, h) {
+					CV._contexto.fillRect(x, y, w, h);
+				}, 
+				
+				vazado: function(x, y, w, h) {
+					CV._contexto.strokeRect(x, y, w, h);
+				},
+				
+				limpar: function(x, y, w, h) {
+					CV._contexto.clearRect(x, y, w, h);
+				}
+			},
+			
+			Forma: {
+				
+				abrir: function() {
+					CV._contexto.beginPath();
+				},
+				
+				fechar: function() {
+					CV._contexto.closePath();
+				},
+				
+				moverPonteiro: function(x,y) {
+					CV._contexto.moveTo(x,y);
+				},
+				
+				tracarLinha: function(x,y) {
+					CV._contexto.linteTo(x,y);
+				},
+				
+				preencher: function() {
+					CV._contexto.fill();
+				},
+				
+				contornar: function() {
+					CV._contexto.stroke();
+				}
+			},
+			
+			Curva: {
+				//Função auxiliar
+				converterGrausEmRadiano: function(graus) {
+					return (Math.PI/180)*graus;
+				},
+				
+				//Desenha um arco
+				arco: function(x, y, raio, anguloInicial, anguloFinal, sentidoAntiHorario, preencher) {
+					
+					var anguloInicialRadiano = this.converterGrausEmRadiano(anguloInicial);
+					var anguloFinalRadiano = this.converterGrausEmRadiano(anguloFinal);
+					
+					CV._contexto.arc(x, y, raio, anguloInicialRadiano, anguloFinalRadiano, sentidoAntiHorario);
+					
+					if(preencher) CV.Desenha.Forma.preencher();
+					else CV.Desenha.Forma.contornar();
+				
+				},
+				
+				
+				//Desenha uma curva quadrática
+				quadratica: function(xTendencia, yTendencia, xFinal, yFinal) {
+					CV._contexto.quadraticCurveTo(xTendencia, yTendencia, xFinal, yFinal);
+				},
+				
+				quadraticaTeste: function() {
+					var w = CV._canvas.width;
+					var h = CV._canvas.height;
+					CV._contexto.beginPath();
+					CV._contexto.moveTo(0,0);
+					CV._contexto.quadraticCurveTo(w,0,w,h);
+					CV._contexto.stroke();
+				},
+				bezierTeste: function() {
+					var w = CV._canvas.width;
+					var h = CV._canvas.height;
+					CV._contexto.beginPath();
+					CV._contexto.moveTo(0,0);
+					CV._contexto.bezierCurveTo(300,300,400,400,w,h);
+					CV._contexto.stroke();
+				},
+				
+				//Desenha uma curva de bézier
+				bezier: function(xTendencia1, yTendencia1, xTendencia2, yTendencia2, xFinal, yFinal) {
+					CV._contexto.bezierCurveTo(xTendencia1, yTendencia1, xTendencia2, yTendencia2, xFinal, yFinal);
+				}
+			}
+		}
+	}
+
+	$(document).ready(function(){
+		CV.setUp();
+		var tempo = 0; 
+		
+		
+	});
+	</script>
+	<style>
+	body {
+		margin:0;
+		background-color: #999;
+	}
+	canvas {
+		border:1px solid navy;
+		background-color: white;
+	}
+	</style>
+</head>
+<body>
+<div id="meuDiv">
+	<canvas id="meuCanvas" width="480" height="440"></canvas>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas X Video</title>
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script src="../../libs/HTML5.js"></script>
+	<script src="../../libs/HTML5.Canvas.js"></script>
+	<script>
+	var HTML5 = HTML5 || {};
+	
+	
+	HTML5.VideoCanvas = {
+		
+		_video: null, //Elemento HTML do video	
+		_largura: 480, //Largura original do video
+		_altura: 276, //Altura original do video
+		_fps: 24, //FPS que deve ser escrito no canvas
+		
+		//Ao carregar a página...
+		setUp: function() {
+			
+			//Localiza o elemento de video
+			this._video = $("#meuVideo")
+							.bind('play', this.desenhar)
+							.get(0);
+							
+			//Reproduz o vídeo
+			this._video.play();
+			this._video.muted = false;
+			
+			HTML5.Canvas._contexto.font = "10px Arial";
+			HTML5.Canvas._contexto.fillStyle = "white";
+			
+		},
+		
+		//Pega a imagem do vídeo e joga no canvas
+		desenhar: function() {
+			var that =  HTML5.VideoCanvas; //referência
+			var video = that._video; //Elemento HTML do vídeo
+			
+			//Se o vídeo tiver pausado ou parado, não faz nada
+			if(video.paused || video.ended) { return false; }
+			
+			//Calcula a largura e altura do vídeo para que fique proporcional a tela sem distorcer
+			var dimensoes = HTML5.Util.telaCheiaProporcional(that._largura, that._altura);
+			
+			//Verifica se o canvas está em flip 
+			var x = (!HTML5.Canvas.Transformacao.Flip._horizontal) ? 0 : -dimensoes.largura;
+			var y = (!HTML5.Canvas.Transformacao.Flip._vertical) ? 0 : -dimensoes.altura;
+			
+			//Escreve no canvas a imagem atual do canvas
+			HTML5.Canvas._contexto.drawImage(video,x,y,dimensoes.largura,dimensoes.altura);
+			
+			if(HTML5.Canvas._animacaoFPS && HTML5.Canvas._animacaoContagem >= HTML5.Canvas._animacaoGapContagem) {
+				var infoString = ['FPS:',HTML5.Canvas._animacaoFPS,'Max:',HTML5.Canvas._animacaoFPSMax,'Min:',HTML5.Canvas._animacaoFPSMin,'Med:',HTML5.Canvas._animacaoFPSMedia].join(" ");
+				HTML5.Canvas.Texto.escrever(10,20,infoString);
+			}
+			//HTML5.Canvas.Efeitos.inverterCores();
+			
+			//Chama novamente a função desenhar respeitando o FPS definido
+			//setTimeout(that.desenhar,1000/that._fps);
+			HTML5.Canvas.animar(that.desenhar);
+			HTML5.Canvas.Efeitos.pretoEBranco();
+		}
+	};
+	
+	//Assim que a página carregar
+	$(document).ready(function(){
+		
+		//Executa todos os setUp dentro de HTML5
+		HTML5.executarSetUps();
+	})
+	</script>
+	<style>
+	body {
+		margin: 0;
+		background-color: black;
+	}
+	video {
+		visibility: hidden;
+		display: none;
+	}
+	</style>
+</head>
+<body>
+	<video id="meuVideo" preload="auto" loop>
+		<source src="../video/video/video.m4v" type="video/mpeg" />
+		<source src="../video/video/video.ogv" type="video/ogg" />
+		<source src="../video/video/video.mp4" type="video/mp4" />
+	</video>
+</body>
+</html>

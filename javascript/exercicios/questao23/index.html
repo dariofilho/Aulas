@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1></h1>
+	<script>
+	var Carrinho = {
+		produtos: {},
+		adicionar: function(id, qtd) {
+			this.produtos[id] = qtd;
+		}, 
+		remover: function(id) {
+			delete(this.produtos[id]);
+		},
+		listar: function() {
+			var id;
+			for(id in this.produtos) {
+				console.debug('Produto', id, 'quantidade', this.pr)
+			}
+		}
+	}
+	</script>
+</body>
+</html>

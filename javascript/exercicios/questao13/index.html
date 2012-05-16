@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		var carro = {
+			marca: "VW",
+			modelo: "GOL",
+			ano: 2012,
+			cor: "branco"
+		};
+		
+		var propriedade;
+		
+		for(propriedade in carro) {
+			var valor = carro[propriedade];
+			alert(propriedade + ': ' + valor);
+		}
+	</script>
+</head>
+<body></body>
+</html>

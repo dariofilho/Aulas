@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>Título</h1><button onclick="verificar()">Mostrar/Esconder</button>
+	<div id="foto">Minha foto aqui.</div>
+	<h2>Sub Título</h2>
+	<script>
+		var exibindo = true;
+		function mostrar() {
+			var foto = document.getElementById('foto');
+			foto.style.display = "block";
+			exibindo = true;
+		}
+		function esconder() {
+			var foto = document.getElementById('foto');
+			foto.style.display = "none";
+			exibindo = false;
+		}
+		function verificar() {
+			if(exibindo) {
+				esconder();
+			} else {
+				mostrar();
+			}
+		}
+	</script>
+</body>
+</html>
