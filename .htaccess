@@ -8,6 +8,7 @@
 #   <!--#include file="libs/jquery-1.5.0.min.js" -->
 #   <!--#include file="plugins/jquery.idletimer.js" -->
 # e eles serão incluídos em um único arquivo. O mesmo vale para css.
+AddType text/cache-manifest .manifest
 
 <FilesMatch "\.combined\.js$">
   Options +Includes

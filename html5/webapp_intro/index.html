@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR" manifest="cache.manifest">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Site do Leão</title>
+	<script>
+	window.addEventListener('load', function(e) {
+	  window.applicationCache.addEventListener('updateready', function(e) {
+	    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+	      window.applicationCache.swapCache();
+	      window.location.reload();
+	    }
+	  }, false);
+	}, false);
+	</script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script>
+	$(window).on('online offline', function(){
+		verificar();
+	});
+	
+	var verificar = function() {
+		if(navigator.onLine) {
+			online();
+		} else {
+			offline();
+		}
+	}
+	
+	//O que vai acontecer quando o device estiver ONLINE
+	var online = function() {
+		$("#twitter").show();
+	}
+	 
+	//O que vai acontecer quando o device estiver offline
+	var offline = function() {
+		$("#twitter").hide();
+	}
+	
+	$(document).ready(function() {
+		verificar();
+	})
+	</script>
+	<style>
+	img {
+		width: 200px;
+		height: auto;
+	}
+	</style>
+	
+</head>
+<body>
+	<h1>Site do Leão!</h1>
+	
+	<div id="twitter">
+		<h2>Twitter</h2>
+		<div id="twits">Atualizações do twitter</div>
+	</div>
+	
+	<div id="fotos">
+		<h2>Fotos</h2>
+		<img src="imagens/manace.gif" />
+		<img src="imagens/sport.png" />
+	</div>
+	
+</body>
+</html>
