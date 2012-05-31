@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style>
+</style>
+<body>
+	
+	
+	<div class="carregamentoDinamico">
+   		<ul class="menu">
+   			<li><a href="home.html">Home</a></li>
+	   		<li><a href="conteudo.php">Hora</a></li>
+   		</ul>
+   		<div class="conteudo"></div>
+	</div>
+	
+	
+	<div class="carregamentoDinamico">
+   		<ul class="menu">
+   			<li><a href="contato.html">Contato</a></li>
+   		</ul>
+   		<div class="conteudo"></div>
+	</div>
+	
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script>
+	
+		/**
+		 * Componente Carregamento Dinâmico
+		 * <div class="carregamentoDinamico">
+	   	 *	<ul class="menu">
+	   	 *		<li><a href="contato.html">Contato</a></li>
+	   	 *	</ul>
+	   	 *	<div class="conteudo"></div>
+		</div>
+		 **/
+		$(".carregamentoDinamico").on('click', ".menu li a", function(event) {
+			event.preventDefault();
+			var ancora = $(this), 
+				pagina = ancora.attr('href'), 
+				destino = ancora.parents('.carregamentoDinamico').find('.conteudo');
+				
+			$(destino).load(pagina);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>js</title>
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+	<h1>O navegador está conectado à uma rede?</h1>
+	<p>Faça um teste desconectando o seu computador da rede, desligando o wi-fi, tirando o cabo ou desligando o adaptador.</p>
+	<ol id="log"></ol>
+	<script>
+	
+	function escreverNoLog(mensagem, online) {
+		var ol = document.getElementById('log'),
+			li = document.createElement('li');
+			
+			li.textContent = mensagem;
+			li.style.backgroundColor = online === true ? '#CCFFCC' : '#FFCCCC';
+			
+			ol.appendChild(li);
+	}
+	
+	function detectar() {
+		if(navigator.onLine) {
+			escreverNoLog('On Line', true);
+		} else {
+			escreverNoLog('Off Line', false);
+		}
+	}
+	
+	//Verifica se o navegador 
+	if(window.navigator.hasOwnProperty('onLine')) {
+		window.addEventListener('online', detectar, false);
+		window.addEventListener('offline', detectar, false);
+		detectar();
+	}
+	
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style>
+</style>
+<body>
+	<button id="bot">Carregar</button>
+	
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script>
+		var ajax = null;
+		$("#bot").bind('click',function() {
+			if(ajax !== null) ajax.abort();
+			ajax = $.ajax({
+				url: 'json.php',
+				success: function(data, text, xhr) { console.debug('fim'); }
+			});
+		})
+	</script>
+</body>
+</html>

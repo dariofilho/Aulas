@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>js</title>
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+	<h1>O navegador está conectado à uma rede?</h1>
+	<p>Faça um teste desconectando o seu computador da rede, desligando o wi-fi, tirando o cabo ou desligando o adaptador.</p>
+	<ol id="log"></ol>
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script>
+		function verificar() {
+			var status = navigator.onLine;
+			$("<li>")
+				.text(status?'On Line':'Off Line')
+				.css('background-color',status?'#CFC':'#FCC')
+				.appendTo("#log");
+		}
+		$(window).on('online offline', function(event) {
+			verificar();
+		});
+		verificar();
+	</script>
+</body>
+</html>

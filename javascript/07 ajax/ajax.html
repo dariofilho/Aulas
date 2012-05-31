@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style>
+</style>
+<body>
+	
+	
+	<div class="carregamentoDinamico">
+   		<ul class="menu">
+   			<li><a href="home.html">Home</a></li>
+	   		<li><a href="conteudo.php">Hora</a></li>
+   		</ul>
+   		<div class="conteudo"></div>
+	</div>
+	
+	
+	<div class="carregamentoDinamico">
+   		<ul class="menu">
+   			<li><a href="contato.html">Contato</a></li>
+   		</ul>
+   		<div class="conteudo"></div>
+	</div>
+	
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<script>
+	
+		function carregarConteudo() {
+			
+			var propriedadesDoAjax = {
+				//O URL do conteúdo
+				url: 'json.php',
+				
+				dataType: "JSON",
+				
+				async: false,
+				
+				//Antes de iniciar a conexão
+				beforeSend: function() {
+					console.debug('COMECOU O CARREGAMENTO');
+					$(".conteudo:eq(0)").text('Carregando');
+				},
+				
+				//Quando a conexão for finalizada
+				success: function(data, text, xhr) {
+					
+					if(data.hasOwnProperty('frutas')) {
+						console.debug(data.frutas);
+					} else {
+						console.debug('não tem frutas');
+					}
+					
+					console.debug('FINALIZOU O CARREGAMENTO', data, text, xhr);
+					console.debug('Frutas', data.frutas);
+					console.debug('Noticia 234', data.noticias['234'].titulo)
+					//$(".conteudo:eq(0)").text(data);
+				},
+				
+				//Se der erro
+				error: function() {
+					console.debug("DEU ERRO!");
+					$(".conteudo:eq(0)").text('DEU ERRO!');
+				}
+			}
+			
+			
+			console.debug('Antes do ajax');
+			$.ajax(propriedadesDoAjax);
+			console.debug('Depois do ajax');
+		}
+	
+		/**
+		 * Componente Carregamento Dinâmico
+		 * <div class="carregamentoDinamico">
+	   	 *	<ul class="menu">
+	   	 *		<li><a href="contato.html">Contato</a></li>
+	   	 *	</ul>
+	   	 *	<div class="conteudo"></div>
+		</div>
+		 **/
+		$(".carregamentoDinamico").on('click', ".menu li a", function(event) {
+			event.preventDefault();
+			var ancora = $(this), 
+				pagina = ancora.attr('href'), 
+				destino = ancora.parents('.carregamentoDinamico').find('.conteudo');
+				
+			$(destino).load(pagina);
+		});
+	</script>
+</body>
+</html>
