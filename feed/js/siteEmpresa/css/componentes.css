@@ -1,0 +1,53 @@
+/**
+ * Meus Componentes
+ */
+
+
+/**
+ * Abas
+ */
+
+/*
+	div.componente.abas
+		ol.abas
+			li.aba *n
+			
+		div.conteudos
+			div.conteudo *n
+*/
+
+div.componente.abas {
+	border: 1px solid black;
+	padding: 1em;
+}
+
+
+div.componente.abas ol.abas {
+	border-bottom: 1px solid black;
+	padding: 0;
+}
+
+div.componente.abas ol.abas li.aba {
+	color: blue;
+	text-decoration: underline;
+	display: inline;
+	cursor: pointer;
+}
+
+
+div.componente.abas ol.abas li.aba:hover {
+	text-decoration: none;
+}
+
+
+div.componente.abas ol.abas li.aba.ativa {
+	color: red;
+}
+
+div.componente.abas div.conteudo {
+	display: none;
+}
+
+div.componente.abas div.conteudo.ativo {
+	display: block;
+}

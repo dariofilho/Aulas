@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../bibliotecas/jquery-1.7.1.min.js"></script>
+	<script>
+	
+	//Classe
+	var Pessoa = function(nomePessoa, idadePessoa) {
+		//Atributos
+		this.nome = nomePessoa;
+		this.idade = idadePessoa;
+		 
+		//Métodos
+		this.falar = function(mensagem) {
+			console.debug(mensagem);
+		}
+		
+		this.exibir = function() {
+			var linha = $("<tr>").addClass('pessoa');
+			
+			//Nome
+			$("<td>")
+				.addClass('nome')
+				.text(this.nome)
+				.appendTo(linha);
+			
+			//Idade
+			$("<td>")
+				.addClass('idade')
+				.text(this.idade)
+				.appendTo(linha);
+				
+			linha.appendTo("#pessoas tbody");
+		}
+		
+		console.debug('teste')
+		this.exibir();
+	}
+	
+	
+	var carregarPessoas = function() {
+		var opcoesAjax = {
+			url: "dados_pessoas.php",
+			dataType: "XML",
+			beforeSend: function() {
+				console.debug('Carregando pessoas');
+				$("#pessoas").addClass('carregando');
+			},
+			success: function(data, text, xhr) {
+				console.debug('Dados', data, text, xhr);
+				processarPessoasXML(data);
+				$("#pessoas").removeClass('carregando');
+			},
+			error: function() {
+				console.debug('Não foi possível carregar pessoas.');
+				$("#pessoas").removeClass('carregando');
+			}
+		};
+		
+		$.ajax(opcoesAjax);
+	}
+	
+	var processarPessoasXML = function(documento) {
+		$(documento).find("pessoa").each(function(i,pessoa) {
+			var nome = $(pessoa).find("nome").text();
+			console.debug(nome);
+		})
+	}
+	
+	</script>
+	<style>
+	.carregando {
+		background-color: #ccc;
+	}
+	</style>
+</head>
+<body>
+	<table cellspacing="0" id="pessoas" border="1" class="">
+	    <thead>
+	        <tr>
+	            <th>Pessoa</th>
+	            <th>Idade</th>
+	        </tr>
+	    </thead>
+	    <tbody></tbody>
+	</table>
+</body>
+</html>

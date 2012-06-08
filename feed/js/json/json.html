@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+	
+	var Pessoa = function(nome) {
+		this.nome = nome;
+		this.falar = function(mensagem) {
+			console.debug(mensagem);
+		}
+	}
+	
+	var novaPessoa = new Pessoa("Dennis");
+		novaPessoa.nome //Dennis
+		
+		
+	console.debug(novaPessoa.nome); //Dennis
+	
+		novaPessoa.falar('Olá, tudo bem?') //Olá, tudo bem?
+		
+		
+	var meuCarro = new Array();
+		meuCarro.push('GM');
+		meuCarro.push('Camaro');
+		meuCarro.push('Vermelho');
+	var buzinar = function(){ 
+			console.debug('bi bi');
+		}
+		meuCarro.push(buzinar);
+		
+		
+	var Carro = function() {
+		this.marca = "";
+		this.modelo = "";
+		this.cor = "";
+		this.buzinar = function() {
+			console.debug('bibi');
+		}
+	}
+	
+	var seuCarro = new Carro();
+		seuCarro.marca = "Mitsubish";
+		seuCarro.modelo = "Pajeirinha";
+		seuCarro.cor = "Rosa choque";
+		
+		//seuCarro.buzinar();
+	
+	
+	var montarPaginaPerfil = function(perfil) {
+		$("#email").text(perfil.email);
+		$("#nome").text(perfil.nome);
+		
+		if(perfil.latitude && perfil.longitude) {
+			$("#mapa").show();
+		}
+	}
+	
+	var perfil = {
+		latitude: "8.234545656",
+		nome: "Dennis",
+		email: "contato@denniscalazans.com",
+		longitude: "-1.455656776"
+	}
+	montarPaginaPerfil(perfil);
+	
+	
+	
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

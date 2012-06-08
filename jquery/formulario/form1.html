@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>form1</title>
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+	
+<form id="formularioContato" method="post" action="form.php">
+	
+	<label for="campoNome">Nome</label> 
+	<input id="campoNome" name="nome" type="text" value="" /> 
+	<br />
+	<label for="campoEmail">E-mail</label> 
+	<input id="campoEmail" name="email" type="text" value="" /> 
+	<br />
+	<label for="campoIdade">Idade</label> 
+	<input id="campoIdade" name="idade" type="text" value="" /> 
+	<br />
+	<label for="campoSenha">Senha</label> 
+	<input id="campoSenha" name="senha" type="text" value="" /> 
+	<br />
+	<label for="campoConfirmarSenha">Confirmar Senha</label> 
+	<input id="campoConfirmarSenha" name="confirmarSenha" type="text" value="" /> 
+	<br />
+	
+	
+	<input type="reset" value="Recomeçar" /> 
+	<input type="submit" value="Enviar" />
+</form>
+
+<script src="../../libs/jquery-1.7.1.min.js"></script>
+<script src="../../libs/jquery-validation-1.9.0/jquery.validate.js"></script>
+<script src="../../libs/jquery-validation-1.9.0/localization/messages_ptbr.js"></script>
+<style>
+	form input.error {
+		border: 1px solid red;
+	}
+	form label.error {
+		color: red;
+	}
+</style>
+<script>
+	var regras = {
+		rules: {
+			nome: {
+				required: true,
+			},
+			idade: {
+				required: true,
+				number: true,
+				min: 0,
+				max: 150,
+				minlength: 1,
+				maxlength: 3
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			senha: {
+				required: true,
+				minlength: 6,
+				maxlength: 12
+			},
+			confirmarSenha: {
+				required: true,
+				equalTo: "#campoSenha"
+			}
+		}
+	}
+	
+	$("#formularioContato")
+		.validate(regras);
+</script>
+</body>
+</html>

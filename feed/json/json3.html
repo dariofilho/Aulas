@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript">
+	var modeloDeCesto = {
+		titulo: "Meu Cesto",
+		frutas: ['laranja', 'banana', 'maca']
+	};
+	function mostrarObjeto(objeto) {
+		console.debug('Titulo', objeto.titulo);
+		
+		for(var i = 0; i<objeto.frutas.length;i++) {
+			console.debug('Fruta '+(i+1), objeto.frutas[i])
+		}
+	};	
+	mostrarObjeto(modeloDeCesto);
+	var MEUAPP = {
+		Cesto: {
+			mostrarObjeto: function(objeto) {
+				console.debug('Titulo', objeto.titulo);
+				
+				for(var i = 0; i<objeto.frutas.length;i++) {
+					console.debug('Fruta '+(i+1), objeto.frutas[i])
+				}
+			}
+		}
+	};
+	MEUAPP.Cesto.mostrarObjeto(modeloDeCesto);
+	
+	
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../bibliotecas/jquery-1.7.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#meuFormulario").bind("submit", function(event){
+				event.preventDefault();
+				enviarDadosDoFormulario();
+			});
+		});
+		
+		function enviarDadosDoFormulario() {
+			var detalhesDaChamadaAjax = {
+				//O url
+				url: "form.php",
+				
+				//Dados a enviar
+				data: $("#meuFormulario").serialize(),
+				
+				//Tipo de dado do retorno
+				dataType: "JSON",
+				
+				//Tipo de requisição
+				type: "POST",
+				
+				//O que vai acontecer quando INICIAR a conexão
+				beforeSend: function() {
+					$("#status").text('Enviando...');
+				},
+				
+				//Se tudo der certo
+				success: function(data, text, xhr) {
+					var mensagem = data.mensagem;
+					
+					if(data.status == "true") {
+						$("#meuFormulario").get(0).reset();
+					}
+					
+					$("#status").text(mensagem);
+					
+				},
+				
+				//Se algo der errado
+				error: function() {
+					$("#status").text('Erro desconhecido!');
+				}
+			};
+			
+			$.ajax(detalhesDaChamadaAjax);
+		}
+	</script>
+</head>
+<body>
+	<h1>Contato</h1>
+	<p id="status"></p>
+	<form id="meuFormulario" action="form.php" method="post">
+	    <ol>
+	        <li>
+	            <label for="nome">Nome</label>
+	            <input type="text" name="nome" value="" id="nome" />
+	        </li>
+	
+		       <li>
+	            <label for="email">E-mail</label>
+	            <input type="text" name="email" value="" id="email" />
+	        </li>
+	
+		     <li>
+	            <label for="mensagem">Mensagem</label>
+	            <textarea name="mensagem" id="mensagem"></textarea>
+	        </li>
+	    </ol>
+		<input type="submit" name="acao" value="Enviar" />
+	</form>
+	
+</body>
+</html>
