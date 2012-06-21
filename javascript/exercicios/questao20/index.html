@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<button id="botaoVermelho">Vermelho</button>
+	<button id="botaoPreto">Preto</button>
+	<button id="botaoBranco">Branco</button>
+	<script>
+	document.getElementById('botaoVermelho').onclick = function() {
+		mudarCorDeFundo('red');
+	}
+	document.getElementById('botaoPreto').onclick = function() {
+		mudarCorDeFundo('black');
+	}
+	document.getElementById('botaoBranco').onclick = function() {
+		mudarCorDeFundo('white');
+	}
+	function mudarCorDeFundo(cor){
+		document.body.style.backgroundColor = cor;
+	}
+	</script>
+</body>
+</html>

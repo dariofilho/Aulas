@@ -1,0 +1,293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"pagina",
+				"paginaSugerida"
+			],
+			[
+				"paginaS",
+				"paginaSolicitada"
+			],
+			[
+				"id",
+				"idNoticia"
+			],
+			[
+				"UT",
+				"utf-8"
+			],
+			[
+				"cha",
+				"charset"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/denniscalazans/Sites/i2.sublime-project",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/index.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Zoom.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.MultimidiaEspecial.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Texto.Noticia.Multimidia.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/index.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/json_intervalo.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/login.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Opcoes.EdicoesAnteriores.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/css/styles.css",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Opcoes.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/painelmultimidia/Connection.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Favoritos.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Favorite.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/EdicoesAntigas.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/EdicaoAntiga.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Download.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Auth.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Connection.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Multimidia.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/ModoTexto.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Noticia.class.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.TopBar.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Texto.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.TopBar.Multimidia.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/logout.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Flip.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/restrito/edicoes/2012/3/1/1/edicao.xml",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.TrocarSenha.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/assinantes/restrito/action_trocarSenha.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/manifest.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/teste.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/.htaccess",
+		"/Users/denniscalazans/Sites/i2/jc/flip/compartilhar/index.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Ticket.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/FlipApp.Web.combined.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/favicon.ico",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Compartilhamento.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/dados_edicao.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Home.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/css/print.css",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/css/print.combined.css",
+		"/Users/denniscalazans/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/iscroll.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/css/styles.combined.css",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/jquery/galleria-1.2.7/themes/classic/classic-loader.gif",
+		"/Users/denniscalazans/Sites/i2/jc/flip/.htaccess",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/jquery/FlipApp.Web.jQueryPluginsStyles.combined.css",
+		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/FlipApp.Repositorio.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Texto.Noticia.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Miniaturas.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Edicao.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.EdicoesAnteriores.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Main.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Multimidia.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Noticia.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Offline.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/iscroll.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.Ajuda.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/inc_classes.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/teste_contador.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/compartilhar/logout.php",
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Compartilhar.js",
+		"/Users/denniscalazans/Sites/i2/jc/flip/index.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"pausar",
+			"200.147.22.114",
+			"dwsync",
+			"200.147.22.",
+			"200.147.22.158",
+			"opcoes",
+			"wrapperSubTelasOpcoes",
+			"atualiza",
+			"iScroll",
+			"senha",
+			"console",
+			"hello",
+			"menuC",
+			"menuCadern",
+			"wrapperM",
+			"40px",
+			"wrapper",
+			"iconeF",
+			"iconesMultim",
+			"../",
+			"/iconesleitura/",
+			"gall",
+			"vscrollbar:",
+			"vscrollbar",
+			"bouce",
+			"multimidia",
+			"Noticias",
+			"conteudoMultimidia",
+			"img",
+			"book ",
+			"book",
+			"chamadona",
+			"check",
+			"capa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/iconesLeitura/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+	function calcularIMC(nome, altura, peso) {
+		var imc = peso/(altura*altura);
+		var mensagem = nome + ", você está na faixa: ";
+
+		//Abaixo do peso ideal
+		if(imc < 20) {
+			mensagem += "Abaixo do peso ideal";
+		} 
+
+		//Peso ideal
+		else if(imc >= 20 && imc < 25) {
+			mensagem += "Peso ideal! Parabéns!";
+		} 
+
+		//Sobrepeso
+		else if(imc >= 25 && imc < 30) {
+			mensagem += "Sobrepeso! Se liga!";
+		}
+
+		//Moderadamente obeso
+		else if(imc >= 30 && imc < 35) {
+			mensagem += "Ihhh... Moderadamente obeso! Procure um nutricionista!";
+		}
+
+		//Severamente obeso
+		else if(imc >= 35 && imc < 40) {
+			mensagem += "Ave Maria! Severamente obeso!";
+		}
+
+		//Obesidade mórbida
+		else if(imc >= 45 && imc < 50) {
+			mensagem += "Misericórdia! Obesidade mórbida.";
+		} 
+
+		else {
+			mensagem += "Só lamento!";
+		}
+
+		console.debug(mensagem);
+	}
+	</script>
+</body>
+</html>
