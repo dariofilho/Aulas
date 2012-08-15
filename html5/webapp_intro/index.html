@@ -5,16 +5,29 @@
 	<meta charset="UTF-8">
 	<title>Site do Leão</title>
 	<script>
+	//Adiciona um listener ao navegador para escutar o evento de load
 	window.addEventListener('load', function(e) {
-	  window.applicationCache.addEventListener('updateready', function(e) {
-	    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-	      window.applicationCache.swapCache();
-	      window.location.reload();
+
+		//Ao escutar o evento de load...
+		//Adiciona ao applicationCache um evento de updateready
+		window.applicationCache.addEventListener('updateready', function(e) {
+
+			//Quando o navegador detectar que tem coisa nova...
+	    	if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+	      		
+	    		//Limpa o cache antigo
+	      		window.applicationCache.swapCache();
+	      
+	      		//E... recarrega a página. Que serea quando os novos arquivos serão baixados novamente.
+	      		window.location.reload();
 	    }
 	  }, false);
 	}, false);
+	
 	</script>
-	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<!--<script src="js/jquery-1.7.2.min.js"></script>
 	<script>
 	$(window).on('online offline', function(){
 		verificar();
@@ -41,7 +54,7 @@
 	$(document).ready(function() {
 		verificar();
 	})
-	</script>
+	</script>-->
 	<style>
 	img {
 		width: 200px;
@@ -51,7 +64,7 @@
 	
 </head>
 <body>
-	<h1>Site do Leão!</h1>
+	<h1>Site do Leão!!</h1>
 	
 	<div id="twitter">
 		<h2>Twitter</h2>
@@ -60,6 +73,7 @@
 	
 	<div id="fotos">
 		<h2>Fotos</h2>
+		<img src="http://www.google.com.br/images/srpr/logo3w.png" alt="">
 		<img src="imagens/manace.gif" />
 		<img src="imagens/sport.png" />
 	</div>

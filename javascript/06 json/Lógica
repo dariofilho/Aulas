@@ -1,0 +1,25 @@
+Lógica
+Linguagem de programação
+JavaScript
+Literais
+Objeto Literal
+JSON
+
+Total de Resultado: 103
+Resultados Por Pagina (RPP): 5
+Páginas: Math.ceil(103/5) = 21
+
+Página: 1
+Índice inicial: 0 
+Índice final: 4
+
+Página: 2
+Índice inicial: 5 
+Índice final: 9
+
+Índice inicial: (Página * RPP) - RPP
+Índice Final: (Página * RPP) - 1
+
+Página 15
+Próxima página: (Pagina < TotalPagina) ? Pagina + 1 : 1;
+Página anterios: (Pagina > 1) ? Pagina - 1 : TotalDePagina;

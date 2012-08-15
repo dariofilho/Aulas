@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"json",
+				"json_decode"
+			],
+			[
+				"stri",
+				"stripslashes"
+			],
+			[
+				"Ob",
+				"Obesidade"
+			],
+			[
+				"botao",
+				"botaoVermelho"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
 				"po",
 				"pointer"
 			],
@@ -31,23 +51,23 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
+			[
+				"packe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -64,6 +84,34 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/imagem.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.html",
+		"/Users/denniscalazans/Sites/Aulas/php/json/leitura.html",
+		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php",
+		"/Users/denniscalazans/Sites/Aulas/php/json/json_decode.php",
+		"/Users/denniscalazans/Sites/Aulas/php/json/json_exemplo.php",
+		"/Users/denniscalazans/Sites/Aulas/facebook/registration/index.html",
+		"/Users/denniscalazans/Sites/Aulas/facebook/registration/reading.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/incremento_decremento.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/ternario.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifestOriginal",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/index.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifest",
+		"/Users/denniscalazans/Sites/Aulas/.htaccess",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/manifest.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/js/APP.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/manace2.gif",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/dennis.jpg",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifest2",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao17/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao22/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index2.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/script.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao19/index.html",
 		"/Users/denniscalazans/Sites/i2.sublime-project",
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/index.php",
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Zoom.js",
@@ -147,6 +195,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" :",
+			");\n",
+			"script",
+			"caixa´",
 			"console",
 			"pausar",
 			"200.147.22.114",
@@ -200,35 +252,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -288,6 +313,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 296.0,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true
 }
