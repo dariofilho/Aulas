@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>Notícias</h1>
+	<!-- Componente -->
+
+	<h1>Contato</h1>
+	<form id="contatoForm" action="processarFormulario.php" method="post">
+		<ol>
+			<li>
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome">
+			</li>
+			<li>
+				<input type="submit" name="acao" value="enviar">
+			</li>
+		</ol>
+	</form>
+	<script src="../../../libs/jquery-1.8.0.min.js"></script>
+	<script src="App.js"></script>
+	<script src="App.Contato.js"></script>
+	<script src="App.Contato.Validacao.js"></script>
+	<script>App.inicializacao();</script>
+</body>
+</html>

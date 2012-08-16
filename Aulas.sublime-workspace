@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"prop",
+				"propriedades"
+			],
+			[
+				"produ",
+				"produto"
+			],
+			[
+				"list",
+				"listaDeProdutos"
+			],
+			[
+				"get",
+				"getProduto"
+			],
+			[
+				"id",
+				"idDoProduto"
+			],
+			[
+				"pro",
+				"produtos"
+			],
+			[
 				"json",
 				"json_decode"
 			],
@@ -20,10 +44,6 @@
 				"botaoVermelho"
 			],
 			[
-				"get",
-				"getElementById"
-			],
-			[
 				"po",
 				"pointer"
 			],
@@ -34,10 +54,6 @@
 			[
 				"paginaS",
 				"paginaSolicitada"
-			],
-			[
-				"id",
-				"idNoticia"
 			],
 			[
 				"UT",
@@ -84,6 +100,9 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/Lógica",
+		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/ListaComObjeto.js",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
