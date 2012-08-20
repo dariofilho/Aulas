@@ -6,6 +6,7 @@ App.Contato.Validacao = {
 	inicializacao: function() {
 		console.debug('Chamou App.Contato.Validacao.inicializacao');
 		this.EnvioAssincrono.inicializacao();
+
 	},
 
 	EnvioAssincrono: {

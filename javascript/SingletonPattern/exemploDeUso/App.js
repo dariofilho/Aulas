@@ -4,12 +4,7 @@ var App = App || {};
 App._tituloDoSite = "Tutorial Singleton Pattern";
 
 //Métodos de inicialização
-App.inicializacao = function() {
-	console.debug('Chamou App.inicializacao');
-	//App.Noticias.inicializacao();
-	//App.Contato.inicializacao();
-	//App.Twitter.inicializacao();
-}
+App.setUp = function() {}
 
 App.executarSetUps = function (Modulo) {
 	Modulo = Modulo || App;
@@ -17,7 +12,7 @@ App.executarSetUps = function (Modulo) {
 	for(propriedade in Modulo) {
 		//console.debug('Varreu:', propriedade);
 
-		if(propriedade == 'inicializacao') {
+		if(propriedade == 'setUp') {
 			if(typeof Modulo[propriedade] == 'function') {
 				
 				//BY denniscalazans.com
@@ -38,15 +33,19 @@ App.executarSetUps = function (Modulo) {
 	}
 }
 
-App.Noticias = {
-	inicializacao: function() {
-		console.debug('Chamou App.Noticias.inicializacao');
-		//$("#Componente").newsWidget();
-	}
-}
+App.Menu = {
+	setUp: function() {
+		this.iniciar();
+	},
 
-App.Twitter = {
-	inicializacao: function() {
-		console.debug("Chamou App.Twitter.inicializacao");
+	iniciar: function() {
+		$("nav#menu").on('click','a', function(event){
+			event.preventDefault();
+			var articleId = $(event.currentTarget).attr('href');
+			$("section#paginas article")
+				.hide()
+				.filter(articleId)
+				.show();
+		})
 	}
 }

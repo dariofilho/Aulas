@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"header	<header>"
+			],
+			[
+				"str",
+				"stringDeMarcas"
+			],
+			[
+				"arr",
+				"arrayDeMarcas"
+			],
+			[
+				"arra",
+				"arrayDeMarcas"
+			],
+			[
+				"ar",
+				"arrayDeFrutas"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"del",
+				"delimitador"
+			],
+			[
+				"pro",
+				"propriedade"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ob",
+				"objeto"
+			],
+			[
+				"inici",
+				"inicializacao"
+			],
+			[
+				"inicia",
+				"inicializacao"
+			],
+			[
+				"form",
+				"contatoForm"
+			],
+			[
 				"prop",
 				"propriedades"
 			],
@@ -22,10 +74,6 @@
 			[
 				"id",
 				"idDoProduto"
-			],
-			[
-				"pro",
-				"produtos"
 			],
 			[
 				"json",
@@ -71,9 +119,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 347.0,
 		"selected_items":
 		[
+			[
+				"Snippet: ",
+				"Snippet: DOCTYPE HTML"
+			],
 			[
 				"packe",
 				"Preferences: Browse Packages"
@@ -100,13 +152,41 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/php/intro/implode.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/meses.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/imagem.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/operadores.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUSo/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.Contato.Validacao.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.Twitter.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.Facebook.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Facebook.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Contato.Validacao.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Contato.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/01 singleton.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.Contato.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.Contato.Validacao.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/ajaxLoad.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/contato.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/Lógica",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/ListaComObjeto.js",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/imagem.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.html",
 		"/Users/denniscalazans/Sites/Aulas/php/json/leitura.html",
 		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php",
