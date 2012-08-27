@@ -12,6 +12,7 @@ App.inicializacao = function() {
 }
 
 App.executarSetUps = function (Modulo) {
+	var propriedade;
 	Modulo = Modulo || App;
 
 	for(propriedade in Modulo) {
@@ -37,6 +38,7 @@ App.executarSetUps = function (Modulo) {
 		}
 	}
 }
+
 
 App.Noticias = {
 	inicializacao: function() {

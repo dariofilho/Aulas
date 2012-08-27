@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"po",
+				"propriedade"
+			],
+			[
+				"va",
+				"varTeste"
+			],
+			[
 				"hea",
 				"header	<header>"
 			],
@@ -92,10 +100,6 @@
 				"botaoVermelho"
 			],
 			[
-				"po",
-				"pointer"
-			],
-			[
 				"pagina",
 				"paginaSugerida"
 			],
@@ -152,6 +156,16 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/variaveis.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
+		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global3.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao04/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao07/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao08/index.html",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/implode.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/meses.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/imagem.php",
@@ -159,8 +173,6 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUSo/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.Contato.Validacao.js",
@@ -184,9 +196,6 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/Lógica",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/ListaComObjeto.js",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.html",
 		"/Users/denniscalazans/Sites/Aulas/php/json/leitura.html",
 		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php",
@@ -274,8 +283,7 @@
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/inc_classes.php",
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/teste_contador.php",
 		"/Users/denniscalazans/Sites/i2/jc/flip/compartilhar/logout.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Compartilhar.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/index.php"
+		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Compartilhar.js"
 	],
 	"find":
 	{
