@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu Projeto</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		/* CSS AQUI */
+		body {
+			background-color: white;
+		}
+
+		a, p {
+			color: blue;
+		}
+
+		a:hover {
+			color: black;
+		}
+
+		p:first-letter {
+			font-size: 60px;
+		} 
+
+		span {
+			font-style: italic;
+		}
+
+		span.impar {
+			text-decoration: underline;
+		}
+		span.par {
+			font-weight: bold;
+		}
+
+		span.grupo1.par {
+			color: green;
+		}
+		span.grupo1.impar {
+			color: blue;
+		}
+		span.grupo2.par {
+			color: #444;
+		}
+		span.grupo2.impar {
+			color: #F44;
+		}
+		span.grupo3.par {
+			color: #888;
+		}
+		span.grupo3.impar {
+			color: #F88;
+		}
+
+
+		#elemento4 {
+			color: brown;
+		}
+		span.grupo4.par#elemento4 {
+			color: green;
+		}
+
+
+		span.grupo5 {
+			color: #EEE;
+		}
+
+		input {
+			border: 3px solid black;
+		}
+
+		input[type=text] {
+			border-color: blue;
+		}
+
+		input[type=password] {
+			border-color: red;
+		}
+
+		input[disabled] {
+			background-color: gray;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Página Inicial</h1>
+	<ul>
+		<li><a href="index.html">Página Inicial</a></li><li>
+			<a href="empresa.html">Empresa</a></li><li>
+			<a href="produtos.html">Produtos</a></li><li>
+			<a href="contato.html">Contato</a>
+		</li>
+	</ul>
+
+	<input type="text" disabled>
+	<input type="password">
+
+	<span class="grupo1 impar">Elemento 1</span>
+	<span class="grupo2 par">Elemento 2</span>
+	<span class="grupo3 impar">Elemento 3</span>
+	<span id="elemento4" class="grupo4 par">Elemento 4</span>
+	<span id="elemento5" class="grupo5 impar">Elemento 5</span>
+	<span class="grupo1 par">Elemento 6</span>
+	<span class="grupo2 impar">Elemento 7</span>
+	<span class="grupo3 par">Elemento 8</span>
+	<span class="grupo4 impar">Elemento 9</span>
+	<span class="grupo5 par">Elemento 10</span>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
