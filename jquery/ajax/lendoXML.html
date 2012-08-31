@@ -3,11 +3,92 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
+	<style type="text/css">
+
+	#conteudo {
+		-webkit-transition: all 1s ease;
+	}
+
+	.carregando {
+		opacity: 0.3;
+		color: gray;
+	}
+
+	</style>
 </head>
 <body>
+	<h1>Contatos</h1>
+	
+	<div id="conteudo"></div>
+
 	<script src="../../libs/jquery-1.8.0.min.js"></script>
 	<script>
+	var Contatos = {
+		_dados: null,
+		carregar: function() {
+			var propriedadesDaChamada = {
 
+				url: "contato.xml",
+
+				dataType: "xml",
+				
+				beforeSend: function() {
+					$("#conteudo").addClass('carregando');
+				},
+
+				error: function(xhr, status, error) {
+					console.debug(error);
+				},
+
+				success: function(conteudo) {
+					Contatos._dados = conteudo;
+
+					$("#conteudo").removeClass('carregando').empty();
+					Contatos.apresentar(conteudo);
+				}
+			}
+
+			$.ajax(propriedadesDaChamada);
+		},
+		carregarDetalhes: function(id) {
+			var contatoId = id.replace(/[^\d]/g,'');
+
+			var desc = $(Contatos._dados)
+							.find("contato")
+							.filter("#"+contatoId)
+							.find('descricao')
+							.text();
+
+			console.debug(desc);
+		},
+		apresentar: function(documento) {
+		$(documento)
+			.find('contato')
+			.each(function(indiceContato, contato) {
+				var elementoContato = $('<div>')
+											.addClass('contato')
+											.appendTo("#conteudo")
+											.attr('id','contato'+$(contato).attr('id'))
+											.on('click', function(event){
+												Contatos.carregarDetalhes(this.id);
+											});
+
+				$(contato)
+					.children()
+					.each(function(indiceChild, child) {
+						$('<div>')
+							
+							.addClass(child.tagName)
+							.text([child.tagName, $(child).text()].join(": "))
+							.appendTo(elementoContato);
+					});
+			})
+		}
+	}
+	
+	Contatos.carregar();
+	
 	</script>
+
 </body>
 </html>

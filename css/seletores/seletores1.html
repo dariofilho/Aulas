@@ -13,20 +13,25 @@
 		margin-bottom: 0;
 	}
 	
-	#pessoas {
-		
+	#pessoa1 {
+		border-color: red;
 	}
-	
+
 	/* Todas as pessoas */
 	.pessoa {
-		border: 1px solid gray;
+		border: 4px solid gray;
 		margin-bottom: 1em;
 		padding: 1em;
 	}
+
+	/* Somente os homens */
+	.pessoa.masculino {
+
+	}
+
 	
 	.pessoa .nome {
 		font-size: 1.5em;
-		color: purple;
 	}
 	
 	
@@ -38,17 +43,13 @@
 	/* Peso 30 */
 	.pessoa.administrador .nome {
 		font-weight: bold;
-		color: black !important;
 	}
 	
 	
-	/* Somente os homens */
-	.pessoa.masculino {
-		
-	}
+	
 	
 	.pessoa.masculino .nome {
-		color: blue;
+
 	}
 	
 	/* Somente as mulheres */
@@ -58,7 +59,7 @@
 	
 	/* Peso 31 */
 	.pessoa.feminino .nome {
-		color: red;
+
 	}
 	
 	
@@ -78,7 +79,7 @@
 		    <p class="email">joao@gmail.com</p>
 		</div>
 		<div class="pessoa feminino administrador" id="pessoa2">
-		    <p class="nome">Maria</p>
+		    <p class="nome" >Maria</p>
 		    <p class="dataDeNascimento">03/05/1998</p>
 		    <p class="email">maria@hotmail.com</p>
 		</div>

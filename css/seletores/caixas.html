@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Seletores</title>
+	<style>
+	body {
+		font-family: Arial;
+		font-size: 20px;
+	}
+
+	.caixa {
+		border: 4px solid black;
+		padding: 20px;
+		margin: 20px;
+		text-align: center;
+		background-color: white;
+	}
+
+	.caixa:first-child {
+		background-color: gray;
+	}
+	.caixa:last-child {
+		background-color: red;
+	}
+
+	.caixa .caixa {
+		border: 4px solid red;
+	}
+
+	.caixa > .caixa {
+		border-color: blue;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="caixa">
+		<div>
+			<div class="caixa">
+				<div class="caixa">Caixa</div>
+				<div class="caixa">Caixa</div>
+				<div class="caixa">Caixa</div>
+				<div class="caixa">Caixa</div>
+				<div class="caixa">Caixa</div>
+			</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+	</div>
+	<div class="caixa">
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+	</div>
+	<div class="caixa">
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+		<div class="caixa">
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+			<div class="caixa">Caixa</div>
+		</div>
+	</div>
+</body>
+</html>
