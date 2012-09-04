@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<style>
+	body {
+		margin: 0;
+	}
+	.caixa {
+		height: 80px;
+		width: 80px;
+	}
+
+	#caixa1 {
+		background-color: red;
+		position: static;
+		top: 50px;
+		left: 50px;
+	}
+	#caixa2 {
+		background-color: green;
+		position: relative;
+		top: -50px;
+		left: 50px;
+	}
+	#caixa3 {
+		background-color: blue;
+		position: absolute;
+		top: 150px;
+		left: 150px;
+	}
+	#caixa4 {
+		background-color: yellow;
+		position: fixed;
+		width: 100px;
+		height: 100px;
+
+		top: 0;
+		right: 30px;
+	}
+	</style>
+</head>
+<body>
+	<div id="caixa1" class="caixa">Caixa 1</div>
+	<div id="caixa2" class="caixa">Caixa 2</div>
+	<div id="caixa3" class="caixa">Caixa 3</div>
+	<div id="caixa4" class="caixa">Caixa 4</div>
+</body>
+</html>

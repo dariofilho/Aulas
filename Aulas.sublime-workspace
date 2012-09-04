@@ -4,16 +4,56 @@
 		"selected_items":
 		[
 			[
+				"campo",
+				"camposDeErro"
+			],
+			[
+				"reme",
+				"remetenteEmail"
+			],
+			[
+				"des",
+				"destinararioEmail"
+			],
+			[
+				"destin",
+				"destinararioNome"
+			],
+			[
+				"re",
+				"remetenteNome"
+			],
+			[
+				"dest",
+				"destinararioNome"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
 				"bg",
 				"background-color"
 			],
 			[
 				"tex",
 				"text-decoration"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"i",
@@ -200,13 +240,28 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/index.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/formulario.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/resposta.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/explode.php",
+		"/Users/denniscalazans/Sites/Aulas/ajax/ajaxNativo.html",
+		"/Users/denniscalazans/Sites/Aulas/ajax/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/json.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/contato.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/home.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/seletores1.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/caixas.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/exercicios/seletores_peso.html",
+		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/xml.php",
+		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/contato.xml",
+		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/lendoXML.html",
 		"/Users/denniscalazans/Sites/Aulas/ajax/jsonFrutas.php",
 		"/Users/denniscalazans/Sites/Aulas/ajax/xmlContatos.php",
 		"/Users/denniscalazans/Sites/Aulas/ajax/pagina1.html",
 		"/Users/denniscalazans/Sites/Aulas/ajax/pagina2.html",
 		"/Users/denniscalazans/Sites/Aulas/ajax/pagina3.html",
-		"/Users/denniscalazans/Sites/Aulas/ajax/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/json.php",
 		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_do_objeto.html",
 		"/Users/denniscalazans/Sites/Aulas/projeto/produtos.html",
 		"/Users/denniscalazans/Sites/Aulas/projeto/empresa.html",
@@ -214,13 +269,11 @@
 		"/Users/denniscalazans/Sites/Aulas/projeto/css/style.css",
 		"/Users/denniscalazans/Sites/Aulas/projeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/template.html",
-		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/lendoXML.html",
 		"/Users/denniscalazans/Sites/Aulas/libs/jquery-1.8.0.min.js",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/form_post.html",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/superglobais.php",
 		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/estadosDoBrasil.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/implode.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/explode.php",
 		"/Users/denniscalazans/Sites/Aulas/php/includes/inc.date.php",
 		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/variaveis.php",
 		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/info.php",
@@ -259,7 +312,6 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/ajaxLoad.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/contato.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/Lógica",
@@ -315,19 +367,7 @@
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.TopBar.Multimidia.js",
 		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/logout.php",
 		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Flip.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/restrito/edicoes/2012/3/1/1/edicao.xml",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/js/FlipApp.TrocarSenha.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/assinantes/restrito/action_trocarSenha.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/manifest.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/teste.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/.htaccess",
-		"/Users/denniscalazans/Sites/i2/jc/flip/compartilhar/index.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Ticket.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/js/FlipApp.Web.combined.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/favicon.ico",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Compartilhamento.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/dados_edicao.php"
+		"/Users/denniscalazans/Sites/i2/jc/flip/restrito/edicoes/2012/3/1/1/edicao.xml"
 	],
 	"find":
 	{
@@ -347,6 +387,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"a\"></",
 			"apply",
 			" :",
 			");\n",
@@ -394,6 +435,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"a\">Caixa</",
 			"/iconesLeitura/"
 		],
 		"reverse": false,
