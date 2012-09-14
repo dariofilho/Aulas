@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.stage {
+			overflow: hidden;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			border: 1px solid black;
+		}
+
+		.stage-800x420 {
+			width: 800px;
+			height: 420px;
+
+			margin-left: -400px;
+			margin-top: -210px;
+		}
+
+		.stage > .caixa {
+			width: 150px;
+			height: 150px;
+			position: absolute;
+			top: 50%;
+			margin-top: -75px;
+			background-color: gray;
+		}
+
+		.stage > .caixa:nth-child(1) {
+			left: 40px;
+		}
+		.stage > .caixa:nth-child(2) {
+			left: 230px;
+		}
+		.stage > .caixa:nth-child(3) {
+			left: 420px;
+		}
+		.stage > .caixa:nth-child(4) {
+			left: 610px;
+		}
+
+		.caixa .caixa {
+			width: 25%;
+			height: 25%;
+			background-color: red;
+			top: 0;
+			left: 0;
+			position: absolute;
+		}
+
+		.caixa .caixa:nth-child(1) {
+			background-color: cyan;
+		}
+		.caixa .caixa:nth-child(2) {
+			background-color: magenta;
+			left: 100%;
+			margin-left: -25%;
+		}
+		.caixa .caixa:nth-child(3) {
+			background-color: yellow;
+			top: 100%;
+			left: 100%;
+			margin-left: -25%;
+			margin-top: -25%;
+		}
+		.caixa .caixa:nth-child(4) {
+			background-color: black;
+			top: 100%;
+			margin-top: -25%;
+		}
+	</style>
+</head>
+<body>
+	<div class="stage stage-800x420">
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+	</div>
+</body>
+</html>

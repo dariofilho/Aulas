@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		#wrapper {
+			width: 350px;
+			height: 200px;
+			border:1px solid black;
+			overflow: auto;
+			position: relative;
+		}
+		.itens {
+			//height: 400px;
+		}
+		.item {
+			height: 49px;
+			border-bottom: 1px solid black;
+			background-color: red;
+		}
+		.item:first-child,
+		.item:last-child {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="wrapper">
+		<div class="itens">
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+			<div class="item">Item</div>
+		</div>
+	</div>
+	
+	<script src="../../libs/jquery-1.8.0.min.js"></script>
+	<script src="../../libs/jquery.infinitescroll.js"></script>
+	<script src="../../libs/iscroll.js"></script>
+	<script>
+		var _iScroll = new iScroll('wrapper', {
+		   	desktopCompatibility: true,
+		    hScrollbar: false,
+		    vScrollbar: false,
+		    snap: 'div.item',
+		    momentum: false,
+		    bounce: false
+		});
+		var total = 8;
+		var maximo = 48;
+		$('#wrapper').infiniteScroll({
+		    iScroll: _iScroll,
+		    threshold: 50,
+		    
+		    onEnd: function() {
+		    	console.debug('Não existem mais resultados');
+		    },
+		    
+		    loadMore: function(callback) {
+		        console.debug('At the end of the page. Loading more!');
+		        
+		        if(total < maximo) {
+		        	var itens = $('.itens'), i=1;
+		        	itens.append($('<div class="loading item">Carregando mais</div>'));
+		        	_iScroll.refresh();
+		        	setTimeout(function(){
+			        	for(;i<=8;i++) {
+			        		itens.append($('<div class="item">'+(i+total)+'</div>'));
+			        	}
+			        	total += 8;
+
+			        	//_iScroll.refresh();
+			        	itens.find('.loading').remove();
+			        	_iScroll.refresh();
+			        	callback(true);
+		        	}, 2000);
+
+		        	
+		        } else {
+		        	callback(false);
+		        }
+		    }
+		});
+	</script>
+</body>
+</html>

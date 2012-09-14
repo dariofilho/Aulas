@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"carregar"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"carreg",
+				"carregou"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"mouse",
+				"mousePorCima"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"STA",
+				"stage-760x420"
+			],
+			[
+				"STAGE",
+				"stage-150x420"
+			],
+			[
+				"ob",
+				"objetoDeImc"
+			],
+			[
+				"obj",
+				"objetoDeIMC"
+			],
+			[
+				"im",
+				"imc"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"b",
+				"block	(b)"
+			],
+			[
 				"campo",
 				"camposDeErro"
 			],
@@ -32,28 +116,12 @@
 				"text-indent"
 			],
 			[
-				"font",
-				"font-style"
-			],
-			[
-				"font-",
-				"font-weight"
-			],
-			[
 				"border-co",
 				"border-color"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"bg",
 				"background-color"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"i",
@@ -132,10 +200,6 @@
 				"function"
 			],
 			[
-				"ob",
-				"objeto"
-			],
-			[
 				"inici",
 				"inicializacao"
 			],
@@ -207,7 +271,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 47.0,
 		"selected_items":
 		[
 			[
@@ -240,7 +304,35 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/php/proxy.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/js/App.Twitter.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/index.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/introducao.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php",
+		"/Users/denniscalazans/Sites/Aulas/css/stages/stageAbsoluto.html",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Imc.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/imc2.php",
+		"/Users/denniscalazans/Sites/Aulas/php/request_vars.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/index.php",
+		"/Users/denniscalazans/Sites/Aulas/css/position/caixas01.html",
+		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow1.html",
+		"/Users/denniscalazans/Sites/Aulas/css/float/float02.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/position_stage.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/caixas02.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/caixas02 relative.html",
+		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_visible.html",
+		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_hidden.html",
+		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_auto.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/infiniteScrolling/index.html",
+		"/Users/denniscalazans/Sites/Aulas/libs/jquery.infinitescroll.js",
+		"/Users/denniscalazans/Sites/Aulas/libs/jquery-1.7.1.min.js",
+		"/Users/denniscalazans/Sites/Aulas/libs/iscroll.js",
+		"/Users/denniscalazans/Sites/Aulas/css/position/stage.html",
+		"/Users/denniscalazans/Sites/Aulas/css/display/menu.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/position.html",
+		"/Users/denniscalazans/Sites/Aulas/css/display/display_02.html",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/formulario.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/resposta.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/explode.php",
@@ -339,35 +431,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index2.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/script.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao19/index.html",
-		"/Users/denniscalazans/Sites/i2.sublime-project",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/index.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Zoom.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.MultimidiaEspecial.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Texto.Noticia.Multimidia.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/index.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/json_intervalo.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/login.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Opcoes.EdicoesAnteriores.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/css/styles.css",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Opcoes.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/painelmultimidia/Connection.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Favoritos.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Favorite.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/EdicoesAntigas.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/EdicaoAntiga.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Download.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Auth.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Connection.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Multimidia.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/ModoTexto.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/bibliotecas/php/Noticia.class.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.TopBar.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Texto.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.TopBar.Multimidia.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/webapp/logout.php",
-		"/Users/denniscalazans/Sites/i2/jc/flip/web/js/FlipApp.Leitura.Flip.js",
-		"/Users/denniscalazans/Sites/i2/jc/flip/restrito/edicoes/2012/3/1/1/edicao.xml"
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao19/index.html"
 	],
 	"find":
 	{
@@ -375,7 +439,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 117.0,
 		"where_history":
 		[
 			"/Users/denniscalazans/Sites/Aulas",
@@ -387,6 +451,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"apply",
+			"onBo",
+			"bottom",
+			"iscro",
 			"a\"></",
 			"apply",
 			" :",
@@ -508,6 +576,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 222.0,
+	"side_bar_width": 228.0,
 	"status_bar_visible": true
 }

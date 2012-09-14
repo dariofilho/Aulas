@@ -7,6 +7,7 @@
 	.stage {
 		overflow: hidden;
 		border: 1px solid black;
+		-webkit-transition: all 1s ease;
 	}
 	
 	.stage-absoluto {
@@ -16,7 +17,8 @@
 	.stage-relativo {
 		position: relative;
 	}
-	.stage-760x420 {
+	.stage-760x420,
+	.stage-150x420:hover {
 		width: 760px;
 		height: 420px;
 	}
@@ -30,14 +32,25 @@
 		left: 100px;
 	}
 	#elemento {
+		-webkit-transition: all 1s ease;
+		left: 0;
+		top: 0;
 		width: 50px;
 		height: 50px;
 		background-color: red;
 		position: absolute;
-		left: 50px;
+	}
+
+	.stage-150x420 #elemento {
+		left: 900px;
 		top: 50px;
 	}
 	
+	.stage-760x420 #elemento,
+	.stage-150x420:hover #elemento {
+		left: 300px;
+		top: 50px;
+	}
 	</style>
 </head>
 <body>
