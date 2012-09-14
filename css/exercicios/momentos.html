@@ -29,6 +29,8 @@
 			background-color: gray;
 		}
 
+		
+
 		.stage > .caixa:nth-child(1) {
 			left: 40px;
 		}
@@ -49,10 +51,17 @@
 			top: 0;
 			left: 0;
 			position: absolute;
+			-webkit-transition: all 1s;
 		}
 
+		
 		.caixa .caixa:nth-child(1) {
 			background-color: cyan;
+		}
+		.caixa:hover .caixa:nth-child(1) {
+			top: 0%;
+			left: 100%;
+			margin-left: -25%;
 		}
 		.caixa .caixa:nth-child(2) {
 			background-color: magenta;

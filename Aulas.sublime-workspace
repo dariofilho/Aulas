@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"nn",
+				":nth-child(|)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"nth",
+				":nth-child(|)"
+			],
+			[
 				"ca",
 				"carregar"
 			],
@@ -14,10 +42,6 @@
 			[
 				"carreg",
 				"carregou"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"mouse",
@@ -126,10 +150,6 @@
 			[
 				"i",
 				"italic	(i)"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"mes",
@@ -304,6 +324,8 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/css/exercicios/momentos.html",
+		"/Users/denniscalazans/Sites/Aulas/css/transition/hover.html",
 		"/Users/denniscalazans/Sites/Aulas/php/proxy.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/js/App.Twitter.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/index.html",
@@ -429,9 +451,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao17/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao22/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index2.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/script.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao19/index.html"
+		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao18/script.js"
 	],
 	"find":
 	{
@@ -439,7 +459,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 117.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/denniscalazans/Sites/Aulas",
