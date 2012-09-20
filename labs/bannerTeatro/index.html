@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	.stage, .texto {
+		-webkit-transition: all 1s;
+	}
+
+	/* Definir o stage */
+	.stage {
+		position: absolute;
+		overflow: hidden;
+		border: 1px solid red;
+		background-color: black;
+		top: 50%;
+		left: 50%;
+	}
+
+	/* Definir o tipo de stage */
+	.stage-800x356 {
+		width: 800px;
+		height: 356px;
+		margin-left: -400px;
+		margin-top: -300px;
+	}
+
+	.stage-800x600,
+	.stage-800x356:hover {
+		width: 800px;
+		height: 600px;
+	}
+
+	/* Definir os elementos no estado inicial */
+	.mascara, 
+	.texto {
+		position: absolute;
+	}
+	.mascara {
+		width: 168px;
+		height: 256px;
+		top: 48px;
+	}
+	.mascara.verde {
+		left: 233px;
+	}
+
+	.mascara.laranja {
+		left: 401px;
+	}
+
+	.texto {
+		width: 488px;
+		height: 156px;
+		background-image: url("images/texto.png");
+		top: 395px;
+		left: 157px;
+		color: white;
+		overflow: hidden;
+		text-indent: -9999px;
+		opacity: 0;
+		-webkit-transition-delay: 1s;
+	}
+
+	.stage:hover .texto {
+		opacity: 1;
+	}
+
+	</style>
+</head>
+<body>
+	 <div class="stage stage-800x356">
+	 	<div class="mascara laranja">
+	 		<img src="images/mascara-laranja.png" alt="">
+	 	</div>
+	 	<div class="mascara verde">
+	 		<img src="images/mascara-verde.png" alt=""></div>
+	 	<div class="texto">19 de setembro: dia do teatro.</div>
+	 </div>
+</body>
+</html>
