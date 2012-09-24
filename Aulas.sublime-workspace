@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-left"
+				"margin",
+				"margin-top"
 			],
 			[
-				"margin",
+				"marin-",
 				"margin-left"
 			],
 			[
 				"ba",
 				"background-color"
+			],
+			[
+				"stage",
+				"stage-800x356"
+			],
+			[
+				"mar",
+				"margin-left"
 			],
 			[
 				"marin",
@@ -324,6 +332,7 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/bannerTeatro/index.html",
 		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/resumo.php",
 		"/Users/denniscalazans/Sites/Aulas/css/exercicios/momentos2.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/modeloDeProjeto/.htaccess",
@@ -450,8 +459,7 @@
 		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifest",
 		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/manifest.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/js/APP.js",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/manace2.gif",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/dennis.jpg"
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/manace2.gif"
 	],
 	"find":
 	{

@@ -1,0 +1,36 @@
+var somaRealizada = false;
+function soma(a, b) {
+	somaRealizada = true;
+	var mensagem = "O resultado da soma é:";
+	var resultado = a + b;
+		mensagem = mensagem + resultado;
+}
+function somaFoiRealizada() {
+	return somaRealizada ? 'Sim' : 'Não';
+}
+function soma(a, b) {
+	var a, b, mensagem,resultado;
+	somaRealizada = true;
+	mensagem = "O resultado da soma é:";
+	resultado = a + b;
+	mensagem = mensagem + resultado;
+}
+
+$somaRealizada = FALSE;
+function soma($a, $b) {
+	global $somaRealizada;
+
+	$somaRealizada = TRUE;
+	$mensagem = "O resultado da soma é:";
+	$resultado = $a + $b;
+	$mensagem = $mensagem . $resultado;
+}
+
+
+
+	function cumprimentar($c, $n = 'Você') {
+		return "$c, $n!"
+	}
+
+	$frase = cumprimentar('Bom dia');
+	echo $frase;
