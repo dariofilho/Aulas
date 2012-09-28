@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"ad",
+				"adicionarIngrediente"
+			],
+			[
+				"Rec",
+				"ReceitaDobrada"
+			],
+			[
+				"tex",
+				"textura"
+			],
+			[
+				"calc",
+				"calcular"
+			],
+			[
+				"obj",
+				"objetoDeImc"
+			],
+			[
+				"adi",
+				"adicionarIngrediente"
+			],
+			[
+				"Receit",
+				"ReceitaDeBolo"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
@@ -56,10 +84,6 @@
 				"mousePorCima"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"fn",
 				"font-size"
 			],
@@ -86,10 +110,6 @@
 			[
 				"ob",
 				"objetoDeImc"
-			],
-			[
-				"obj",
-				"objetoDeIMC"
 			],
 			[
 				"im",
@@ -174,10 +194,6 @@
 			[
 				"esta",
 				"estado"
-			],
-			[
-				"calc",
-				"calcularNota"
 			],
 			[
 				"nota",
@@ -332,6 +348,13 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/css/animation/animation.html",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.html",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Receita.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Imc.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/funcaoComparacaoJavaScriptPHP.txt",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/funcaoComparacaoJavaScriptPHP.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/bannerTeatro/index.html",
 		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/resumo.php",
 		"/Users/denniscalazans/Sites/Aulas/css/exercicios/momentos2.html",
@@ -348,10 +371,8 @@
 		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.html",
 		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php",
 		"/Users/denniscalazans/Sites/Aulas/css/stages/stageAbsoluto.html",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/Imc.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/imc2.php",
 		"/Users/denniscalazans/Sites/Aulas/php/request_vars.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/index.php",
 		"/Users/denniscalazans/Sites/Aulas/css/position/caixas01.html",
 		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow1.html",
@@ -454,12 +475,7 @@
 		"/Users/denniscalazans/Sites/Aulas/facebook/registration/reading.php",
 		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/incremento_decremento.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/ternario.js",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifestOriginal",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/index.html",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifest",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/manifest.php",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/js/APP.js",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/imagens/manace2.gif"
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifestOriginal"
 	],
 	"find":
 	{

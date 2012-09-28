@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+
+	.caixa {
+		width: 100px;
+		height: 100px;
+		-webkit-animation-duration: 4s;
+		-webkit-animation-timing-funcion: linear;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-delay: 3s;
+		border: 1px solid blue;
+		position: relative;
+	}
+
+	@-webkit-keyframes Brasil {
+		0% {
+			background-color: white;
+			left: 0;
+		}
+		25% {
+			background-color: green;
+			left: 25%;
+			margin-left: -25px;
+		}
+		50% {
+			background-color: yellow;
+			left: 50%;
+			margin-left: -50px;
+		}
+		75% {
+			background-color: blue;
+			left: 75%;
+			margin-left: -75px;
+		}
+		100% {
+			background-color: white;
+			left: 100%;
+			margin-left: -100px;
+		}
+	}
+
+
+	#caixa1 {
+		-webkit-animation-name: Brasil;
+		-webkit-animation-timing-function: linear;
+	}
+
+	#caixa2 {
+		-webkit-animation-name: Brasil;
+		-webkit-animation-timing-function: step-start;
+	}
+
+	#caixa3 {
+		-webkit-animation-name: Brasil;
+		-webkit-animation-timing-function: step-end;
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Linear</h1>
+	<p>Contínuo</p>
+	<div class="caixa" id="caixa1"></div>
+	<hr>
+	
+	<h1>Step-Start</h1>
+	<p>Vai direto para o fim</p>
+	<div class="caixa" id="caixa2"></div>
+<hr>
+	<h1>Step-end</h1>
+	<p>Permanece no começo</p>
+	<div class="caixa" id="caixa3"></div>
+	<hr>
+</body>
+</html>

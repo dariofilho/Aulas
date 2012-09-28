@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+	.caixa {
+		width: 100px;
+		color: white;
+		height: 100px;
+		background-color: red;
+		border: 1px solid black;
+		border-radius: 100px;
+		line-height: 100px;
+		-webkit-animation-name: girarHorario;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-direction: normal;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-delay: 0s;
+		-webkit-animation-fill-mode: none;
+	}
+
+	.caixa:hover {
+		-webkit-animation-name: girarAntiHorario;
+	}
+
+	@-webkit-keyframes girarHorario {
+		from {
+			-webkit-transform: rotate(0deg);
+			/*background-color: black;*/
+		}
+		to {
+			-webkit-transform: rotate(360deg);
+			/*background-color: red;*/
+
+		}
+	}
+
+
+	@-webkit-keyframes girarAntiHorario {
+		from {
+			-webkit-transform: rotate(0deg);
+			/*background-color: black;*/
+		}
+		to {
+			-webkit-transform: rotate(-360deg);
+			/*background-color: red;*/
+
+		}
+	}
+
+	#caixa1 {
+		position: absolute;
+	}
+	#caixa2 {
+		background-color: transparent;
+		-webkit-animation-name: girarAntiHorario;
+	}
+
+	.caixa hr {
+		position: relative;
+		top: 50%;
+	}
+	</style>
+</head>
+<body>
+	<div id="caixa1" class="caixa"><hr></div>
+	<div id="caixa2" class="caixa"><hr></div>
+</body>
+</html>

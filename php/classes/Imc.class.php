@@ -32,7 +32,6 @@ class Imc {
 $objetoDeImc = new Imc(80.0,1.80);
 print_r($objetoDeImc);
 
-$objetoDeImc->setPeso("João");
 echo $objetoDeImc->getPeso();
 
 print_r($objetoDeImc);
