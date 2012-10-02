@@ -1,0 +1,21 @@
+.stage {
+	overflow: hidden;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.stage760x420 {
+	width: 760px;
+	height: 420px;
+}
+
+.stage.centralizar {
+	top: 50%;
+	left: 50%;
+}
+
+.stage.centralizar760x420 {
+	margin-left: -380px;
+	margin-top: -210px;
+}
+

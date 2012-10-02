@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+
+	//Definição de classe //Construtor
+	function Pessoa() {
+
+		this.nome = "";
+		this.idade = 0;
+		this.email = "";
+
+		//Overload de métodos (construtor);
+		switch(arguments.length) {
+			case 0: this.construtor0.apply(this,arguments); break;
+			case 1: this.construtor1.apply(this,arguments); break;
+			case 2: this.construtor2.apply(this,arguments); break;
+			case 3: this.construtor3.apply(this,arguments); break;
+		}
+	}
+
+	//Protótipos
+	Pessoa.prototype.construtor0 = function() {
+		this.nome = prompt('Qual o nome da pessoa?');
+	}
+
+	//Reutilização de métodos
+	Pessoa.prototype.construtor1 = function(nome) {
+		this.nome = nome;
+	}
+
+	Pessoa.prototype.construtor2 = function(nome, idade) {
+		this.construtor1(nome);
+		this.idade = idade;
+	}
+
+	Pessoa.prototype.construtor3 = function(nome, idade, email) {
+		this.construtor2(nome, idade);
+		this.email = email;
+	}
+
+	var novaPessoa0 = new Pessoa();
+	var novaPessoa1 = new Pessoa('João');
+	var novaPessoa2 = new Pessoa('João', 25);
+	var novaPessoa3 = new Pessoa('João', 25, 'joao@gmail.com');
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cons",
+				"construtor2"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
 				"ad",
 				"adicionarIngrediente"
 			],
@@ -348,6 +356,10 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/javascript/04 oo/classe3.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/introducao.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/step_example.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/step.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/animation.html",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.html",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.php",
@@ -471,11 +483,7 @@
 		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php",
 		"/Users/denniscalazans/Sites/Aulas/php/json/json_decode.php",
 		"/Users/denniscalazans/Sites/Aulas/php/json/json_exemplo.php",
-		"/Users/denniscalazans/Sites/Aulas/facebook/registration/index.html",
-		"/Users/denniscalazans/Sites/Aulas/facebook/registration/reading.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/incremento_decremento.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/operadores/ternario.js",
-		"/Users/denniscalazans/Sites/Aulas/html5/webapp_intro/cache.manifestOriginal"
+		"/Users/denniscalazans/Sites/Aulas/facebook/registration/index.html"
 	],
 	"find":
 	{

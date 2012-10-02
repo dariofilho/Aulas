@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="stage.css">
+	<style>
+		.stage:hover .animar {
+			-webkit-animation-play-state: paused;
+		}
+
+		.caixa {
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
+
+		.stage:hover #caixa1 {
+			left: -120px;
+			-webkit-animation-play-state: running;
+		}
+
+		#caixa1 {
+			-webkit-animation: girar 1s linear infinite;
+			position: relative;
+			top: 50%;
+			left: 100px;
+			margin-top:  -50px;
+			-webkit-transition: all 1s;
+		}
+
+		#caixa2 {
+			position: absolute;
+			top: 50%;
+			right: 100px;
+			margin-top:  -50px;
+			overflow:  hidden;
+		}
+
+		#caixa2 .banner {
+			-webkit-animation: revelar2em1 3s infinite alternate;
+			background-color: red;
+			width: 200%;
+			height: 100%;
+			overflow:  hidden;
+			position: relative;
+			left: -100%;
+		}
+
+		@-webkit-keyframes girar {
+			from {
+				-webkit-transform: rotate(0deg);
+			}
+			to {
+				-webkit-transform: rotate(360deg);
+			}
+		}
+
+		@-webkit-keyframes revelar2em1 {
+			from {
+				left: 0;
+			}
+			to {
+				left: -100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="stage stage760x420 centralizar centralizar760x420">
+		
+
+		<div class="caixa animar girar" id="caixa1"></div>
+
+
+		<div class="caixa" id="caixa2">
+			<div class="banner animar revelar2em1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
