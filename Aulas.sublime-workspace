@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"centra",
+				"centralizar760x420"
+			],
+			[
+				"stage",
+				"stage760x420"
+			],
+			[
 				"cons",
 				"construtor2"
 			],
@@ -50,14 +66,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"stage",
-				"stage-800x356"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"marin",
@@ -356,6 +364,9 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/stage/css/stage.css",
+		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar.css",
 		"/Users/denniscalazans/Sites/Aulas/javascript/04 oo/classe3.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/introducao.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/step_example.html",
@@ -480,10 +491,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/ListaComObjeto.js",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.html",
 		"/Users/denniscalazans/Sites/Aulas/php/json/leitura.html",
-		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php",
-		"/Users/denniscalazans/Sites/Aulas/php/json/json_decode.php",
-		"/Users/denniscalazans/Sites/Aulas/php/json/json_exemplo.php",
-		"/Users/denniscalazans/Sites/Aulas/facebook/registration/index.html"
+		"/Users/denniscalazans/Sites/Aulas/php/json/json_encode.php"
 	],
 	"find":
 	{

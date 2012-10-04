@@ -1,0 +1,19 @@
+@-webkit-keyframes girar {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes balancar {
+	from {
+		-webkit-transform: rotate(-45deg);
+	}
+
+	to {
+		-webkit-transform: rotate(45deg);
+	}
+}

@@ -16,7 +16,15 @@
 		}
 
 		.stage:hover #caixa1 {
-			left: -120px;
+			-webkit-animation-play-state: running;
+		}
+
+		.stage #caixa1:active {
+			width: 150px;
+			height: 150px;
+			left: 75px;
+			margin-top:  -75px;
+			background-color: red;
 			-webkit-animation-play-state: running;
 		}
 
@@ -26,7 +34,7 @@
 			top: 50%;
 			left: 100px;
 			margin-top:  -50px;
-			-webkit-transition: all 1s;
+			-webkit-transition: all 0.3s;
 		}
 
 		#caixa2 {
