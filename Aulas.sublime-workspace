@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"id",
+				"idInicial"
+			],
+			[
 				"cum",
 				"cumprimentoDaNovaPessoa"
 			],
@@ -78,10 +94,6 @@
 			[
 				"Receit",
 				"ReceitaDeBolo"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"marin-",
@@ -304,10 +316,6 @@
 				"getProduto"
 			],
 			[
-				"id",
-				"idDoProduto"
-			],
-			[
 				"json",
 				"json_decode"
 			],
@@ -380,6 +388,25 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/js/APP.Camera.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Voto.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/processarVoto.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Imagem.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/jquery-1.8.2.min.js",
+		"/Users/denniscalazans/Sites/Aulas/libs/hotOrNot/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global4.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global3.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao2.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global2.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/incorporado.html",
+		"/Users/denniscalazans/Sites/Aulas/libs/jquery-validation-1.9.0/lib/jquery-1.4.4.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.html",
 		"/Users/denniscalazans/Sites/Aulas/php/resumo/classe.js",
 		"/Users/denniscalazans/Sites/Aulas/php/resumo/classe.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar/stage.css",
@@ -477,7 +504,6 @@
 		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global3.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao04/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao07/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao08/index.html",
@@ -489,25 +515,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUSo/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/App.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.Contato.Validacao.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.Twitter.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/Exercicios/App.Facebook.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Facebook.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Contato.Validacao.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.Contato.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/01 singleton.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.Contato.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/separando em arquivos/App.Contato.Validacao.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/introducao/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/ajaxLoad.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/06 json/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.js"
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.js"
 	],
 	"find":
 	{
@@ -527,6 +535,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"window.addEventListener(\"on",
+			"addEventListener('on",
+			"addEventListener",
 			"apply",
 			"onBo",
 			"bottom",
@@ -594,11 +605,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -618,18 +624,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -664,6 +663,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 154.0,
+	"side_bar_width": 199.0,
 	"status_bar_visible": true
 }

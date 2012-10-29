@@ -6,66 +6,15 @@
 </head>
 <body>
 	<script>
-		var nome = "Brenda";
-		console.debug(nome); //Brenda
-		console.debug(window.nome); //Brenda
+		//Escopo global = window
+		var nome = "João";
+		console.debug(window.nome); //João
 
 		function falarNome() {
 			return nome;
 		}
 
-		falarNome(); //Brenda
-
-		function falarIdade(idade) {
-			return idade;
-		}
-
-		falarIdade(25); //25
-		
-		try {
-			console.debug(idade); //
-		} catch(erro) {
-			//console.debug(erro);
-		}
-		
-		function falarEmail(email) {
-			enderecoDeEmail = email;
-			return enderecoDeEmail;
-		}
-
-		falarEmail('contato@ciclone.com'); //contato@ciclone.com
-		//console.debug(email); //
-		console.debug(enderecoDeEmail); //contato@ciclone.com
-		console.debug(window.enderecoDeEmail); //contato@ciclone.com
-
-		function testeUm() {
-			console.debug(varTeste);
-		}
-
-		function testeDois() {
-			console.debug(varTeste);
-			var varTeste = "Ciclone";
-		}
-
-		function testeTres() {
-			var varTeste;
-			console.debug(varTeste);
-			varTeste = "Ciclone";
-		}
-
-		var Objeto = {
-			endereco: 'Av. Bv, 1000'
-		};
-		console.debug(Objeto.nome);
-		console.debug(Objeto['nome']);
-
-		var propriedade = 'endereco';
-
-		console.debug(Objeto[window.propriedade]);
-		console.debug(Objeto[propriedade]);
-		console.debug(Objeto['endereco']);
-		console.debug(Objeto.endereco);
-
+		window.falarNome(); //João
 	</script>
 </body>
 </html>

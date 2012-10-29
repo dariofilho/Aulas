@@ -3,17 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<script type="text/javascript">
+	
+</head>
+<body>
+	<div id="conteudo"></div>
+	<script>
 	//O código javascript vem aqui...
 	
 	var a = 1;
 	var b = 2;
 	var c = a + b;
-	alert('O resultado é: '+c);
+	//alert('O resultado é: '+c);
+
+	function inicio() {
+		var divConteudo = document.getElementById('conteudo');
+	divConteudo.innerHTML = 'Conteudo da página';
 	
+	}
+	inicio();
 	</script>
-</head>
-<body>
-	
 </body>
 </html>
