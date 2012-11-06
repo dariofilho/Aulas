@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"resultado"
+			],
+			[
+				"cum",
+				"cumprimento"
+			],
+			[
+				"cumprimen",
+				"cumprimentar2"
+			],
+			[
 				"margin",
 				"margin"
 			],
@@ -18,10 +30,6 @@
 			[
 				"id",
 				"idInicial"
-			],
-			[
-				"cum",
-				"cumprimentoDaNovaPessoa"
 			],
 			[
 				"pesso",
@@ -388,6 +396,19 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/mapas/teste.html",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/CalculadoraCientifica.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraCientifica.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraProcedural.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Avo.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pai.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index2.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Filho.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pessoa.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Automovel.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index.php",
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Carro.class.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/js/APP.Camera.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.php",
@@ -502,20 +523,7 @@
 		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
 		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao04/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao07/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/exercicios/questao08/index.html",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/implode.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/meses.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/imagem.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/operadores.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUSo/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/exemploDeUso/App.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/02 separando em arquivos/App.js"
+		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html"
 	],
 	"find":
 	{
