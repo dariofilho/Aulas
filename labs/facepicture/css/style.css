@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+#video, #loading, #loaded, .centralizar {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+.centralizar img {
+	width: auto;
+	height: 100%;
+	display: inline-block;
+	-webkit-transform: scale(-1,1);
+}
+
+
+body.inicio .centralizar.pessoas.homem,
+body.inicio .centralizar.pessoas.mulher {
+	visibility: hidden;
+}
+
+body .centralizar.imagem,
+body .centralizar.pessoas, 
+body.homem .centralizar.pessoas.mulher {
+	display: none;
+}
+
+body.avaliacao .centralizar.imagem,
+body.homem .centralizar.pessoas.homem, 
+body .centralizar.pessoas.mulher {
+	display: block;
+}
+
+#video {
+	-webkit-transform: scale(-1,1);
+}
+
+
+#loading,	#loaded {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+}
+
+#loading {
+	background-image: url("../imagens/load.gif");
+}
+
+#loaded {
+	background-image: url("../imagens/enviado.gif");
+}

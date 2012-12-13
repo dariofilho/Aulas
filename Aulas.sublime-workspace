@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"su",
+				"subtrair"
+			],
+			[
+				"rem",
+				"recomecar"
+			],
+			[
+				"for",
+				"forcarRecomeco"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"_fina",
+				"_finalLargura"
+			],
+			[
+				"_fin",
+				"_finalAltura"
+			],
+			[
+				"fin",
+				"_finalLargura"
+			],
+			[
+				"_ja",
+				"_janelaAltura"
+			],
+			[
+				"_jane",
+				"_janelaLargura"
+			],
+			[
+				"_",
+				"_wH"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"use",
+				"UserLogado"
+			],
+			[
+				"_id",
+				"_idImagem"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"_i",
+				"_idVideo"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
 				"res",
 				"resultado"
 			],
@@ -40,20 +128,8 @@
 				"novaPessoa"
 			],
 			[
-				"ba",
-				"background-position"
-			],
-			[
-				"bg",
-				"background-size"
-			],
-			[
 				"bgr",
 				"background-attachment"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"bacl",
@@ -82,10 +158,6 @@
 			[
 				"Rec",
 				"ReceitaDobrada"
-			],
-			[
-				"tex",
-				"textura"
 			],
 			[
 				"calc",
@@ -145,10 +217,6 @@
 			],
 			[
 				"font",
-				"font-style"
-			],
-			[
-				"font-",
 				"font-style"
 			],
 			[
@@ -396,6 +464,36 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/calculadora.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/salvar.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Camera.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/salvar2.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/library/js/APP.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/css/style.css",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/app.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/index.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Posicionamento.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Usuario.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/css/style2.css",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/library/css/reset.css",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/teste.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/4E10E42C-7FA1-454C-8BBB-D55A6439121C/salvar.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/postagem.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/33D435E7-5A87-4269-B4F3-793EC7C84B82/login.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/3DA36DD9-9FE4-4ABB-ADBE-BF895419A449/salvar.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/4E689AE9-F627-4425-98CC-2FD441B56369/index.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/old/index.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/D2CE07D9-2658-4D02-A872-EDB133F9AD80/APP.Camera.js",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/EB8F2F7F-9884-4C4A-9229-10667AD4880B/APP.Camera.js",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/C3557C4E-A24E-430A-8D5D-D365C2484641/login.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/login.php",
+		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/9F138349-4A46-4D0E-BBF8-479FEBA24168/app.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/getRawPostData.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/js/APP.Raw.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/library/index.html",
+		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/miniprojeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/mapas/teste.html",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/CalculadoraCientifica.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraCientifica.php",
@@ -493,37 +591,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.php",
 		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/home.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/seletores1.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/caixas.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/exercicios/seletores_peso.html",
-		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/xml.php",
-		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/contato.xml",
-		"/Users/denniscalazans/Sites/Aulas/jquery/ajax/lendoXML.html",
-		"/Users/denniscalazans/Sites/Aulas/ajax/jsonFrutas.php",
-		"/Users/denniscalazans/Sites/Aulas/ajax/xmlContatos.php",
-		"/Users/denniscalazans/Sites/Aulas/ajax/pagina1.html",
-		"/Users/denniscalazans/Sites/Aulas/ajax/pagina2.html",
-		"/Users/denniscalazans/Sites/Aulas/ajax/pagina3.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_do_objeto.html",
-		"/Users/denniscalazans/Sites/Aulas/projeto/produtos.html",
-		"/Users/denniscalazans/Sites/Aulas/projeto/empresa.html",
-		"/Users/denniscalazans/Sites/Aulas/projeto/contato.html",
-		"/Users/denniscalazans/Sites/Aulas/projeto/css/style.css",
-		"/Users/denniscalazans/Sites/Aulas/projeto/index.html",
-		"/Users/denniscalazans/Sites/Aulas/html5/template.html",
-		"/Users/denniscalazans/Sites/Aulas/libs/jquery-1.8.0.min.js",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/form_post.html",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/superglobais.php",
-		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/estadosDoBrasil.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/implode.php",
-		"/Users/denniscalazans/Sites/Aulas/php/includes/inc.date.php",
-		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/variaveis.php",
-		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/info.php",
-		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/arquivo.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/pagina.php",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/tela.png",
-		"/Users/denniscalazans/Sites/Aulas/php/intro/teste.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/SingletonPattern/03 descobrindo metodos de inicializacao/index.html"
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/seletores1.html"
 	],
 	"find":
 	{
@@ -543,6 +611,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"divisao",
+			"multiplicacao",
+			"subtracao",
+			"soma",
+			"png",
+			"pngjp",
+			"png",
+			"iniciado",
+			"resultado",
+			"res",
 			"window.addEventListener(\"on",
 			"addEventListener('on",
 			"addEventListener",
@@ -598,6 +676,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"dividir",
+			"multiplicar",
+			"subtrair",
+			"somar",
+			"jpg",
 			"a\">Caixa</",
 			"/iconesLeitura/"
 		],
