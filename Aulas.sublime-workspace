@@ -4,6 +4,122 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"m",
+				"menuSecao3"
+			],
+			[
+				"men",
+				"menuSecao2"
+			],
+			[
+				"menu",
+				"menuSecao1"
+			],
+			[
+				"media",
+				"mediaId"
+			],
+			[
+				"instagram",
+				"instagram_media"
+			],
+			[
+				"curtir",
+				"curtirMedia"
+			],
+			[
+				"ids",
+				"idsDESC"
+			],
+			[
+				"id",
+				"idsDESC"
+			],
+			[
+				"req",
+				"requestData"
+			],
+			[
+				"care",
+				"carregamentoInicial"
+			],
+			[
+				"car",
+				"carregamentoInicial"
+			],
+			[
+				"processar",
+				"processarImagens"
+			],
+			[
+				"api",
+				"apiBaseURL"
+			],
+			[
+				"par",
+				"parametro"
+			],
+			[
+				"para",
+				"parametros"
+			],
+			[
+				"url",
+				"urlLatest"
+			],
+			[
+				"control",
+				"control-group"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"red",
+				"redirect_uri"
+			],
+			[
+				"cl",
+				"client_id"
+			],
+			[
+				"json",
+				"jsonUsuarios"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
 				"su",
 				"subtrair"
 			],
@@ -14,10 +130,6 @@
 			[
 				"for",
 				"forcarRecomeco"
-			],
-			[
-				"ba",
-				"background-image"
 			],
 			[
 				"inline",
@@ -60,10 +172,6 @@
 				"z-index"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"te",
 				"text-align"
 			],
@@ -104,20 +212,8 @@
 				"cumprimentar2"
 			],
 			[
-				"margin",
-				"margin"
-			],
-			[
-				"json_",
-				"json_encode"
-			],
-			[
 				"fun",
 				"function"
-			],
-			[
-				"id",
-				"idInicial"
 			],
 			[
 				"pesso",
@@ -214,10 +310,6 @@
 			[
 				"fn",
 				"font-size"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"font-s",
@@ -384,16 +476,8 @@
 				"produto"
 			],
 			[
-				"list",
-				"listaDeProdutos"
-			],
-			[
 				"get",
 				"getProduto"
-			],
-			[
-				"json",
-				"json_decode"
 			],
 			[
 				"stri",
@@ -431,9 +515,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 327.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -441,13 +541,9 @@
 			[
 				"Snippet: ",
 				"Snippet: DOCTYPE HTML"
-			],
-			[
-				"packe",
-				"Preferences: Browse Packages"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -464,6 +560,39 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/linear/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/linear/indexResposta.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexRefatorado.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexResposta.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.MySQL.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/curtirfeed.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/curtirTagDB.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.Instagram.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/Instagram.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/curtirTags.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/class.MySQL.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/header.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/curtirTag.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_personalizando/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_pernsonalizando/index.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/galeria.php",
+		"/Users/denniscalazans/Sites/Aulas/css/estilopadrao/galeria.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/forca.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/eventos/mouselogger.html",
+		"/Users/denniscalazans/Sites/Aulas/preprojeto/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/padaria/index.html",
+		"/Volumes/JJ CARLOS/exe01/exe01.html",
+		"/Users/denniscalazans/Sites/Aulas/preprojeto/biblioteca/css/reset.css",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/logar.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/land.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/logar.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/teste.php",
+		"/Users/denniscalazans/Sites/notasrm/js/bookmarklet.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/rm/script.js",
+		"/Users/denniscalazans/Sites/notasrm/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/rm/APP.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/calculadora.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/salvar.php",
@@ -498,7 +627,6 @@
 		"/Users/denniscalazans/Sites/Aulas/php/classes/CalculadoraCientifica.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraCientifica.php",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraProcedural.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Avo.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pai.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index2.php",
@@ -559,39 +687,7 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/index.html",
 		"/Users/denniscalazans/Sites/Aulas/css/seletores/introducao.html",
 		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php",
-		"/Users/denniscalazans/Sites/Aulas/css/stages/stageAbsoluto.html",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/imc2.php",
-		"/Users/denniscalazans/Sites/Aulas/php/request_vars.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/index.php",
-		"/Users/denniscalazans/Sites/Aulas/css/position/caixas01.html",
-		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow1.html",
-		"/Users/denniscalazans/Sites/Aulas/css/float/float02.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/position_stage.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/caixas02.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/caixas02 relative.html",
-		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_visible.html",
-		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_hidden.html",
-		"/Users/denniscalazans/Sites/Aulas/css/overflow/overflow_auto.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/infiniteScrolling/index.html",
-		"/Users/denniscalazans/Sites/Aulas/libs/jquery.infinitescroll.js",
-		"/Users/denniscalazans/Sites/Aulas/libs/jquery-1.7.1.min.js",
-		"/Users/denniscalazans/Sites/Aulas/libs/iscroll.js",
-		"/Users/denniscalazans/Sites/Aulas/css/position/stage.html",
-		"/Users/denniscalazans/Sites/Aulas/css/display/menu.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/position.html",
-		"/Users/denniscalazans/Sites/Aulas/css/display/display_02.html",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/formulario.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/formulario/resposta.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/explode.php",
-		"/Users/denniscalazans/Sites/Aulas/ajax/ajaxNativo.html",
-		"/Users/denniscalazans/Sites/Aulas/ajax/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/json.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/contato.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/conteudo.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/07 ajax/home.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/seletores1.html"
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php"
 	],
 	"find":
 	{
@@ -611,6 +707,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"print_",
+			"print",
+			"__cons",
+			"label",
+			"td",
+			"\"",
+			"<a",
+			"NotasRM",
+			"APP",
 			"divisao",
 			"multiplicacao",
 			"subtracao",
@@ -676,6 +781,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"div",
+			"'",
+			"APPNotasRM",
+			"NotasRM",
 			"dividir",
 			"multiplicar",
 			"subtrair",

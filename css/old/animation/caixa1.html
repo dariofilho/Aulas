@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		html {
+			position: absolute;
+			width: 100%;
+			left: 100%;
+		}
+		#caixa {
+			width: 100px;
+			height: 100px;
+			position: fixed;
+			border: 1px solid black;
+			
+			top: 50%;
+			left: 50%;
+			margin: -50px 0 0 -50px;
+	
+			-webkit-animation-name: circular;
+			-webkit-animation-duration: 2s;
+			-webkit-animation-delay: 500ms;
+			-webkit-animation-iteration-count: 2;
+			-webkit-animation-direction: normal;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-fill-mode: backwards;
+			
+		}
+		
+		.animado:hover {
+			-webkit-animation-play-state: paused;
+		}
+		
+		@-webkit-keyframes girar {
+			from {
+				-webkit-transform: rotate(0deg);
+			}
+			
+			to {
+				-webkit-transform: rotate(360deg);
+			}
+		}
+		
+		@-webkit-keyframes circular {
+			0% {
+				top: 0; 
+				left: 0;
+				margin: 0;
+				background-color: red;
+			}
+			
+			25% {
+				top: 0;
+				left: 100%;
+				margin: 0 0 0 -100px;
+				background-color: green;
+			}
+			
+			50% {
+				top: 100%;
+				left: 100%;
+				margin: -100px 0 0 -100px;
+				background-color: blue;
+			}
+			
+			75% {
+				top: 100%;
+				left: 0;
+				margin: -100px 0 0 0;
+				background-color: yellow;
+			}
+			
+			100% {
+				top: 10%; 
+				left: 0;
+				margin: 0;
+				background-color: pink;
+			}
+		}
+	
+		
+	
+		
+		
+		
+		
+		
+	</style>
+</head>
+<body>
+	<div id="caixa" class="bottomLeft animado"></div>
+</body>
+</html>

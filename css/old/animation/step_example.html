@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+
+		.loading {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		    -webkit-animation-duration: 0.7s;
+		    -webkit-animation-timing-function: step-start;
+		    -webkit-animation-iteration-count: infinite;
+		    background: transparent url('loading.png') no-repeat 0px 0px;
+		    width: 96px;
+		    height: 92px;
+		    margin-left: -24px;
+		    margin-top: 23px;
+			-webkit-animation-name: loading;
+		}
+
+		@-webkit-keyframes loading {
+		        0%   {background-position: 0 -2px;}
+		        20%   {background-position: 0 -102px;}
+		        40%   {background-position: 0 -202px;}
+		        60%   {background-position: 0 -302px;}
+		        80%   {background-position: 0 -402px;}
+		        100%   {background-position: 0 -2px;}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="loading"></div>
+</body>
+</html>

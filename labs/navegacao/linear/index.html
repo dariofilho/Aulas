@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="biblioteca/bootstrap/css/bootstrap.css">
+
+	<style>
+	.secao {
+		display: none;
+		width: 480px;
+		height: 320px;
+		border: 1px solid;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -250px;
+		margin-top: -170px;
+		padding: 20px;
+	}
+	#secao1 {
+		display: block;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div class="secao" id="secao1">
+		<h1>Seção 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque minus quae facere laborum reiciendis saepe debitis commodi! Harum velit assumenda ab provident. Officia cum temporibus suscipit iure dignissimos velit.</p>
+		
+		<ul class="pager">
+		  <li class="proximo"><a href="#">Próximo</a></li>
+		</ul>
+	</div>
+	<div class="secao" id="secao2">
+		<h1>Seção 2</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste error natus cupiditate corporis vel consectetur officiis excepturi eligendi temporibus id facere eveniet voluptates incidunt ex laborum sed architecto enim!</p>
+		<ul class="pager">
+		  <li class="anterior"><a href="#">Anterior</a></li>
+		  <li class="proximo"><a href="#">Próximo</a></li>
+		</ul>
+	</div>
+	<div class="secao" id="secao3">
+		<h1>Seção 3</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste error natus cupiditate corporis vel consectetur officiis excepturi eligendi temporibus id facere eveniet voluptates incidunt ex laborum sed architecto enim!</p>
+		<ul class="pager">
+		  <li class="anterior"><a href="#">Anterior</a></li>
+		</ul>
+	</div>
+
+	
+	<script src="biblioteca/js/jquery-1.9.1.min.js"></script>
+	<script>
+
+		//Ao clicar em qualquer .pager li
+			//Esconder todas as .secao
+		
+		//Ao clicar no em #secaoX .proximo
+			//Mostrar #secaoX+1
+		
+		//Ao clicar no em #secaoX .anterior
+			//Mostrar #secaoX-1
+
+	</script>
+</body>
+</html>

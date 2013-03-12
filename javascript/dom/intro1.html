@@ -3,8 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
+	<style>
+		#leiaMais {
+			display: none;
+		}
+
+	</style>
 </head>
 <body>
-	
+	<button id="mostrarEsconder">Mostrar/Esconder</button>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci sequi temporibus eos nam obcaecati possimus ut quibusdam odit ipsa unde blanditiis delectus quis amet doloribus quia totam aspernatur numquam.
+		<span id="leiaMais">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illum sint eligendi accusamus aperiam sunt quisquam dolores laudantium aut molestiae voluptatum earum at ratione enim adipisci magni corporis voluptatibus quo?
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nihil facilis unde voluptatum odit. Aliquam beatae quod dolore at facilis delectus vero perferendis autem aut consequatur? Libero consequuntur assumenda sint!</span>
+	</p>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script>
+	$("#mostrarEsconder")
+		.on("click", function() {
+			$("#leiaMais").toggle();
+		});
+	</script>
 </body>
 </html>

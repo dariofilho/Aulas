@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notas RM</title>
+</head>
+<body>
+	<h1>Notas RM</h1>
+	<p>Uma mão na roda na hora de cadastrar as notas.</p>
+
+	<h2>Instalação</h2>
+	<ol>
+		<li>Habilite a barra de favoritos do seu navegador</li>
+		<li>Arraste cada um dos três links abaixo para a barra de favoritos</li>
+		<li>Acesse o RM na página de inserção de notas</li>
+		<li>Clique no ítem <strong>Habilitar NotasRM</strong> para habilitar a ferramenta</li>
+		<li>Utilize o ítem <strong>Com Todos</strong> para definir uma nota para todos os alunos</li>
+	</ol>
+
+	<a href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement("script");c.type="text/javascript";c.src="http://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,"1.8.3",function($,L){window.APPNotasRM={_frame:window.frames.CLMain.document,iniciar:function(){$(window.APPNotasRM._frame).find('#dgAlunos tr').css('cursor','pointer').toggle(function(a){if(a.target.tagName!='INPUT'){$(a.currentTarget).addClass('alunoSelecionado').css('background-color','#fcc')}},function(a){if(a.target.tagName!='INPUT'){$(a.currentTarget).removeClass('alunoSelecionado').css('background-color','')}})},aplicarATodos:function(){var a=prompt('Digite a nota');if(!a){return false}$(window.frames.CLMain.document).find('input[type=text][name$=Nota]').val(a)},aplicarAMarcados:function(){var a=prompt('Digite a nota');if(!a){return false}$(window.frames.CLMain.document).find('#dgAlunos tr.alunoSelecionado').find('input[type=text][name$=Nota]').val(a).end().css('background-color','').removeClass('alunoSelecionado')}};window.APPNotasRM.iniciar();alert('Notas RM habilitado com sucesso!');});" title="Arraste para a barra de favoritos">Habilitar NotasRM</a>
+	<a href="javascript:void((function(d){if(!window.APPNotasRM){alert('Habilite o NotasRM.')}else{window.APPNotasRM.aplicarATodos()};})(document));" title="Arraste para a barra de favoritos">Com Todos</a>
+	<a href="javascript:void((function(d){if(!window.APPNotasRM){alert('Habilite o NotasRM.')}else{window.APPNotasRM.aplicarAMarcados()};})(document));" title="Arraste para a barra de favoritos">Com Marcados</a>
+	<h2>Utilização</h2>
+	<p>Primeiro você deve habilitar a ferramenta na página de inserção de notas</p>
+	<ol>
+		<li>Acesse o RM na página de inserção de notas</li>
+		<li>Clique no ítem <strong>Habilitar NotasRM</strong> para habilitar a ferramenta</li>
+		<li>Utilize o ítem <strong>Com Todos</strong> para definir uma nota para todos os alunos</li>
+	</ol>
+	<h3>Definindo uma nota para todos os alunos</h3>
+	<p>Utilize o ítem <strong>Com Todos</strong> para definir uma nota para todos os alunos</p>
+	<h3>Definindo uma nota apenas para os alunos marcados</h3>
+	<ol>
+		<li>Acesse o RM na página de inserção de notas</li>
+		<li>Clique no ítem <strong>Habilitar NotasRM</strong> para habilitar a ferramenta</li>
+		<li>Utilize o ítem <strong>Com Todos</strong> para definir uma nota para todos os alunos</li>
+	</ol>
+	<p>Utilize o ítem <strong>Com Marcados</strong> para definir uma nota para todos os alunos</p>
+</body>
+</html>

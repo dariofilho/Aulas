@@ -1,0 +1,4 @@
+Static - Padrão
+Relative - Relativo ao Static
+Fixed - Fixo no viewport
+Absolute - Relativo ao pai com o position diferente de static.

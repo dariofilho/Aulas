@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+
+	.caixa {
+		width: 100px;
+		height: 100px;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-timing-funcion: linear;
+		-webkit-animation-iteration-count: 2;
+		-webkit-animation-delay: 5s;
+		border: 1px solid blue;
+	}
+
+	@-webkit-keyframes Sport {
+		from {
+			background-color: black;
+		}
+
+		to {
+			background-color: red;
+		}
+	}
+
+
+	#caixa1 {
+		-webkit-animation-name: Sport;
+		-webkit-animation-fill-mode: forwards;
+	}
+
+	#caixa2 {
+		-webkit-animation-name: Sport;
+		-webkit-animation-fill-mode: backwards;
+	}
+
+	#caixa3 {
+		-webkit-animation-name: Sport;
+		-webkit-animation-fill-mode: both;
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Forwards</h1>
+	<p>Mantém como o último frame</p>
+	<div class="caixa" id="caixa1"></div>
+	
+	<h1>Backwards</h1>
+	<p>Mantém como o primeiro frame durante o delay</p>
+	<div class="caixa" id="caixa2"></div>
+
+	<h1>Both</h1>
+	<p>Mantém como o primeiro frame durante o delay</p>
+	<div class="caixa" id="caixa3"></div>
+	
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			margin: 0;
+			font-family: Tahoma;
+			font-size: 25px;
+		}
+
+		.quadrado {
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			font-weight: bold;
+			position: absolute;
+		}
+
+		#quadrado1 {
+			background-color: red;
+			top: 200px;
+			left: 200px;
+			z-index: 4;
+		}
+		#quadrado2 {
+			background-color: green;
+			top: 150px;
+			left: 150px;
+			z-index: 3;
+		}
+		#quadrado3 {
+			background-color: blue;
+			top: 100px;
+			left: 100px;
+			z-index: 1;
+		}
+		#quadrado4 {
+			background-color: yellow;
+			left: 50px;
+			top: 50px;
+			z-index: 0;
+		}		
+	</style>
+</head>
+<body>
+	<div class="quadrado" id="quadrado1">1</div>
+	<div class="quadrado" id="quadrado2">2</div>
+	<div class="quadrado" id="quadrado3">3</div>
+	<div class="quadrado" id="quadrado4">4</div>
+</body>
+</html>

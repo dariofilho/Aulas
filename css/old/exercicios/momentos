@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.stage {
+			overflow: hidden;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			border: 1px solid black;
+		}
+
+		.stage-760x420 {
+			width: 760px;
+			height: 420px;
+
+			margin-left: -380px;
+			margin-top: -240px;
+		}
+	</style>
+</head>
+<body>
+	<div class="stage">
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+		<div class="caixa">
+			
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+			<div class="caixa"></div>
+
+		</div>
+	</div>
+</body>
+</html>

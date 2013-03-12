@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	html{
+		padding: 1em;
+		background-color: black;
+	}
+
+	body {
+		background-color: white;
+		padding: 1em;
+		font-size: 40px;
+	}
+
+	ul {
+		background-color: black;
+	}
+
+
+	li{ 
+	
+	list-style: none;
+	background-color: #ccc;
+	padding: 0.5em;
+	margin-bottom: 1em;
+
+	}
+
+	a {
+		background-color: #eee;
+	}
+
+	a span{ 
+	
+
+	color: red;
+	background-color: black;
+
+
+	}
+	</style>
+</head>
+<body>
+	
+	<input type="text" id="campo1">
+	<input type="text" id="campo2">
+
+	<div id="site">
+		<ul id="lista">
+			<li class="item1"><a href="#">Texto do menu</a></li>
+			<li class="item2"><a href="#">Texto do <span>menu</span></a></li>
+			<li class="item3"><a href="#">Texto do menu</a></li>
+		</ul>
+	</div>
+
+
+
+	<script src="../../preprojeto/biblioteca/js/jquery-1.9.1.min.js"></script>
+	<script>
+	//Quis elementos
+	$("html body div ul li a span")
+	
+	//O que escutar
+	.on("focus blur", function(event) {
+
+		//O que fazer
+		console.debug("Type:", event.type, "cTarget:", event.currentTarget, "Target:", event.target);
+	})
+	</script>
+</body>
+</html>

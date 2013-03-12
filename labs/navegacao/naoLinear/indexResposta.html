@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="biblioteca/bootstrap/css/bootstrap.css">
+
+	<style>
+
+	.secao {
+		margin-top: 60px;
+	}
+	</style>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+
+    <a class="brand" href="#">Meu App</a>
+    
+    <ul id="menu" class="nav">
+      <li id="menuSecao1" class="active"><a href="#secao1">Seção 1</a></li>
+      <li id="menuSecao2"><a href="#secao2">Seção 2</a></li>
+      <li id="menuSecao3"><a href="#secao3">Seção 3</a></li>
+    </ul>
+
+  </div>
+</div>
+	
+	<div class="secao" id="secao1">
+		<h1>Seção 1</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque minus quae facere laborum reiciendis saepe debitis commodi! Harum velit assumenda ab provident. Officia cum temporibus suscipit iure dignissimos velit.</p>
+		
+	</div>
+	<div class="secao" id="secao2">
+		<h1>Seção 2</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste error natus cupiditate corporis vel consectetur officiis excepturi eligendi temporibus id facere eveniet voluptates incidunt ex laborum sed architecto enim!</p>
+	</div>
+	<div class="secao" id="secao3">
+		<h1>Seção 3</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste error natus cupiditate corporis vel consectetur officiis excepturi eligendi temporibus id facere eveniet voluptates incidunt ex laborum sed architecto enim!</p>
+	</div>
+
+	<script src="biblioteca/js/jquery-1.9.1.min.js"></script>
+
+	<script>
+		//Botao Seção1
+
+		//1 Quando clicar no botao1
+		$("#menuSecao1").on("click", function(){
+			//Remove a classe active de todos os botoes
+			$("#menu li").removeClass("active");
+
+			//Esconde todas as seções
+			$(".secao").hide();
+
+			//Adiciona a classe active ao #menuSecao1
+			$("#menuSecao1").addClass("active");
+
+			$("#secao1").show();
+
+		});
+		$("#menuSecao2").on("click", function(){
+			//Remove a classe active de todos os botoes
+			$("#menu li").removeClass("active");
+
+			//Esconde todas as seções
+			$(".secao").hide();
+
+			//Adiciona a classe active ao #menuSecao1
+			$("#menuSecao2").addClass("active");
+
+			$("#secao2").show();
+
+		});
+
+		$("#menuSecao3").on("click", function(){
+			//Remove a classe active de todos os botoes
+			$("#menu li").removeClass("active");
+
+			//Esconde todas as seções
+			$(".secao").hide();
+
+			//Adiciona a classe active ao #menuSecao1
+			$("#menuSecao3").addClass("active");
+
+			$("#secao3").show();
+
+		});
+			
+			
+			
+			//Apresenta a seção 1
+
+		//Botão Seção2
+
+		//Botão Seção3
+	</script>
+</body>
+</html>
