@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	
+	#caixa {
+		width: 400px;
+		height: 300px;
+		border: 10px solid black;
+		position: fixed;
+		top:50%;
+		left: 50%;
+		margin-left: -200px;
+		margin-top: -150px;
+
+	}
+	
+	.controle {
+		width: 20px;
+		height: 20px;
+		background-color: red;
+		text-align: center;
+		line-height: 20px;
+		position: absolute;
+	}
+
+	#controle1 {
+		left: 0;
+		top: 0;
+	}
+	#controle2 {
+		top: 0;
+		left: 50%;
+	}
+	#controle3 {
+		top: 0;
+		right: 0;
+	}
+	#controle4 {
+		top: 50%;
+		left: 0;
+	}
+	#controle5 {
+		top: 50%;
+		right: 0;
+	}
+	#controle6 {
+		bottom: 0;
+		left: 0;
+	}
+	#controle7 {
+		left: 50%;
+		bottom: 0;
+	}
+	#controle8 {
+		right: 0;
+		bottom: 0;
+	}
+	#controle2, #controle7 {
+		margin-left:  -10px;
+	}
+	#controle4, #controle5 {
+		margin-top:  -10px;
+	}
+	
+
+	</style>
+</head>
+<body>
+
+
+<div id="caixa">
+	<div class="controle" id="controle1">1</div>
+	<div class="controle" id="controle2">2</div>
+	<div class="controle" id="controle3">3</div>
+	<div class="controle" id="controle4">4</div>
+	<div class="controle" id="controle5">5</div>
+	<div class="controle" id="controle6">6</div>
+	<div class="controle" id="controle7">7</div>
+	<div class="controle" id="controle8">8</div>
+</div>
+
+
+	
+</body>
+</html>

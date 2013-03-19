@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 0;
+	}
+
+	#menuTopo {
+		background-color: #fc0;
+		height: 50px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+	#menu {
+		background-color: gray;
+		width: 120px;
+		height: 300px;
+		position: absolute;
+		left: 0;
+		top: 100px;
+		z-index: 0;
+	}
+
+	#site {
+		background-color: #efefef;
+		height: 2100px;
+		margin-left: 130px;
+		margin-right: 10px;
+		margin-top: 100px;
+	}
+	</style>
+</head>
+<body>
+
+<nav id="menuTopo">Teste</nav>
+
+<nav id="menu"></nav>
+
+<section id="site"></section>
+	
+</body>
+</html>
