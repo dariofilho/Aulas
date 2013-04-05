@@ -108,11 +108,12 @@ meuAudioDom.volume = (meuAudioDom.volume < 1) ? meuAudioDom.volume + 0.1 : meuAu
 <audio id="meuAudio" controls>
 	<source src="audio/som.mp3" type="audio/mpeg" />
 	<source src="audio/som.ogg" type="audio/ogg" />
-	<source src="audio/som.wav" />
-	
+	<source src="audio/som.wav" />	
 	<object type="application/x-shockwave-flash" data="player.swf?soundFile=audio/som.mp3">
 		<param name="movie" value="player.swf?soundFile=audio/som.mp3">
 		
+		<p>I'm so sorry!!!</p>
+
 	</object>
 </audio>
 <p>Descrição do áudio</p>

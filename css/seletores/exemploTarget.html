@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	
+
+	#secoes section {
+		display: none;
+
+		width: 600px;
+		height: 400px;
+		border: 1px solid black;
+		top: 50%;
+		left: 50%;
+		margin-left: -301px;
+		margin-top: -201px;
+
+		position: fixed;
+
+		font-size: 100px;
+		text-align: center;
+		line-height: 400px;
+
+	}
+
+	#secoes section:target {
+		display: block;
+	}
+
+	
+	#menu {
+		padding: 2em;
+		background: red;
+	}
+
+	#menu li:hover {
+		background-color: #ccc;
+	}
+
+
+	</style>
+</head>
+<body>
+	<ul id="menu">
+		<li><a href="#s1">Mostrar seção 1</a></li>
+		<li><a href="#s2">Mostrar seção 2</a></li>
+		<li><a href="#s3">Mostrar seção 3</a></li>
+	</ul>
+	
+	<div id="secoes">
+		<section id="s1">Seção 1</section>
+		<section id="s2">Seção 2</section>
+		<section id="s3">Seção 3</section>
+	</div>
+</body>
+</html>

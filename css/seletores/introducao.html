@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+
+		/* 
+			Seletor Simples
+			Elemento - h1 */ 
+		h1 {
+			color: red;
+		}
+
+		/* Seletor agrupado - Mais de um alvo para a regra */
+		h1, p {
+
+		}
+
+		p:first-letter {
+			font-size: 2em;
+		}
+
+		/*article p:first-of-type {
+			font-style: italic;
+			font-weight: bold;
+		}*/
+
+		.destaque {
+			font-style: italic;
+			font-weight: bold;
+		}
+
+		.frio {
+			color: blue;
+		}
+
+		.quente {
+			color: red;
+			font-size: 3em;
+		}
+
+		a {
+			color: blue;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+			color: navy;
+		}
+
+		#artigos article {
+			display: none;
+		}
+
+		#artigos article:target {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<a name="topo"></a>
+
+
+
+	<h1>Título do site</h1>
+
+	
+	<nav>
+		<a href="#artigo1">Artigo 1</a>
+		<a href="#artigo2">Artigo 2</a>
+	</nav>
+
+	<section id="artigos">
+		<article id="artigo1">
+			<h1>Título do artigo 1</h1>
+			<p class="quente">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p class="frio">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p class="frio">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+		</article>
+		<article id="artigo2">
+			<a name="titulo2"></a><h1 class="quente">Título do artigo 2</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			</p>
+			<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+				</p>
+		</article>
+	</section>
+</body>
+</html>	

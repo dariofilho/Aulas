@@ -19,6 +19,6 @@
 <h1>TAG Audio</h1>
 
 <p>Autoplay</p>
-<audio src="audio/flo_rida_where_them_girls_at.mp3" autoplay controls></audio>
+<audio src="audio/flo_rida_where_them_girls_at.mp3" autoplay></audio>
 </body>
 </html>

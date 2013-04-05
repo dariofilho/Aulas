@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 0;
+		font-family: Tahoma;
+		font-size: 15px;
+	}
+	.caixa {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+		font-size: 40px;
+		display: block;
+		float: left;
+	}
+
+
+	.caixa:nth-child(3n+1) {
+		background-color: red;
+	}
+	.caixa:nth-child(3n+2) {
+		background-color: green;
+	}
+	.caixa:nth-child(3n+3) {
+		background-color: blue;
+	}
+
+
+	#minhasCaixas {
+		padding: 30px;
+		background-color: #ccc;
+		text-align: center;
+		margin: 50px;
+
+		position: relative;
+		overflow: auto;
+	}
+
+
+	.capitalize {
+		font-size: 10em;
+	}
+	</style>
+</head>
+<body>
+
+	<div id="minhasCaixas">
+		<div class="caixa" id="caixa1">1</div>
+		<div class="caixa" id="caixa2">2</div>
+		<div class="caixa" id="caixa3">3</div>
+		<div class="caixa" id="caixa4">4</div>
+		<div class="caixa" id="caixa5">5</div>
+		<div class="caixa" id="caixa6">6</div>
+		<div class="caixa" id="caixa7">7</div>
+		<div class="caixa" id="caixa8">8</div>
+		<div class="caixa" id="caixa9">9</div>
+		<div class="caixa" id="caixa10">10</div>
+		<div class="caixa" id="caixa11">11</div>
+		<div class="caixa" id="caixa12">12</div>
+		<div class="caixa" id="caixa13">13</div>
+		<div class="caixa" id="caixa14">14</div>
+		<div class="caixa" id="caixa15">15</div>
+		<div class="caixa" id="caixa16">16</div>
+		<div class="caixa" id="caixa17">17</div>
+		<div class="caixa" id="caixa18">18</div>
+		<div class="caixa" id="caixa19">19</div>
+		<div class="caixa" id="caixa20">20</div>
+	</div>
+
+</body>
+</html>

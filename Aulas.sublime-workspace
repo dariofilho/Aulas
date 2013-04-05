@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"c",
+				"caixa"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
 				"mar",
 				"margin"
 			],
 			[
-				"font",
-				"font-size"
+				"b",
+				"background"
 			],
 			[
 				"margin",
@@ -134,10 +158,6 @@
 			[
 				"inline",
 				"inline-block"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"_fina",
@@ -352,10 +372,6 @@
 				"inline-block"
 			],
 			[
-				"b",
-				"block	(b)"
-			],
-			[
 				"campo",
 				"camposDeErro"
 			],
@@ -386,10 +402,6 @@
 			[
 				"border-co",
 				"border-color"
-			],
-			[
-				"i",
-				"italic	(i)"
 			],
 			[
 				"mes",
@@ -502,10 +514,6 @@
 			[
 				"UT",
 				"utf-8"
-			],
-			[
-				"cha",
-				"charset"
 			]
 		]
 	},
@@ -515,7 +523,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -543,11 +551,11 @@
 				"Snippet: DOCTYPE HTML"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 174.0
 	},
 	"distraction_free":
 	{
@@ -560,6 +568,23 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/html5/video/videojs.html",
+		"/Users/denniscalazans/Sites/Aulas/libs/HTML5.Canvas.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas_x_video.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/audio/index_autoplay.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/audio/index.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/webapp/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/delay/script.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/delay/index.php",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/exemploActive.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/exemploSelection.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/exemploScale.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/exemploLayoutFIxo.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/static.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/absolute.html",
+		"/Users/denniscalazans/Sites/Aulas/css/position/eixos.html",
+		"/Users/denniscalazans/Sites/Aulas/css/boxmodel/boxmodel.html",
 		"/Users/denniscalazans/Sites/Aulas/css/position/absolute_sem_pai.html",
 		"/Users/denniscalazans/Sites/Aulas/css/position/relative.html",
 		"/Users/denniscalazans/Sites/Aulas/css/position/position_absolute1.html",
@@ -670,24 +695,7 @@
 		"/Users/denniscalazans/Sites/Aulas/css/animation/step_example.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/step.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/animation.html",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.html",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.php",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/Receita.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/Imc.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/funcaoComparacaoJavaScriptPHP.txt",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/funcaoComparacaoJavaScriptPHP.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/bannerTeatro/index.html",
-		"/Users/denniscalazans/Sites/Aulas/php/01 introducao/resumo.php",
-		"/Users/denniscalazans/Sites/Aulas/css/exercicios/momentos2.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/modeloDeProjeto/.htaccess",
-		"/Users/denniscalazans/Sites/Aulas/.htaccess",
-		"/Users/denniscalazans/Sites/Aulas/labs/modeloDeProjeto/index.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/modeloDeProjeto/APP.combined.js",
-		"/Users/denniscalazans/Sites/Aulas/css/exercicios/momentos.html",
-		"/Users/denniscalazans/Sites/Aulas/css/transition/hover.html",
-		"/Users/denniscalazans/Sites/Aulas/php/proxy.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/js/App.Twitter.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/twitterRecife/index.html"
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.html"
 	],
 	"find":
 	{

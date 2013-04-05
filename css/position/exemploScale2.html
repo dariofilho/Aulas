@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	#sol {
+		width: 25px;
+		height: 25px;
+		background-color: yellow;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#nuvem {
+		width: 150px;
+		height: 20px;
+		background-color: cyan;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	#mar {
+		width: 300px;
+		height: 20px;
+		background-color: navy;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	#barco {
+		width: 200px;
+		height: 20px;
+		background-color: #ccc;
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+	
+
+	#pecaPublicitaria {
+		width: 300px;
+		height: 100px;
+		border: 1px solid black;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-left: -151px;
+		margin-top: -51px;
+	}
+	</style>
+</head>
+<body>
+
+
+<div id="pecaPublicitaria">
+	<div class="parte" id="sol">Sol</div>
+	<div class="parte" id="mar">Mar</div>
+	<div class="parte" id="nuvem">Nuvem</div>
+	<div class="parte" id="barco">Barco</div>
+</div>
+
+</body>
+</html>

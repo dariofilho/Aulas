@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+
+	var Pessoa = function(nome, idade, cpf) {
+
+		var cor = "blue";
+
+		this.getCor = function() {
+			return cor;
+		}
+
+		//Attr public
+		this.nome = nome;
+		this.idade = idade;
+
+		this.setCpf(cpf);
+
+		var teste = function() {
+			return "dentro da funcao";
+		}
+
+		this.public = function(){
+			return teste();
+		}
+	}
+
+	Pessoa.prototype.peso = 100;
+
+	
+
+	Pessoa.prototype.setCpf = function(cpf) {
+		Pessoa.prototype.cpf = cpf;
+	}
+	Pessoa.prototype.getCpf = function() {
+		return this.cpf;
+	}
+
+	var fulano = new Pessoa("Joao", 30, 123456);
+	//fulano.nome //Joao
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

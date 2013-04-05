@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		body {
+			text-align: center;
+		}
+
+
+		.caixa {
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			display: inline-block;
+			margin: 1em;
+			border: 1px solid black;
+			cursor: pointer;
+		}
+		
+		.caixa:target {
+			background-color: green;
+		}
+		.caixa:hover {
+			background-color: red;
+		}
+		.caixa:active {
+			background-color: blue;
+		}
+
+
+		.caixa:nth-child(even) {
+			background-color: brown;
+		}
+		.caixa:nth-child(odd) {
+			background-color: pink;
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="caixa" id="caixa1">1</div>
+<div class="caixa" id="caixa2">2</div>
+<div class="caixa" id="caixa3">3</div>
+<div class="caixa" id="caixa4">4</div>
+<div class="caixa" id="caixa5">5</div>
+</body>
+</html>
