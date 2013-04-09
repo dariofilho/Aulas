@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"pala",
+				"palavrasFilhos"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"mos",
+				"mouseover"
+			],
+			[
+				"pto",
+				"prototype"
+			],
+			[
+				"get",
+				"getCor"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -26,10 +54,6 @@
 			[
 				"cur",
 				"cursor"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"b",
@@ -134,10 +158,6 @@
 			[
 				"cl",
 				"client_id"
-			],
-			[
-				"json",
-				"jsonUsuarios"
 			],
 			[
 				"json_",
@@ -488,32 +508,12 @@
 				"produto"
 			],
 			[
-				"get",
-				"getProduto"
-			],
-			[
 				"stri",
 				"stripslashes"
 			],
 			[
 				"Ob",
 				"Obesidade"
-			],
-			[
-				"botao",
-				"botaoVermelho"
-			],
-			[
-				"pagina",
-				"paginaSugerida"
-			],
-			[
-				"paginaS",
-				"paginaSolicitada"
-			],
-			[
-				"UT",
-				"utf-8"
 			]
 		]
 	},
@@ -568,6 +568,21 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/css/transition/caixas1.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/caixas1.html",
+		"/Users/denniscalazans/Sites/Aulas/css/old/animation/animation.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/caixas.html",
+		"/Users/denniscalazans/Sites/Aulas/css/transition/stage2.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/target.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.combined.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.Pagamento.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.Palavras.js",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/data/info.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/04 oo/instroducao.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/singleton/scripts/App.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/video/videojs.html",
 		"/Users/denniscalazans/Sites/Aulas/libs/HTML5.Canvas.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas_x_video.html",
@@ -680,22 +695,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/incorporado.html",
 		"/Users/denniscalazans/Sites/Aulas/libs/jquery-validation-1.9.0/lib/jquery-1.4.4.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.html",
-		"/Users/denniscalazans/Sites/Aulas/php/resumo/classe.js",
-		"/Users/denniscalazans/Sites/Aulas/php/resumo/classe.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar/stage.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/animacoes.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/cenario/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/stage/css/stage.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/bannerGirarRevelar.css",
-		"/Users/denniscalazans/Sites/Aulas/javascript/04 oo/classe3.html",
-		"/Users/denniscalazans/Sites/Aulas/css/animation/introducao.html",
-		"/Users/denniscalazans/Sites/Aulas/css/animation/step_example.html",
-		"/Users/denniscalazans/Sites/Aulas/css/animation/step.html",
-		"/Users/denniscalazans/Sites/Aulas/css/animation/animation.html",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/calculadora/inc.functions.html"
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.php"
 	],
 	"find":
 	{
@@ -712,9 +712,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"APP",
 			"bloco_e_linha.html",
 			"print_",
 			"print",
@@ -790,6 +791,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"App",
 			"div",
 			"'",
 			"APPNotasRM",

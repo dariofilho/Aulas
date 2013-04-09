@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 1em;
+		font-family: Tahoma;
+		font-size: 15px;
+	}
+	
+	.stage {
+		position: relative;
+		overflow: hidden;
+	}
+	.stage-dev {
+		border: 1px solid black;
+		overflow: visible;
+	}
+
+	.stage-200x300 {
+		width: 200px;
+		height: 300px;
+	}
+	.stage-200x420 {
+		width: 200px;
+		height: 420px;
+	}
+
+	.stage-760x420 {
+		width: 760px;
+		height: 420px;
+	}
+
+	#site {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin-left: -380px;
+		margin-top: -210px;
+	}
+
+	
+
+	#ad-vw {
+		position: absolute;
+		right: 0;
+		background-color: red;
+	}
+
+	#ad-vw .logo {
+		width: 200px;
+		height: 210px;
+		background-color: blue;
+		position: absolute;
+		top: 50%;
+		margin-top: -105px;
+	}
+
+
+	</style>
+</head>
+<body>
+	
+	<div id="site" class="stage stage-760x420 stage-dev">
+		
+		<div id="ad-vw" class="stage stage-200x420">
+			<div class="logo"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>

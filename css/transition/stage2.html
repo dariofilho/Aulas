@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 1em;
+		font-family: Tahoma;
+		font-size: 15px;
+	}
+	
+	.stage {
+		position: relative;
+		overflow: hidden;
+	}
+	.stage-dev {
+		border: 1px solid black;
+		overflow: visible;
+	}
+
+	.stage-200x300 {
+		width: 200px;
+		height: 300px;
+	}
+	.stage-200x420 {
+		width: 200px;
+		height: 420px;
+	}
+
+	.stage-760x420 {
+		width: 760px;
+		height: 420px;
+	}
+	#site nav{
+		width: 200px;
+		background-color: #ccc;
+		position: absolute;
+	}
+	
+	#site nav ul{
+		margin: 0;
+		padding-left:  0;
+	}
+	#site nav li {
+		display: block;
+		height: 139px;
+		border-bottom: 1px solid black;
+	}
+
+	#site nav a {
+		height: 139px;
+		display: block;
+	}
+	
+	#conteudos {
+		width: 560px;
+		position: absolute;
+		left: 200px;
+	}
+
+
+	.conteudo {
+		position: absolute;
+		left: 100%;
+		-webkit-transition: all 1s ease;
+
+	}
+
+	.conteudo:target {
+		left: 0;
+	}
+
+
+	</style>
+</head>
+<body>
+
+
+
+	<div id="site" class="stage stage-760x420 stage-dev">
+		<nav>
+			<ul>
+				<li><a href="#conteudo1">Conteúdo 1</a></li>
+				<li><a href="#conteudo2">Conteúdo 2</a></li>
+				<li><a href="#conteudo3">Conteúdo 3</a></li>
+			</ul>
+		</nav>
+		<div id="conteudos">
+			<div class="conteudo" id="conteudo1">
+				<h1>Conteudo 1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quibusdam culpa voluptate labore sapiente laboriosam exercitationem atque ea. Error autem non hic nobis vel aliquid sit repellat omnis veritatis quos.</p>
+			</div>
+			<div class="conteudo" id="conteudo2">
+				<h1>Conteudo 2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quibusdam culpa voluptate labore sapiente laboriosam exercitationem atque ea. Error autem non hic nobis vel aliquid sit repellat omnis veritatis quos.</p>
+			</div>
+			<div class="conteudo" id="conteudo3">
+				<h1>Conteudo 3</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quibusdam culpa voluptate labore sapiente laboriosam exercitationem atque ea. Error autem non hic nobis vel aliquid sit repellat omnis veritatis quos.</p>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
