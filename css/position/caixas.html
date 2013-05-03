@@ -15,8 +15,6 @@
 		line-height: 100px;
 		text-align: center;
 		font-size: 40px;
-		display: block;
-		float: left;
 	}
 
 
@@ -27,18 +25,32 @@
 		background-color: green;
 	}
 	.caixa:nth-child(3n+3) {
-		background-color: blue;
+		background-color: #efefef;
+	}
+	
+	#caixa4 {
+		position: relative;
+		left: 50px;
+		top: -50px;
 	}
 
+	#caixa3 {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+	}
+
+	#caixa8 {
+		position: absolute;
+		right: 150px;
+		bottom: 0;
+	}
 
 	#minhasCaixas {
-		padding: 30px;
 		background-color: #ccc;
-		text-align: center;
-		margin: 50px;
-
+		width: 560px;
+		height: 400px;
 		position: relative;
-		overflow: auto;
 	}
 
 

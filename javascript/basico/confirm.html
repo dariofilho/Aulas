@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu site</title>
+</head>
+<body>
+
+	<script>
+		var frasePergunta = "Deseja confirmar a compra?";
+		var fraseSim = "Compra confirmada!";
+		var fraseNao = "Compra cancelada!";
+
+
+		var confirmacao = confirm(frasePergunta);
+
+		if(confirmacao == true) {
+			console.debug(fraseSim);
+		} else {
+			console.debug(fraseNao);
+		}
+	</script>
+</body>
+</html>

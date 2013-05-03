@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 0;
+		font-family: Tahoma;
+		font-size: 15px;
+	}
+
+	#site {
+		min-width: 600px;
+		background-color: red;
+		position: relative;
+		padding: 1em;
+		overflow: auto;
+
+	}
+	.caixa {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 20px;
+		position: absolute;
+	}
+
+
+	.caixa:nth-child(3n+1) {
+		background-color: red;
+	}
+	.caixa:nth-child(3n+2) {
+		background-color: green;
+	}
+	.caixa:nth-child(3n+3) {
+		background-color: #efefef;
+	}
+	
+
+	#minhasCaixas {
+		width: 200px;
+		height: 350px;
+		border: 1px dashed black;
+		position: relative;
+		background-color: #fff;
+		margin-left: 15px;
+	}
+
+	#caixa1 {
+		top: 0;
+		left: 0;
+	}
+
+	#caixa3 {
+		top: 0;
+		right: 0;
+	}
+
+	#caixa6 {
+		left: 0;
+		bottom: 0;
+	}
+
+	#caixa8 {
+		right: 0;
+		bottom: 0;
+	}
+
+	.capitalize {
+		font-size: 10em;
+	}
+
+	#cabecalho {
+		background-color: #ccc;
+		margin-bottom: 1em;
+		height: 150px; 
+		min-width: 500px;
+	}
+	#corpo {
+		background-color: #ccc;
+		margin-right: 250px;
+	}
+
+	#lateral {
+		width: 230px;
+		background-color: #ccc;
+		float: right;
+	}
+
+	#caixa9 {
+		position: static;
+		float: left;
+	}
+	</style>
+</head>
+<body>
+
+	<div id="site">
+	
+	<header id="cabecalho"></header>
+
+	<aside id="lateral">
+		<div id="minhasCaixas">
+			<div class="caixa" id="caixa1">1</div>
+			<div class="caixa" id="caixa2">2</div>
+			<div class="caixa" id="caixa3">3</div>
+			<div class="caixa" id="caixa4">4</div>
+			<div class="caixa" id="caixa5">5</div>
+			<div class="caixa" id="caixa6">6</div>
+			<div class="caixa" id="caixa7">7</div>
+			<div class="caixa" id="caixa8">8</div>
+		</div>
+	</aside>
+
+
+	<div id="corpo">
+		
+		<p>
+			<div class="caixa" id="caixa9">9</div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, vero, porro at iste delectus quod laborum sint a nesciunt debitis. Voluptatum, sed, a magni magnam cumque quasi corporis nam aspernatur!</p>
+	</div>
+</div>
+	
+
+
+</body>
+</html>

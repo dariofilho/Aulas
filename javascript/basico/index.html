@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu site</title>
+
+	<style>
+	.caixa{
+		width: 100px;
+		height: 100px;
+		background-color: black;
+	}
+
+	#caixa1 {
+		background-color: red;
+	}
+
+	:active#caixa1 {
+		background-color: orange;
+	}
+	</style>
+</head>
+<body>
+
+
+	<div id="caixa1" class="caixa">
+		Caixa
+	</div>
+	<h1 id="titulo" class="pagina destaque">Carregando titulo...</h1>
+
+
+	<ul id="menu">
+		<li><a href="http://google.com">Conteúdo 1</a></li>
+		<li><a href="#conteudo2">Conteúdo 2</a></li>
+		<li><a href="#conteudo3">Conteúdo 3</a></li>
+	</ul>
+	
+	<div id="conteudos">
+		<div class="conteudo" id="conteudo1">Conteúdo 1</div>
+		<div class="conteudo" id="conteudo2">Conteúdo 2</div>
+		<div class="conteudo" id="conteudo3">Conteúdo 3</div>
+	</div>
+
+
+	<script>
+		var caixa1=e('caixa1');
+
+			// caixa1.addEventListener('mouseover', function() {
+			// 	caixa1.className = "caixa selecionada";
+			// }, true);
+
+			// caixa1.addEventListener('mouseout', function() {
+			// 	caixa1.className = "caixa";
+			// }, true);
+
+
+
+		document.body.addEventListener("click", function() {
+			console.debug("Clicaram no body");
+		}, true);
+
+		var tituloDoSite = "Meu site";
+
+		var tagTitulo = document.getElementById('titulo');
+
+		console.debug(tagTitulo.id, tagTitulo.className);
+
+		tagTitulo.innerHTML = tituloDoSite;
+
+		var paragrafo = document.createElement("p");
+			paragrafo.innerHTML = "Texto do parágrafo.";
+
+		document.body.appendChild(paragrafo);
+
+
+		function e(id) {
+			return document.getElementById(id);
+		}
+
+		var conteudos = e('conteudos');
+		var conteudo1 = e('conteudo1');
+
+
+		var menu = e("menu");
+		var linksDoMenu = menu.getElementsByTagName('a');
+
+
+		for(var i = 0; i < linksDoMenu.length; i++) {
+			var linkDoMenu = linksDoMenu[i];
+
+			linkDoMenu.addEventListener("click", function(event){
+				event.preventDefault();
+				console.debug("Clicaram no A");
+				//alert('clicou');
+			}, true);
+		}
+
+		//conteudos.removeChild(conteudo1);
+
+	</script>
+</body>
+</html>

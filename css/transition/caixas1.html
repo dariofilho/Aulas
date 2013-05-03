@@ -32,6 +32,7 @@
 		background-color: #ccc;
 		position: relative;
 		height: 100px;
+		cursor: pointer;
 	}
 	.trilha:active {
 		background-color: white;
@@ -43,34 +44,58 @@
 	.trilha:active .caixa {
 		left: 100%;
 		margin-left: -100px;
+		background-color: yellow !important;
+	}
+	.trilha:hover .caixa {
+		-webkit-animation-play-state: paused;
 	}
 
 	#caixa1 {
 		background-color: red;
+		border-radius: 30px;
+
+	
+		-webkit-animation: girar 2s 1 linear 2s both;
 	}
 
 	#caixa1:hover {
 		background-color: green;
+
 	}
 
 	#caixa2 {
 		background-color: green;
-		-webkit-transition-property: width, height;
-		-webkit-transition-duration: 1s, 1s;
-		-webkit-transition-delay: 0s, 0s;
-		-webkit-transition-timing-function: linear, ease-out;
+	
 	}
 
 	#caixa2:hover {
-		background-color: black;
-		width: 100%;
-		height: 200px;
+		background-color: yellow;
+		font-size: 80px;
 	}
 	#caixa3 {
 		background-color: blue;
 	}
 	#caixa4 {
 		background-color: yellow;
+	}
+
+
+
+	@-webkit-keyframes girar {
+
+		0% {
+			-webkit-transform: rotate(0deg);
+			left: 0;
+			background-color: black;
+			color: white;
+		}
+		100% {
+			left: 100%;
+			margin-left: -100px;
+			-webkit-transform: rotate(361deg);
+
+		}
+
 	}
 
 

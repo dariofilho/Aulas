@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu site</title>
+</head>
+<body>
+
+
+	<form id="exclusao" action="confirm_excluir.php" method="post">
+			
+		<ol>
+			<li><input type="checkbox" id="item1" name="item[]" value="1"><label for="item#">Item 1</label></li>
+			<li><input type="checkbox" id="item2" name="item[]" value="2"><label for="item#">Item 2</label></li>
+			<li><input type="checkbox" id="item3" name="item[]" value="3"><label for="item#">Item 3</label></li>
+		</ol>
+
+		<input type="submit" value="Excluir" selecionados=""> 
+	</form>
+
+	<script>
+
+		var formulario = document.getElementById("exclusao");
+
+			formulario.addEventListener("submit",function(event) {
+				var frasePergunta = "Deseja excluir ítens selecionados?";
+
+
+				var confirmacao = confirm(frasePergunta);
+				
+				if(!confirmacao) {
+					event.preventDefault();
+				}
+
+			},true);
+
+		
+
+
+		
+	</script>
+</body>
+</html>

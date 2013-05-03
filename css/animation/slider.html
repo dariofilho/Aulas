@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+	body {
+		margin: 0;
+		font-family: Tahoma;
+	}
+
+	.slider{
+		width: 300px;
+		height: 200px;
+
+		border: 10px solid red;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.container {
+		position: absolute;
+		width: 300%;
+		height: 100%;
+		background-color: #ccc;
+		-webkit-animation-duration: 4s; 
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-direction: normal;
+	}
+
+	#container1 {
+		-webkit-animation-name: deslizar1; 
+	}
+	#container2 {
+		-webkit-animation-name: deslizar2; 
+	}
+	#container3 {
+		-webkit-animation-name: deslizar3; 
+	}
+
+	@-webkit-keyframes deslizar1 {
+		0% {
+			opacity: 1;
+		}
+		25% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes deslizar2 {
+		0% {
+			opacity: 0;
+		}
+		33% {
+			opacity: 1;
+		}
+		66% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+
+	@-webkit-keyframes deslizar3 {
+		0% {
+			opacity: 0;
+		}
+		33% {
+			opacity: 0;
+		}
+		66% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+	.slide {
+		position: absolute;
+		width: 300px;
+		height: 100%;
+		line-height: 200px;
+		text-align: center;
+		font-size: 100px;
+	}
+
+	.slide:nth-child(1) {
+		left: 0;
+	}
+	
+	.slide:nth-child(2) {
+		left: 300px;
+	}
+
+
+	.slide:nth-child(3) {
+		left: 600px;
+	}
+	
+	.slide:nth-child(odd) {
+		background-color: black;
+		color: white;
+	}
+
+	.slide:nth-child(even) {
+		background-color: yellow;
+		color: black;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div id="slider1" class="slider">
+		<div id="container1" class="container">
+			<div class="slide">1</div>
+			<div class="slide">2</div>
+			<div class="slide">3</div>
+		</div>
+		<div id="container2" class="container">
+			<div class="slide">4</div>
+			<div class="slide">5</div>
+			<div class="slide">6</div>
+		</div>
+		<div id="container3" class="container">
+			<div class="slide">7</div>
+			<div class="slide">8</div>
+			<div class="slide">9</div>
+		</div>
+	</div>
+</body>
+</html>

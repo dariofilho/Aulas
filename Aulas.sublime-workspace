@@ -4,12 +4,96 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"me",
+				"menu1"
+			],
+			[
 				"mar",
 				"margin-left"
 			],
 			[
-				"ma",
-				"margin-top"
+				"background",
+				"background-color"
+			],
+			[
+				"sl",
+				"slider1"
+			],
+			[
+				"con",
+				"container1"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"frase",
+				"fraseNao"
+			],
+			[
+				"confirm",
+				"confirmacao"
+			],
+			[
+				"fra",
+				"frasePergunta"
+			],
+			[
+				"clss",
+				"class"
+			],
+			[
+				"link",
+				"linkDoMenu"
+			],
+			[
+				"li",
+				"linksDoMenu"
+			],
+			[
+				"conte",
+				"conteudo1"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ti",
+				"tituloDoSite"
 			],
 			[
 				"pala",
@@ -28,24 +112,8 @@
 				"prototype"
 			],
 			[
-				"get",
-				"getCor"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"i",
 				"italic"
-			],
-			[
-				"fon",
-				"font-style"
-			],
-			[
-				"tex",
-				"text-transform"
 			],
 			[
 				"c",
@@ -62,10 +130,6 @@
 			[
 				"margin",
 				"margin-left"
-			],
-			[
-				"m",
-				"menuSecao3"
 			],
 			[
 				"men",
@@ -450,70 +514,6 @@
 			[
 				"va",
 				"varTeste"
-			],
-			[
-				"hea",
-				"header	<header>"
-			],
-			[
-				"str",
-				"stringDeMarcas"
-			],
-			[
-				"arr",
-				"arrayDeMarcas"
-			],
-			[
-				"arra",
-				"arrayDeMarcas"
-			],
-			[
-				"ar",
-				"arrayDeFrutas"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"del",
-				"delimitador"
-			],
-			[
-				"pro",
-				"propriedade"
-			],
-			[
-				"fu",
-				"function"
-			],
-			[
-				"inici",
-				"inicializacao"
-			],
-			[
-				"inicia",
-				"inicializacao"
-			],
-			[
-				"form",
-				"contatoForm"
-			],
-			[
-				"prop",
-				"propriedades"
-			],
-			[
-				"produ",
-				"produto"
-			],
-			[
-				"stri",
-				"stripslashes"
-			],
-			[
-				"Ob",
-				"Obesidade"
 			]
 		]
 	},
@@ -568,6 +568,20 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/css/layouts/liquido_2colunas_menuBoth.html",
+		"/Users/denniscalazans/Sites/Aulas/css/layouts/fixo_1coluna_absoluto.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/slider2.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/slider.html",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/exemplo_hover.html",
+		"/Users/denniscalazans/Sites/MidiasEducativas/.htaccess",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/js/App.combined.js",
+		"/Users/denniscalazans/Sites/Aulas/.htaccess",
+		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step_example.html",
+		"/Users/denniscalazans/Sites/Aulas/css/display/bloco_e_linha2.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/basico/prompt.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/placeholder.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/basico/confirm_excluir.php",
+		"/Users/denniscalazans/Sites/Aulas/javascript/basico/confirm_exemplo.html",
 		"/Users/denniscalazans/Sites/Aulas/css/transition/caixas1.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/caixas1.html",
 		"/Users/denniscalazans/Sites/Aulas/css/old/animation/animation.html",
@@ -681,21 +695,7 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/js/APP.Camera.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Voto.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/processarVoto.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Imagem.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/jquery-1.8.2.min.js",
-		"/Users/denniscalazans/Sites/Aulas/libs/hotOrNot/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/literais/introducao.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global4.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global3.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao2.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_global2.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/incorporado.html",
-		"/Users/denniscalazans/Sites/Aulas/libs/jquery-validation-1.9.0/lib/jquery-1.4.4.js",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.php"
+		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Voto.js"
 	],
 	"find":
 	{
@@ -715,6 +715,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<span>MSG</span>",
+			"<span>MSG</span",
 			"APP",
 			"bloco_e_linha.html",
 			"print_",
@@ -791,6 +793,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"App",
 			"div",
 			"'",
@@ -874,6 +877,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_width": 318.0,
 	"status_bar_visible": true
 }

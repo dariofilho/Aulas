@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		body {
+			margin: 0;
+		}
+
+		header, footer {
+			height: 100px;
+			background-color: red;
+		}
+		header {
+			margin-bottom: 20px;
+		}
+		footer {
+			margin-top: 20px;
+		}
+		#menu {
+			background-color: red;
+			width: 150px;
+			height: 300px;
+			position: absolute;
+		}
+
+		#conteudo {
+			height: 400px;
+			width: 400px;
+			background-color: rgba(0,0,0,0.3);
+			margin-left: 170px;
+			border-radius: 200px;
+
+
+			box-shadow: 
+				10px 10px 0 red, 
+				-10px -10px 0 black,
+				-10px 10px 0 green,
+				10px -10px 0 blue;
+			
+			text-shadow: 
+				3px 3px 3px blue; 
+
+			text-align: center;
+			line-height: 400px;
+			font-size: 100px;
+			font-family: Tahoma;
+
+			-webkit-transition-property: all;
+			-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: 
+	cubic-bezier(1,-0.4,0,1.8);
+			-webkit-transition-delay: 1s;
+
+		}
+
+		#conteudo:active {
+			background-color: white;
+			-webkit-transform: rotate(180deg);
+		}
+
+	</style>
+</head>
+<body>
+
+	<header></header>
+	<nav id="menu">
+	</nav>
+
+	<div id="conteudo">MeuSite</div>
+
+	<footer></footer>
+</body>
+</html>
