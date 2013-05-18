@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		#container {
+			width: 400px;
+			height: 300px;
+			border: 1px solid black;
+			position: relative;
+		}
+		
+		#caixa {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: absolute;
+
+	-webkit-animation-name: circular;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 0;
+	-webkit-animation-fill-mode: both;
+		}
+
+
+	#container:hover #caixa {
+		-webkit-animation-play-state: paused;
+	}
+
+
+
+	@-webkit-keyframes sport {
+		from {
+			background-color: black;
+		}
+
+		to {
+			background-color: red;
+		}
+	}
+
+
+	@-webkit-keyframes circular {
+		
+		0% {
+			background-color: blue;
+			top: 0;
+			margin-top: 0;
+			left: 0;
+			margin-left: 0;
+		}
+
+		25% {
+			top: 0;
+			left: 100%;
+			margin-left: -100px;
+			margin-top: 0px;
+		}
+
+		50% {
+			top: 100%;
+			margin-top: -100px;
+			left: 100%;
+			margin-left: -100px;
+		}
+
+		75% {
+			top: 100%;
+			margin-top: -100px;
+			margin-left: 0px;
+			left: 0;
+		}
+
+		100% {
+			background-color: black;
+			top: 0;
+			margin-top: 0;
+			left: 0;
+			margin-left: 0;
+		}
+
+	}
+	</style>
+</head>
+<body>
+
+	<div id="container"><div id="caixa"></div></div>
+	
+	
+</body>
+</html>

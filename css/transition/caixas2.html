@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 0;
+	}
+	.caixa {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+		font-size: 15px;
+
+		font-family: Tahoma;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-property: all;
+		color: white;
+
+			position: absolute;
+
+		-webkit-animation-name: tresPassos;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-delay: 0s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-playstate: running;
+		-webkit-animation-fill-mode: both;
+		-webkit-animation-timing-function: ease-in-out;
+		display: none;
+		
+	}
+
+
+
+
+
+	#caixa1 {
+		background-color: red;
+		-webkit-animation-timing-function: linear;
+/*		-webkit-transition-property: background-color;
+*/
+	}
+	#caixa2 {
+		background-color: green;
+		-webkit-animation-timing-function: ease;
+/*		-webkit-transition-property: left;
+*/	}
+	#caixa3 {
+		background-color: blue;
+		-webkit-animation-timing-function: ease-in;
+/*		-webkit-transition-property: -webkit-transform;
+*/	}
+
+	#caixa4 {
+		background-color: black;
+		-webkit-animation-timing-function: ease-out;
+/*		-webkit-transition-property: -webkit-transform;
+*/	}
+
+	#caixa5 {
+		background-color: purple;
+		-webkit-animation-timing-function: steps(4, start);
+/*		-webkit-transition-property: -webkit-transform;
+*/	
+		-webkit-transform-origin: right center;
+		display: block;
+}
+
+
+	#trilha {
+		position: fixed;
+		width: 100%;
+		height: 50%;
+		top: 0;
+		left: 0;
+		background-color: #ccc;
+	}
+
+	#trilha:hover .caixa {
+		-webkit-animation-play-state: paused;
+	}
+/*
+	#trilha:active .caixa {
+		left: 100%;
+		margin-left: -100px;
+
+		background-color: yellow;
+		color: black;
+	}
+
+
+	*/
+
+
+
+	@-webkit-keyframes tresPassos {
+		
+		0% {
+			top: 100%;
+			margin-top: -100px;
+			left: 0;
+			margin-left: 0;
+/*			-webkit-transform: scale(1) rotateY(0deg);
+*/		}
+/*
+		50% {
+			top: 0;
+			left: 50%;
+			margin-left: -50px;
+			margin-top: 0;
+			-webkit-transform: scale(1) rotateY(180deg);
+		}*/
+
+		50% {
+			top: 100%;
+			margin-top: -100px;
+			left: 100%;
+			margin-left: -100px;
+/*			-webkit-transform: scale(0.8) rotateY(360deg);
+*/		}
+100% {
+			top: 100%;
+			margin-top: -100px;
+			left: 0;
+			margin-left: 0;
+/*			-webkit-transform: scale(1) rotateY(0deg);
+*/		}
+	}
+
+
+
+	</style>
+</head>
+<body>
+	
+
+<div class="boneco corre"></div>
+
+
+<div id="trilha">
+<div class="caixa" id="caixa1">Linear</div>
+<div class="caixa" id="caixa2">Ease</div>
+<div class="caixa" id="caixa3">Ease-in</div>
+<div class="caixa" id="caixa4">Ease-out</div>
+<div class="caixa" id="caixa5">Ease-in-out</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			margin: 0;
+		}
+		.boneco {
+			width: 64px;
+			height: 96px;
+			top:50%;
+			left:50%;
+			position: fixed;
+			background-image: url("sprite.jpg");
+			-webkit-animation-duration: 1s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-timing-function: step-end;
+		}
+		.boneco.andarBaixo {
+			-webkit-animation-name: andarBaixo;
+		}
+		.boneco.andarDireita {
+			-webkit-animation-name: andarDireita;
+		}
+		.boneco.andarEsquerda {
+			-webkit-animation-name: andarEsquerda;
+		}
+		.boneco.andarCima {
+			-webkit-animation-name: andarCima;
+		}
+		@-webkit-keyframes andarBaixo {
+			0% 		{ background-position: 0 		0; }
+			25% 	{ background-position: -64px 	0; }
+			50% 	{ background-position: -128px 	0; }
+			75% 	{ background-position: -192px 	0; }
+			100% 	{ background-position: 0 		0; }
+		}
+		@-webkit-keyframes andarDireita {
+			0% 		{ background-position: 0 		-192px; }
+			25% 	{ background-position: -64px 	-192px; }
+			50% 	{ background-position: -128px 	-192px; }
+			75% 	{ background-position: -192px 	-192px; }
+			100% 	{ background-position: 0 		-192px; }
+		}
+		@-webkit-keyframes andarEsquerda {
+			0% 		{ background-position: 0 		-96px; }
+			25% 	{ background-position: -64px 	-96px; }
+			50% 	{ background-position: -128px 	-96px; }
+			75% 	{ background-position: -192px 	-96px; }
+			100% 	{ background-position: 0 		-96px; }
+		}
+		@-webkit-keyframes andarCima {
+			0% 		{ background-position: 0 		-288px; }
+			25% 	{ background-position: -64px 	-288px; }
+			50% 	{ background-position: -128px 	-288px; }
+			75% 	{ background-position: -192px 	-288px; }
+			100% 	{ background-position: 0 		-288px; }
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="boneco andarBaixo"></div>
+
+	<script src="jquery.js"></script>
+	<script>
+		$(window).on("keydown keyup", function(event){
+			var left, top;
+
+			$(".boneco")
+				.removeClass("andarEsquerda")
+				.removeClass("andarCima")
+				.removeClass("andarDireita")
+				.removeClass("andarBaixo");
+
+			if(event.type == "keydown") {
+				if(event.keyCode == "37") {
+
+					left = $(".boneco")
+								.addClass('andarEsquerda')
+								.css("left")
+								.split(".")[0];
+
+					left = parseInt(left) - 10;
+
+					if(left <= 0) {
+						left = 0;
+					}
+
+					$(".boneco").css("left", left+"px");
+
+				}
+				if(event.keyCode == "38") {
+					top = $(".boneco")
+								.addClass('andarCima')
+								.css("top")
+								.split(".")[0];
+
+					top = parseInt(top) - 10;
+					if(top <= 0) {
+						top = 0;
+					}
+					$(".boneco").css("top", top+"px");
+					
+				}
+				if(event.keyCode == "39") {
+
+
+					left = $(".boneco")
+								.addClass('andarDireita')
+								.css("left")
+								.split(".")[0];
+
+					left = parseInt(left) + 10;
+
+
+					if(left <= $(window).width()-64) {
+						$(".boneco").css("left", left+"px");
+					}
+
+
+				}
+				if(event.keyCode == "40") {
+					top = $(".boneco")
+								.addClass('andarBaixo')
+								.css("top")
+								.split(".")[0];
+
+					top = parseInt(top) + 10;
+
+					if(top <= $(window).height()-96) {
+						$(".boneco").css("top", top+"px");
+					}
+				}
+			}
+			
+		})
+	</script>
+</body>
+</html>

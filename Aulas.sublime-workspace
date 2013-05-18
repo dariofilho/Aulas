@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"ease-in",
+				"ease-in-out"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"barra",
+				"barraEq5"
+			],
+			[
+				"equalizador",
+				"equalizador1"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"caixa",
+				"caixa4"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"stag",
+				"stage-800x450"
+			],
+			[
 				"m",
 				"margin-bottom"
 			],
@@ -12,16 +56,8 @@
 				"header"
 			],
 			[
-				"ma",
-				"margin-left"
-			],
-			[
 				"me",
 				"menu1"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"background",
@@ -50,10 +86,6 @@
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"tex",
@@ -482,38 +514,6 @@
 			[
 				"text",
 				"text-indent"
-			],
-			[
-				"border-co",
-				"border-color"
-			],
-			[
-				"mes",
-				"mesNumero"
-			],
-			[
-				"mese",
-				"mesesDoAnoArray"
-			],
-			[
-				"es",
-				"estadosDoBrasil"
-			],
-			[
-				"esta",
-				"estado"
-			],
-			[
-				"nota",
-				"nota3"
-			],
-			[
-				"po",
-				"propriedade"
-			],
-			[
-				"va",
-				"varTeste"
 			]
 		]
 	},
@@ -568,6 +568,14 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadores.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadoresLimpo.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadore5.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/circular.html",
+		"/Users/denniscalazans/Sites/Aulas/css/exercicios/caixas.html",
+		"/Users/denniscalazans/Sites/Aulas/css/transform/rotate.html",
+		"/Users/denniscalazans/Sites/Aulas/css/transform/scale.html",
 		"/Users/denniscalazans/Sites/Aulas/css/layouts/liquido_2colunas_menuBoth.html",
 		"/Users/denniscalazans/Sites/Aulas/css/layouts/fixo_1coluna_absoluto.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/slider2.html",
@@ -687,15 +695,7 @@
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Avo.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pai.class.php",
 		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index2.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Filho.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pessoa.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Automovel.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Carro.class.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/js/APP.Camera.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/mascaraVirtual/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/index.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/hotOrNot/js/APP.Voto.js"
+		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Filho.class.php"
 	],
 	"find":
 	{
@@ -715,6 +715,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			" \n \n{ \n				backg",
+			" \n \n				",
+			"\n			10% { \n				background-position: -280px 0;\n			}",
 			"<span>MSG</span>",
 			"<span>MSG</span",
 			"APP",
@@ -788,11 +791,13 @@
 			"capa"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"{ \n backg",
+			" ",
 			"",
 			"App",
 			"div",

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<style>
+
+
+		.titulo {
+			color: red;
+		}
+
+		.boneco {
+			height: 150px;
+			width: 70px;
+		}
+
+		.arvore {
+			height: 200px;
+			width: 30px;
+		}
+		#arvore1 {
+			background-color: green;
+			z-index: 1;
+			top: 30px;
+			left: 30px;
+		}
+
+		#boneco1 {
+			background-color: red;
+			z-index: 2;
+		}
+		#boneco2 {
+			background-color: yellow;
+			z-index: 0;
+			top: 60px;
+			left: 40px;
+		}
+
+		.boneco, .arvore {
+			position: fixed;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="arvore" id="arvore1"></div>
+	<div class="boneco" id="boneco1"></div>
+	<div class="boneco" id="boneco2"></div>
+
+	
+</body>
+</html>

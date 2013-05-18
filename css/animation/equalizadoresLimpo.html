@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<style>
+
+	
+	.equalizador {
+		width: 400px;
+		height: 200px;
+		border: 1px solid black;
+		position: relative;
+		background-color: black;
+	}
+
+	.equalizador .barra {
+		width: 80px;
+		-webkit-animation-name: animacaoBarra;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-timing-function: ease;
+
+
+		background-color: red;
+		position: absolute;
+		bottom: 0;
+	} 
+
+	.equalizador .barra1 {
+		left: 0px;
+		background-color: red;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-timing-function: steps(5, start);
+	}
+	.equalizador .barra2 {
+		left: 80px;
+		background-color: green;
+		-webkit-animation-duration: 0.7s;
+		-webkit-animation-timing-function: ease-in;
+	}
+	.equalizador .barra3 {
+		left: 160px;
+		background-color: blue;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-timing-function: linear;
+	}
+	.equalizador .barra4 {
+		left: 240px;
+		background-color: yellow;
+		-webkit-animation-duration: 0.4s;
+		-webkit-animation-timing-function: ease-out;
+	}
+	.equalizador .barra5 {
+		left: 320px;
+		background-color: pink;
+		-webkit-animation-duration: 0.6s;
+		-webkit-animation-timing-function: ease-in-out;
+	}
+
+	@-webkit-keyframes animacaoBarra {
+		from {
+			height: 0;
+		}
+		to {
+			height: 100%;
+		}
+	}
+
+
+	#eq1 {
+		-webkit-transform: rotate(180deg);
+	} 
+
+	#eq2 {
+		-webkit-transform: scaleY(-1);
+	} 
+
+	</style>
+</head>
+<body>
+	
+	
+	<div class="equalizador" id="eq1">
+		<div class="barra barra1"></div>
+		<div class="barra barra2"></div>
+		<div class="barra barra3"></div>
+		<div class="barra barra4"></div>
+		<div class="barra barra5"></div>
+	</div>
+	
+	<div class="equalizador" id="eq2">
+		<div class="barra barra1"></div>
+		<div class="barra barra2"></div>
+		<div class="barra barra3"></div>
+		<div class="barra barra4"></div>
+		<div class="barra barra5"></div>
+	</div>
+	
+	<div class="equalizador" id="eq3">
+		<div class="barra barra1"></div>
+		<div class="barra barra2"></div>
+		<div class="barra barra3"></div>
+		<div class="barra barra4"></div>
+		<div class="barra barra5"></div>
+	</div>
+	
+	<div class="equalizador" id="eq4">
+		<div class="barra barra1"></div>
+		<div class="barra barra2"></div>
+		<div class="barra barra3"></div>
+		<div class="barra barra4"></div>
+		<div class="barra barra5"></div>
+	</div>
+	
+	<div class="equalizador" id="eq5">
+		<div class="barra barra1"></div>
+		<div class="barra barra2"></div>
+		<div class="barra barra3"></div>
+		<div class="barra barra4"></div>
+		<div class="barra barra5"></div>
+	</div>
+
+</body>
+</html>

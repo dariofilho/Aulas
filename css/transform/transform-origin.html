@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS - Position - Static</title>
+	<style>
+	body {
+		margin: 1em;
+		font-family: Tahoma;
+		font-size: 15px;
+		text-align: center;
+	}
+	p {
+		margin: 0;
+		background-color: #ccc;
+	}
+	.caixa {
+		width: 100px;
+		height: 100px;
+		border-color: 1px solid black;
+		line-height: 100px;
+		text-align: center;
+		font-size: 40px;
+		display: inline-block;
+		margin: 100px 0;
+	}
+
+	.caixa:nth-child(odd) {
+		background-color: red;
+	}
+	.caixa:nth-child(even) {
+		background-color: black;
+		color: white;
+	}
+
+	#caixa1,#caixa2, #caixa3, #caixa4, #caixa5  {
+		-webkit-animation: girarZ 1s infinite linear;
+	}
+
+	#caixa1, #caixa6, #caixa11, #caixa16 {
+		-webkit-transform-origin: top left;
+	}
+	#caixa2, #caixa7, #caixa12, #caixa17 {
+		-webkit-transform-origin: top right;
+	}
+	#caixa3, #caixa8, #caixa13, #caixa10, #caixa18 {
+		-webkit-transform-origin: center center;
+	}
+	#caixa4, #caixa9, #caixa14, #caixa19 {
+		-webkit-transform-origin: bottom left;
+	}
+	#caixa5, #caixa10, #caixa15, #caixa20 {
+		-webkit-transform-origin: bottom right;
+	}
+
+
+	#caixa6,#caixa7,#caixa8,#caixa9,#caixa10 {
+		-webkit-animation: girarY 1s infinite linear;
+	}
+
+
+	#caixa11, #caixa12, #caixa13, #caixa14, #caixa15  {
+		-webkit-animation: girarX 1s infinite linear;
+	}
+
+
+	#caixa16, #caixa17, #caixa18, #caixa19, #caixa20  {
+		-webkit-animation: pulsar 1s infinite linear alternate;
+	}
+
+
+
+
+	#caixa21, #caixa22 {
+		-webkit-animation: skewX 1s infinite linear alternate;
+	}
+	#caixa24, #caixa25 {
+		-webkit-animation: skewY 1s infinite linear alternate;
+	}
+
+	#caixa23 {
+		-webkit-animation: skew 1s infinite linear alternate;
+	}
+
+
+	
+	@-webkit-keyframes pulsar {
+		from {
+			-webkit-transform: scale(1);
+		}
+		to {
+			-webkit-transform: scale(1.5);
+		}
+	}
+	
+	@-webkit-keyframes skewX {
+		from {
+			-webkit-transform: skewX(-45deg);
+		}
+		to {
+			-webkit-transform: skewX(45deg);
+		}
+	}
+	
+	@-webkit-keyframes skewY {
+		from {
+			-webkit-transform: skewY(-45deg);
+		}
+		to {
+			-webkit-transform: skewY(45deg);
+		}
+	}
+	
+	@-webkit-keyframes skew {
+		from {
+			-webkit-transform: skew(-45deg, -45deg);
+		}
+		to {
+			-webkit-transform: skew(45deg, 45deg);
+		}
+	}
+	
+	@-webkit-keyframes girarZ {
+		from {
+			-webkit-transform: rotateZ(0deg);
+		}
+		to {
+			-webkit-transform: rotateZ(360deg);
+		}
+	}
+	@-webkit-keyframes girarX {
+		from {
+			-webkit-transform: rotateX(0deg);
+		}
+		to {
+			-webkit-transform: rotateX(360deg);
+		}
+	}
+	@-webkit-keyframes girarY {
+		from {
+			-webkit-transform: rotateY(0deg);
+		}
+		to {
+			-webkit-transform: rotateY(360deg);
+		}
+	}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="caixa" id="caixa1">1</div>
+	<div class="caixa" id="caixa2">2</div>
+	<div class="caixa" id="caixa3">3</div>
+	<div class="caixa" id="caixa4">4</div>
+	<div class="caixa" id="caixa5">5</div>
+	<div class="caixa" id="caixa6">6</div>
+	<div class="caixa" id="caixa7">7</div>
+	<div class="caixa" id="caixa8">8</div>
+	<div class="caixa" id="caixa9">9</div>
+	<div class="caixa" id="caixa10">10</div>
+	<div class="caixa" id="caixa11">11</div>
+	<div class="caixa" id="caixa12">12</div>
+	<div class="caixa" id="caixa13">13</div>
+	<div class="caixa" id="caixa14">14</div>
+	<div class="caixa" id="caixa15">15</div>
+	<div class="caixa" id="caixa16">16</div>
+	<div class="caixa" id="caixa17">17</div>
+	<div class="caixa" id="caixa18">18</div>
+	<div class="caixa" id="caixa19">19</div>
+	<div class="caixa" id="caixa20">20</div>
+	<div class="caixa" id="caixa21">21</div>
+	<div class="caixa" id="caixa22">22</div>
+	<div class="caixa" id="caixa23">23</div>
+	<div class="caixa" id="caixa24">24</div>
+	<div class="caixa" id="caixa25">25</div>
+	<div class="caixa" id="caixa26">26</div>
+	<div class="caixa" id="caixa27">27</div>
+	<div class="caixa" id="caixa28">28</div>
+	<div class="caixa" id="caixa29">29</div>
+	<div class="caixa" id="caixa30">30</div>
+
+
+
+
+
+</body>
+</html>

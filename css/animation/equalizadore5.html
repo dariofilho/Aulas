@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		.equalizador {
+			width: 400px;
+			height: 200px;
+			background-color: black;
+			position: absolute;
+		}
+
+		.barra {
+			width: 80px;
+			background-color: red;
+			position: absolute;
+			height: 50%;
+			top: 50%;
+			margin-top: -10%;
+			-webkit-animation: barra 1s infinite alternate;
+		}
+
+
+		@-webkit-keyframes barra {
+			from {
+				height: 0%;
+				margin-top: 0%;
+			}
+			to {
+				height: 200px;
+				margin-top: -100px;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="equalizador">
+		<div class="barra"></div>
+	</div>
+	
+</body>
+</html>

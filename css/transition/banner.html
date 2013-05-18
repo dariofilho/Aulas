@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	#banner_espaco { 
+		width: 468px;
+		height: 50px;
+		border: 10px solid red;
+		text-align: center;
+		line-height: 50px;
+		color: black;
+
+	}
+
+	#banner {
+		width: 468px;
+		height: 50px;
+		position: relative;
+		display: none;
+		top: 10px;
+		border: 10px solid red;
+
+		-webkit-transition-property: all;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-timing-function: ease-out;
+
+	}
+
+	#banner_espaco:hover #banner {
+		top: 0;
+		display: block;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="banner_espaco">
+		File
+		<div id="banner">New File</div>
+	</div>
+
+	<h1>Meu site</h1>
+	
+</body>
+</html>
