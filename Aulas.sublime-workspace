@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"ease-in",
-				"ease-in-out"
+				"mar",
+				"margin-top"
 			],
 			[
-				"mar",
-				"margin-left"
+				"bac",
+				"background-position"
+			],
+			[
+				"ease-in",
+				"ease-in-out"
 			],
 			[
 				"co",
@@ -30,10 +34,6 @@
 			[
 				"equalizador",
 				"equalizador1"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"caixa",
@@ -568,6 +568,14 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_hasteamento.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/02 tiposDeDados/tipos.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/inclusaoDinamica.html",
+		"/Users/denniscalazans/Sites/Aulas/css/animation/sprite2/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/incorporado.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
 		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadores.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadoresLimpo.html",
@@ -687,15 +695,7 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/getRawPostData.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/js/APP.Raw.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/library/index.html",
-		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/miniprojeto/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/mapas/teste.html",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/CalculadoraCientifica.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraCientifica.php",
-		"/Users/denniscalazans/Sites/Aulas/php/classes/testeCalculadoraProcedural.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Avo.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Pai.class.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/index2.php",
-		"/Users/denniscalazans/Sites/Aulas/php/exercicios/paw/Filho.class.php"
+		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/miniprojeto/index.html"
 	],
 	"find":
 	{
@@ -882,6 +882,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 318.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true
 }

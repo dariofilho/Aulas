@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#caixa {
+		background-color: red;
+		padding: 20px;
+		margin: 1em;
+	}
+
+
+	#lista li {
+		cursor: pointer;
+	}
+
+	#lista li:hover {
+		background-color: #ccc;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="caixa">
+		<button id="meuBotao">Clique aqui</button>
+		<ul id="lista"></ul>
+	</div>
+
+
+<script>
+	var i = 0;
+
+
+	function reagirAoClique(event) {
+		//console.log(i++,event.eventPhase, event.currentTarget, event.target);
+
+		var li = document.createElement("li");
+			li.innerHTML = "Ítem "+(++i);
+
+		var ul = document.getElementById("lista");
+			ul.appendChild(li);
+	}
+
+	function cliqueNaLista(event) {
+
+		if(event.target.nodeName == "LI") {
+			event.currentTarget.removeChild(event.target);
+		}
+	}
+
+	var ul = document.getElementById("lista");
+		ul.addEventListener("click", cliqueNaLista, true);
+
+	//Se clicar no body, executa a funcão reagirAoClique
+	//document.body.addEventListener("click", reagirAoClique, false);
+
+	//Se clicar no #meuBotao, executa a funcão reagirAoClique
+	var meuBotao = document.getElementById("meuBotao");
+	meuBotao.addEventListener("click", reagirAoClique, true);
+</script>
+
+
+</body>
+</html>

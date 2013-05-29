@@ -4,30 +4,27 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<script>
-	//Escopo Global
-	
-	//Crie uma variável neste escopo
-	var nome = "Aquiles";
-	//O escopo atual é o escopo global
-	//Logo, nome é uma variável global
-	
-	//Crie uma variável no escopo global
-	window.sobrenome = "Rodrigues";
-	
-	idade = 40;
-	//window.idade = 40
-	
-	function falarNome() {
-		var nome = "Tauana";
-		alert(nome);
-		alert(this.nome);
-	}
-	
-	
-	
-	
+	//Escopo Global é Window
+	//Window é o escopo global
 
-	
+	var nome;
+		nome = "Maria";
+
+		idade = 35;
+
+	function escrevaNome() {
+		console.debug(nome);
+	}
+
+	function escrevaSobrenome() {
+		console.debug(sobrenome);
+	}
+
+	function criarSobrenome() {
+		sobrenome = "Silva";
+	}
+
+
 	</script>
 </head>
 <body>
