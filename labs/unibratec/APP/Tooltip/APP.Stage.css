@@ -1,0 +1,72 @@
+.stage {
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.stage-debug {
+	background-color: #ccc;
+}
+
+.stage-debug .stage {
+	overflow: visible;
+}
+
+.stage-centralizar {
+	top: 50%;
+	left: 50%;
+	position: fixed;
+}
+
+/***
+ * Stage 800 x 450
+ **/
+.stage-800x450 {
+	width: 800px;
+	height: 450px;
+}
+.stage-centralizar.stage-800x450 {
+	margin-left: -400px;
+	margin-top: -225px;
+}
+
+
+/***
+ * Stage 790 x 533
+ **/
+.stage-790x533 {
+	width: 790px;
+	height: 533px;
+}
+.stage-centralizar.stage-790x533 {
+	margin-left: -395px;
+	margin-top: -266px;
+}
+
+/***
+ * Stage 790 x 480
+ **/
+.stage-790x480 {
+	width: 790px;
+	height: 480px;
+}
+.stage-centralizar.stage-790x480 {
+	margin-left: -395px;
+	margin-top: -240px;
+}
+.stage {
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+}
+.domloaded .stage {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+}

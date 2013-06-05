@@ -1,0 +1,13 @@
+.tooltip:hover::before {
+  content: attr(data-tip);
+  position: absolute;
+  border: 10px double black;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  width: 310px;
+  top: 1.5em;
+  font-weight: normal;
+  left: 0;
+  padding: 10px;
+}

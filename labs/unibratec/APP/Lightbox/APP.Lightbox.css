@@ -1,0 +1,24 @@
+.lightbox {
+  width: 100%;
+  height: 100%;
+}
+.lightbox .pelicula {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: alpha(opacity=50);
+}
+.lightbox .box {
+  top: 50%;
+  left: 50%;
+  margin-left: -286px;
+  margin-top: -92px;
+  width: 572px;
+  height: 184px;
+  background-color: #F7F3E8;
+}

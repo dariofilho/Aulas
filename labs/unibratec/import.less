@@ -1,0 +1,52 @@
+@import "elements.less";
+
+@imageURL: ~"../fonte/imagens";
+
+.animation(@value) {
+  -webkit-animation: @value;
+  -moz-animation: @value;
+  -o-animation: @value;
+  -ms-animation: @value;
+  animation: @value;
+}
+.animation-name(@value) {
+  -webkit-animation-name: @value;
+  -moz-animation-name: @value;
+  -o-animation-name: @value;
+  -ms-animation-name: @value;
+  animation-name: @value;
+}
+.transform-origin(@coordenadas) {
+	-moz-transform-origin: @coordenadas;
+	-webkit-transform-origin: @coordenadas;
+	-o-transform-origin: @coordenadas;
+	-ms-transform-origin: @coordenadas;
+	transform-origin: @coordenadas;
+}
+
+.transition-property(@propriedade) { 
+	-moz-transition-property: ~"-moz-@{propriedade}";
+	-webkit-transition-property: ~"-webkit-@{propriedade}";
+	-o-transition-property: ~"-o-@{propriedade}";
+	-ms-transition-property: ~"-o-@{propriedade}";
+	transition-property: @propriedade;
+}
+
+.wh(@width:auto,@height: auto, @unidade:px) {
+	width: ~"@{width}@{unidade}";
+	height: ~"@{height}@{unidade}";
+}
+.lt(@left:auto,@top: auto, @unidade:px) {
+	left: ~"@{left}@{unidade}";
+	top: ~"@{top}@{unidade}";
+}
+.mLmT(@left:0 ,@top: 0, @unidade:px) {
+	margin-left: ~"@{left}@{unidade}";
+	margin-top: ~"@{top}@{unidade}";
+}
+.bpCenario(@l, @t) {
+	@lFinal: ((@l) + 394) * -1;
+	@tFinal: (@t) + 293;
+	
+	-background-position: ~"@{lFinal}px @{tFinal}px";
+}
