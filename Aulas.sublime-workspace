@@ -572,6 +572,12 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/js/vendor/jquery-1.10.1.min.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/preprojeto/js/main.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/preprojeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/cache.appcache",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/index.php",
 		"/Users/denniscalazans/Sites/Aulas/webapps/aula/index.php",
@@ -580,7 +586,6 @@
 		"/Users/denniscalazans/Sites/Aulas/html5/cache/pro/cache.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/cache/pro/teste.txt",
 		"/Users/denniscalazans/Sites/Aulas/webapps/aula/cache.appcache",
-		"/Users/denniscalazans/Sites/Aulas/html5/cache/index.html",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/.htaccess",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/roteiro",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/css/fonts.css",
@@ -694,12 +699,7 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_personalizando/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_pernsonalizando/index.html",
 		"/Users/denniscalazans/Sites/Aulas/css/position/galeria.php",
-		"/Users/denniscalazans/Sites/Aulas/css/estilopadrao/galeria.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/forca.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/eventos/mouselogger.html",
-		"/Users/denniscalazans/Sites/Aulas/preprojeto/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/padaria/index.html",
-		"/Volumes/JJ CARLOS/exe01/exe01.html"
+		"/Users/denniscalazans/Sites/Aulas/css/estilopadrao/galeria.html"
 	],
 	"find":
 	{
@@ -719,6 +719,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"reload",
 			" \n \n{ \n				backg",
 			" \n \n				",
 			"\n			10% { \n				background-position: -280px 0;\n			}",
