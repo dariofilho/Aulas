@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	body {
+		-webkit-perspective: 600;
+
+	}
+	.caixa {
+		width: 150px;
+		height: 150px;
+
+		margin: 100px auto;
+
+		background-color: red;
+		text-align: center;
+		line-height: 150px;
+		font-size: 2.5em;
+		font-family: Tahoma;
+		color: white;
+
+		-webkit-backface-visibility:hidden;
+		-webkit-animation-duration: 3s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-transform-origin: 150px;
+
+	}
+
+	#caixa1 {
+
+		-webkit-animation-name: animacao1;
+	}
+
+	#caixa2 {
+		-webkit-animation-name: animacao2;
+	}
+
+	@-webkit-keyframes animacao1 {
+		from {
+			-webkit-transform: rotateY(0deg);
+			background-color: red;
+		}
+		to {
+			-webkit-transform: rotateY(360deg); 
+			background-color: black;
+		}
+	}
+
+	@-webkit-keyframes animacao2 {
+		from {
+			-webkit-transform: rotateY(-180deg);
+			background-color: red;
+		}
+		to {
+			-webkit-transform: rotateY(180deg); 
+			background-color: black;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="caixa" id="caixa1">Caixa1</div>
+	<div class="caixa" id="caixa2">Caixa2</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# Versão 20
+
+CACHE:
+#/index.html
+css/fonts.css
+fonts/droidSans400.woff
+fonts/droidSans700.woff
+
+NETWORK:
+
+FALLBACK:
+imagens/relogio.jpg imagens/relogio-cache.jpg

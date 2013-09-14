@@ -1,0 +1,11 @@
+#caixa {
+  background-color: #ff0000;
+  width: 150px;
+  height: 75px;
+}
+#caixa:hover {
+  background-color: black;
+}
+#caixa:hover.selecionada {
+  background-color: blue;
+}

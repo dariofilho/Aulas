@@ -4,24 +4,80 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-top"
+				"op",
+				"opacity"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fnt",
+				"font-weight"
 			],
 			[
 				"bac",
-				"background-position"
-			],
-			[
-				"ease-in",
-				"ease-in-out"
-			],
-			[
-				"co",
-				"color"
+				"background-color"
 			],
 			[
 				"ma",
 				"margin-top"
+			],
+			[
+				"co",
+				"coracaoRubroNegro"
+			],
+			[
+				"cor",
+				"corDosOlhos"
+			],
+			[
+				"pro",
+				"produto1"
+			],
+			[
+				"prou",
+				"produtos"
+			],
+			[
+				"minha",
+				"MinhaClasse"
+			],
+			[
+				"Carro",
+				"CarroConversivel"
+			],
+			[
+				"meu",
+				"meuGato"
+			],
+			[
+				"exe",
+				"executarMetodoPrivado1"
+			],
+			[
+				"Cl",
+				"ClasseB"
+			],
+			[
+				"meo",
+				"metodoPrivado"
+			],
+			[
+				"inter",
+				"interfaceMetodoPrivado"
+			],
+			[
+				"me",
+				"metodoPrivado"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ease-in",
+				"ease-in-out"
 			],
 			[
 				"ov",
@@ -56,10 +112,6 @@
 				"header"
 			],
 			[
-				"me",
-				"menu1"
-			],
-			[
 				"background",
 				"background-color"
 			],
@@ -70,10 +122,6 @@
 			[
 				"con",
 				"container1"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"inlin",
@@ -466,80 +514,25 @@
 			[
 				"im",
 				"imc"
-			],
-			[
-				"margin-",
-				"margin-top"
-			],
-			[
-				"ab",
-				"absolute"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"campo",
-				"camposDeErro"
-			],
-			[
-				"reme",
-				"remetenteEmail"
-			],
-			[
-				"des",
-				"destinararioEmail"
-			],
-			[
-				"destin",
-				"destinararioNome"
-			],
-			[
-				"re",
-				"remetenteNome"
-			],
-			[
-				"dest",
-				"destinararioNome"
-			],
-			[
-				"text",
-				"text-indent"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "<!doctype html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Document</title>\n\n\n</head>\n<body>\n\n\n		<div class=\"cena\" id=\"cena1\">\n			<h1>Você está offline no mercado de trabalho?</h1>\n		</div>\n		<div class=\"cena\" id=\"cena2\">\n			<div class=\"slogan\">\n				\n			</div>\n			<div class=\"trabalhando\">\n				\n			</div>\n		</div>\n		<div class=\"cena\" id=\"cena3\">\n			<h1>Cursos de:</h1>\n			<ul>\n				<li>Design Gráfico</li>\n				<li>Análise de Desenvolvimento de Sistemas</li>\n				<li>Redes de computadores</li>\n			</ul>\n		</div>\n		<div class=\"cena\" id=\"cena4\">\n			<div class=\"mapa\"></div>\n			<div class=\"endereco\"></div>\n		</div>\n		<div class=\"cena\" id=\"cena5\">\n			<div class=\"logo\"></div>\n		</div>\n		\n</body>\n</html>",
-			"file": "labs/unibratec/index.html",
-			"file_size": 121,
-			"file_write_time": 1370391658000000,
-			"settings":
-			{
-				"buffer_size": 711,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 287.0,
 		"selected_items":
 		[
 			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
 				"pack",
-				"Package Control: Upgrade Package"
+				"Package Control: Remove Package"
 			],
 			[
 				"pac",
@@ -562,7 +555,7 @@
 				"Snippet: DOCTYPE HTML"
 			]
 		],
-		"width": 575.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -579,14 +572,56 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/cache.appcache",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/index.php",
+		"/Users/denniscalazans/Sites/Aulas/webapps/aula/index.php",
+		"/Users/denniscalazans/Sites/Aulas/webapps/aula/teste2.txt",
+		"/Users/denniscalazans/Sites/Aulas/webapps/aula/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/pro/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/pro/teste.txt",
+		"/Users/denniscalazans/Sites/Aulas/webapps/aula/cache.appcache",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/.htaccess",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/roteiro",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/css/fonts.css",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/fonts/droidSans700.woff",
+		"/Users/denniscalazans/Sites/Aulas/webapps/index.php",
+		"/Users/denniscalazans/Sites/Aulas/webapp/index.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.appcache",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/.htaccess",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.manifest",
+		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/less/estilo.css",
+		"/Users/denniscalazans/Sites/Aulas/html5/offline/detection.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/webstorage/localstorage/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/less/estilo.less",
+		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/index.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_hasteamento.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/dom/documentoEmBranco.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/inclusaoMultiplaTradicional.html",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelayRecomendado.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/less/index.html",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Associacao.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Polimorfismo2.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Polimorfismo.php",
+		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step_example.html",
+		"/Users/denniscalazans/Sites/Aulas/css/old/animation/fill-mode.html",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Animal.class.php",
+		"/Users/denniscalazans/Sites/Aulas/php/classes/Calculo2.php",
+		"/Users/denniscalazans/Sites/Aulas/labs/unibratec/index.html",
+		"/Users/denniscalazans/Sites/Aulas/labs/unibratec/estilo.less",
+		"/Users/denniscalazans/Sites/MidiasEducativas/HIST_HGB2_12/dev/Dados cena 2",
+		"/Users/denniscalazans/Sites/Aulas/labs/unibratec/estilo.css",
 		"/Users/denniscalazans/Sites/Aulas/javascript/02 tiposDeDados/tipos.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/inclusaoDinamica.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/sprite2/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/incorporado.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.js",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externo.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
 		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadores.html",
 		"/Users/denniscalazans/Sites/Aulas/css/animation/equalizadoresLimpo.html",
@@ -603,7 +638,6 @@
 		"/Users/denniscalazans/Sites/MidiasEducativas/.htaccess",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/js/App.combined.js",
 		"/Users/denniscalazans/Sites/Aulas/.htaccess",
-		"/Users/denniscalazans/Sites/Aulas/css/old/animation/step_example.html",
 		"/Users/denniscalazans/Sites/Aulas/css/display/bloco_e_linha2.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/basico/prompt.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/placeholder.html",
@@ -621,7 +655,6 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/singleton/js/App.Palavras.js",
 		"/Users/denniscalazans/Sites/Aulas/labs/singleton/data/info.php",
-		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/04 oo/instroducao.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/singleton/scripts/App.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/video/videojs.html",
@@ -649,7 +682,6 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexRefatorado.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexResposta.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/index.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.MySQL.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/curtirfeed.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/curtirTagDB.php",
@@ -667,46 +699,7 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/eventos/mouselogger.html",
 		"/Users/denniscalazans/Sites/Aulas/preprojeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/padaria/index.html",
-		"/Volumes/JJ CARLOS/exe01/exe01.html",
-		"/Users/denniscalazans/Sites/Aulas/preprojeto/biblioteca/css/reset.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/logar.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/land.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/logar.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/teste.php",
-		"/Users/denniscalazans/Sites/notasrm/js/bookmarklet.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/rm/script.js",
-		"/Users/denniscalazans/Sites/notasrm/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/rm/APP.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/calculadora/calculadora.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/salvar.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Camera.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/salvar2.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/library/js/APP.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/css/style.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/app.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/index.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Posicionamento.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/js/APP.Usuario.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/css/style2.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/library/css/reset.css",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/teste.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/4E10E42C-7FA1-454C-8BBB-D55A6439121C/salvar.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/postagem.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/33D435E7-5A87-4269-B4F3-793EC7C84B82/login.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/3DA36DD9-9FE4-4ABB-ADBE-BF895419A449/salvar.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/4E689AE9-F627-4425-98CC-2FD441B56369/index.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/old/index.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/D2CE07D9-2658-4D02-A872-EDB133F9AD80/APP.Camera.js",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/EB8F2F7F-9884-4C4A-9229-10667AD4880B/APP.Camera.js",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/C3557C4E-A24E-430A-8D5D-D365C2484641/login.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/facepicture/login.php",
-		"/Users/denniscalazans/Library/Caches/Cleanup At Startup/Transmit/9F138349-4A46-4D0E-BBF8-479FEBA24168/app.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/getRawPostData.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/js/APP.Raw.js",
-		"/Users/denniscalazans/Sites/Aulas/labs/rawPostData/library/index.html",
-		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/miniprojeto/index.html"
+		"/Volumes/JJ CARLOS/exe01/exe01.html"
 	],
 	"find":
 	{
@@ -802,7 +795,7 @@
 			"capa"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -832,35 +825,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "labs/unibratec/index.html",
-					"settings":
-					{
-						"buffer_size": 711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								695,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -920,6 +886,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true
 }

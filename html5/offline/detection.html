@@ -4,13 +4,29 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<script>
-		setInterval(function(){
-			var mensagem = (navigator.onLine) ? "O navegador está conectado à uma rede" : "O navegador está offLine";
-			console.debug(mensagem);
-		}, 500);
+		window.addEventListener("online", function() {
+			console.debug("fiquei onLine")
+		}, false);
+		window.addEventListener("offline", function() {
+			console.debug("fiquei OFFLINE")
+		}, false);
+
+
+		// setInterval(function(){
+		// 	var mensagem = (navigator.onLine) ? "O navegador está conectado à uma rede" : "O navegador está offLine";
+		// 	console.debug(mensagem);
+		// }, 500);
 	</script>
 </head>
 <body>
+
+	<ul>
+		<li class="offline"></li>
+		<li class="offline"></li>
+		<li class="online"></li>
+		<li class="online"></li>
+		<li class="online"></li>
+	</ul>
 
 </body>
 </html>

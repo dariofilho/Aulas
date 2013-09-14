@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		
+	
+	#coracao {
+		width: 50px;
+		height: 50px;
+		background-color: blue;
+
+		animation-delay: 0;
+		animation-play-state: running;
+		animation-name: andar;
+		animation-duration: 3000ms;
+		animation-iteration-count: infinite;
+		animation-fill-mode: both;
+		animation-direction: alternate;
+		animation-timing-function: ease-in;
+		position: relative;
+	}
+	#coracao:hover {
+		-webkit-animation-name: vibrar;
+		-webkit-animation-duration: 100ms;
+	}
+
+	@-webkit-keyframes andar {
+		from {
+			width: 100px;
+			height: 100px;
+			top: 0;
+			left: 0;
+			margin-left: 0;
+			position: fixed;
+		}
+		to {
+
+			width: 100px;
+				height: 100px;
+				top: 0;
+				left: 100%;
+				margin-left: -100px;
+				position: fixed;
+		
+	}
+
+	@-webkit-keyframes vibrar {
+		0% {
+			left: 3px;
+			top: -1px;
+		}
+		25% {
+			left: 2px;
+			top: 2px;
+		}
+		50% {
+			left: 5px;
+			top: 0px;
+		}
+		75% {
+			left: 0px;
+			top: 1px;
+		}
+		100% {
+			left: -3px;
+			top: -2px;
+		}
+	}
+
+
+	@-webkit-keyframes coracaoRubroNegro {
+		from {
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
+		to {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+	}
+
+	</style>
+</head>
+<body>
+
+<div id="coracao"></div>
+	
+</body>
+</html>

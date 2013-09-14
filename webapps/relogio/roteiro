@@ -1,0 +1,43 @@
+- CACHE
+- Já existe a alguns anos
+
+CACHE MANIFEST
+
+/index.html
+/imagens/logo.png
+/javascript/script.js
+/css/estilo.css
+
+
+<html manifest="demo.appcache">
+
+.htaccess
+AddType text/cache-manifest .appcache
+
+
+- O que não está no manifesto não é carregado
+- Seção NETWORK:
+
+- coringa *
+
+
+Seção FALLBACK:
+
+Detalhes:
+- O HTML é automaticamente inserido no CACHE
+- QueryString muda a requisição
+
+- A qualquer (De componente) erro 404 ou 500 o cache é descartado
+
+
+
+- JavaScript: window.applicationCache
+
+- Verificar a existência do objeto
+- todos os eventos (na pasta cache)
+
+- Atualiza somente quando o cache muda
+- Dica da versão
+- AppCache é outra camada de cache
+
+- Dica de verificar se houve alteração do cache

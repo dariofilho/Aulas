@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="caixa">Minha caixa</div>
+	<ul>
+		<li id="item1" data-registro="Dennis Calazans">Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+
+	<script>
+	var novoLi = document.createElement('li');
+		novoLi.textContent = "Novo item";
+		novoLi.style.color = "blue";
+
+	var ul = document.getElementsByTagName("ul")[0];
+
+		ul.appendChild(novoLi);
+
+
+
+	</script>
+	<script src="../../bibliotecas/jquery-2.0.3.min.js"></script>
+</body>
+</html>

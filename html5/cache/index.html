@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"  manifest="cache.appcache">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script>
+	/**
+	 * CONTROLE DE CACHE
+	 */
+	window.addEventListener('load', function(e) {
+		// Checa se um novo cache está disponível para o WebApp
+		window.applicationCache.addEventListener('updateready', function(e) {
+			if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+
+				//Faz o download do novo cache e remove o antigo
+				window.applicationCache.swapCache();
+				window.location.reload();
+			}
+		}, false)
+		
+	}, false);
+	</script>
+</head>
+<body>
+
+
+<script>	
+
+// Podemos detectar facilmente o suporte ao HTML 5 offline verificando a existência desse objeto.
+if ('applicationCache' in window) {
+
+    // AppCache disponível!
+
+} else {
+
+    // sinto muito!
+
+}
+
+//Primeiro evento disparado quando o browser detecta o atributo manifest no HTML é o checking. Ele indica que o browser está verficando o manifesto e se devemos instalar ou não.
+applicationCache.onchecking = function(){ /* ... */ }
+
+//Verificada a instalação, o browswer dispara o evento downloading, indicando que o download dos componentes do manifesto está começando.
+applicationCache.ondownloading = function(){ /* ... */ }
+
+//Conforme o download dos itens vai acontecendo, é disparado o evento progress. Esse evento é disparado várias vezes, uma pra cada item baixado.
+applicationCache.onprogress = function(){ /* ... */ }
+
+
+//No progress, posso até saber quantos arquivos têm no total e quantos já foram baixados, pra mostrar uma barra de progresso por exemplo
+applicationCache.onprogress = function(e){
+    log('Baixados' + e.loaded + ' de ' + e.total);
+}
+
+
+//No fim, quando o cache todo foi baixado e instalado, é disparado o evento cached.
+applicationCache.oncached = function(){ /* ... */ }
+
+//qualquer ponto do processo pode acontecer algum problema. Nesse caso, o evento error é disparado.
+applicationCache.onerror = function(){ /* ... */ }
+
+//São esses os eventos previstos durante a instalação do cache pela primeira vez. Você pode ouvi-los usando a sintaxe acima com "on', ou usar o addEventListener como em qualquer evento JS.
+
+// Esse objeto applicationCache ainda tem uma propriedade status que devolve como está o Application Cache. Mas ele não funciona no Firefox.
+applicationCache.status 
+   // 2 == CHECKING
+   // 3 == DOWNLOADING
+   // ...
+
+// Se não tiver atualização nenhuma—o manifesto não mudou—, é disparado um noupdate e tudo para aí.
+applicationCache.onnoupdate = function(){ /* ... */ }
+
+//A diferença é que, no final, como se trata de atualização, é lançado um updateready, pra você saber que existe uma versão nova cacheada.
+//Pronto, já conseguimos atualizar nossa aplicação.
+
+applicationCache.onupdateready = function(){ /* ... */ }
+
+// A aplicação pode forçar a verificação de updates quando quiser usando o método update.
+applicationCache.update();
+
+//Nesse caso, o navegador dispara o evento de checking, descobre que o manifesto não existe mais, apaga o cache e me avisa com um evento obsolete.
+applicationCache.onobsolete = function(){ /* ... */ }
+
+
+
+// após a instalação inicial
+applicationCache.oncached = function() {
+    document.cookie = 'offline=noupdate';
+}
+
+
+
+
+botaoInstalar.onclick = function(){
+    document.body.innerHTML 
+        += '<iframe src="instalar.html"></iframe>';
+
+/* instalar.html:
+<html manifest="apostila.appcache"></html>
+
+CACHE MANIFEST
+/apostila/
+
+ */
+}
+
+botaoAtualizar.onclick = function() {
+    document.cookie = '';
+    
+    // recarrega o iframe de instalação
+}
+
+
+// quero atualizar!
+botaoRemover.onclick = function() {
+    document.cookie = 'offline=remove';
+    // recarrega o iframe de instalação
+}
+
+</script>
+	
+</body>
+</html>

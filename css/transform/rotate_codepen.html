@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	body {
+		text-align: center;
+		margin: 0;
+	}
+	.caixa {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		margin: 50px auto;
+		line-height: 200px;
+		position: absolute;
+		-webkit-animation: girar 5s linear infinite;
+		-webkit-transform-origin: center center;
+
+	}
+
+	#caixa1 {
+		z-index: 2;
+	}
+	#caixa2 {
+		background-color: black;
+		top: 50px;
+		z-index: 1;
+	}
+	#caixa3 {
+		top: 100px;
+	}
+
+	@-webkit-keyframes girar {
+		from {
+			-webkit-transform: rotateX(0deg) perspective(600px);
+		}
+		to {
+			-webkit-transform: rotateX(360deg) perspective(600px);
+		}
+	}	
+	</style>
+</head>
+<body>
+	<div class="caixa" id="caixa1">Rotate 45deg</div>
+	<div class="caixa" id="caixa2">Rotate 45deg</div>
+	<div class="caixa" id="caixa3">Rotate 45deg</div>
+
+</body>
+</html>

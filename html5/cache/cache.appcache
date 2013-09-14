@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# Versão 1
+
+/index.html
+/imagens/logo.png
+/javascript/script.js
+/css/estilo.css
+
+NETWORK:
+http://www.google-analytics.com/ga.js
+arquivosDinamicos/*
+
+FALLBACK:
+/img/avatares/ /img/avatar-generico.png

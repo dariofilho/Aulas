@@ -1,0 +1,17 @@
+@corPrimaria: red;
+.retangulo(@t) {
+	@nt: @t/2;
+	width: ~"@{t}px";
+	height: @t/2px;
+}
+#caixa {
+	background-color: @corPrimaria;
+	.retangulo(150);
+	&:hover {
+		background-color: black;
+		&.selecionada {
+			background-color: blue;
+		}
+	}
+}
+
