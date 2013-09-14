@@ -3,30 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<script>
-		window.addEventListener("online", function() {
-			console.debug("fiquei onLine")
-		}, false);
-		window.addEventListener("offline", function() {
-			console.debug("fiquei OFFLINE")
-		}, false);
 
+	<style>
+	#offline {
+		font-size: 1.5em;
+		text-align: center;
+		color: black;
+		background-color: red;
+		position: fixed;
+		bottom: -30px;
+		height: 30px;
+		width: 100%;
+		left: 0;
+		-webkit-transition: all 500s ease-out;
+	}
+	#offline.exibindo {
+		bottom: 0;
+	}
 
-		// setInterval(function(){
-		// 	var mensagem = (navigator.onLine) ? "O navegador está conectado à uma rede" : "O navegador está offLine";
-		// 	console.debug(mensagem);
-		// }, 500);
-	</script>
+	</style>
 </head>
 <body>
 
-	<ul>
-		<li class="offline"></li>
-		<li class="offline"></li>
-		<li class="online"></li>
-		<li class="online"></li>
-		<li class="online"></li>
-	</ul>
 
+	<div id="offline" class="exibindo">O seu navegador não está conectado a uma rede.</div>
+	<script src="../../bibliotecas/jquery-2.0.3.min.js"></script>
+
+	<script>
+	$(window)
+		.on("online", function() {
+			$("#offline").removeClass('exibindo');
+		})
+
+		.on("offline", function() {
+			$("#offline").addClass('exibindo');
+		})
+	</script>
 </body>
 </html>
