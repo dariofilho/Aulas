@@ -15,7 +15,7 @@
 		height: 30px;
 		width: 100%;
 		left: 0;
-		-webkit-transition: all 500s ease-out;
+		-webkit-transition: all 500ms ease-out;
 	}
 	#offline.exibindo {
 		bottom: 0;
@@ -31,13 +31,19 @@
 
 	<script>
 	$(window)
-		.on("online", function() {
-			$("#offline").removeClass('exibindo');
-		})
+		.on("online offline", function() {
+			verificarStatus();
+		});
 
-		.on("offline", function() {
+	function verificarStatus() {
+		if(navigator.onLine) {
 			$("#offline").addClass('exibindo');
-		})
+		} else {
+			$("#offline").removeClass('exibindo');	
+		}
+	}
+	verificarStatus();
+
 	</script>
 </body>
 </html>

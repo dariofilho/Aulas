@@ -13,3 +13,6 @@ $("#entrada")
 
 $("#resultado")
 	.val(localStorage.getItem('resultado'));
+
+
+

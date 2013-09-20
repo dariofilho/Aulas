@@ -39,6 +39,7 @@ foreach(new RecursiveIteratorIterator($dir) as $file) {
 
 echo 'CACHE MANIFEST';
 
+
 foreach($cache as $file): echo $file; endforeach;
 foreach($network as $file): echo $file;	endforeach;
 

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	
+	.indicador {
+		width: 100px;
+		height: 100px;
+		background-color: gray;
+
+
+		/*http://cubic-bezier.com*/
+/*
+		-webkit-transition: 
+			border-radius 500ms cubic-bezier(.75,.94,.91,.02) 0,
+			height 1s linear 500ms;
+*/
+		-webkit-transition: all 1s;
+	}
+
+	.indicador.online {
+		background-color: green;
+		border-radius: 100px;
+		width: 200px;
+		height: 200px;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="indicador1" class="indicador"></div>
+	<script src="../../bibliotecas/jquery-2.0.3.min.js"></script>
+
+	<script>
+	$(window)
+		.on("online offline", function() {
+			verificarStatus();
+		});
+
+	function verificarStatus() {
+		if(navigator.onLine) {
+			$("#indicador1").addClass('online');
+		} else {
+			$("#indicador1").removeClass('online');	
+		}
+	}
+
+	verificarStatus();
+	</script>
+</body>
+</html>
