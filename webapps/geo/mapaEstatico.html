@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<button id="botaoAtualizarMapa">Atualizar</button><br>
+<img src="http://maps.googleapis.com/maps/api/staticmap?center=-8.0941058,-34.9123519&zoom=13&size=300x300&sensor=false" alt="" id="mapa">
+<script src="../../bibliotecas/jquery-1.10.2.min.js"></script>
+<script>
+
+function localizar() {
+	navigator.geolocation.getCurrentPosition(lerCoordenadas);
+}
+
+function lerCoordenadas(resposta) {
+	var latitude = resposta.coords.latitude;
+	var longitude = resposta.coords.longitude;
+
+	atualizarImagem(latitude, longitude);
+}
+
+function atualizarImagem(lat, lang) {
+	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=15&size=300x300&sensor=false&markers=color:red%7Clabel:C%7CLAT,LONG";
+		url = url.replace(/LAT/g, lat);
+		url = url.replace(/LONG/g, lang);
+
+	$("#mapa").attr('src', url);
+	//var imagem = document.getElementById('mapa');
+	// 	  imagem.src = url;
+}
+
+navigator.geolocation.watchPosition(lerCoordenadas);
+$("#botaoAtualizarMapa").on('click', localizar);
+
+// var botaoAtualizarMapa = document.getElementById('botaoAtualizarMapa');
+
+// 	botaoAtualizarMapa.addEventListener('click', localizar, false);
+
+
+/*
+
+-8.008, -34.859
+38.80, 35.52
+52.3, 18.7
+55.4, -105
+-34.880416839310016, -8.041415278699754
+ */
+</script>
+</body>
+</html>
