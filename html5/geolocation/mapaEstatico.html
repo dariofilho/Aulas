@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<button id="botaoAtualizarMapa">Atualizar</button><br>
+<img src="http://maps.googleapis.com/maps/api/staticmap?center=-8.0941058,-34.9123519&zoom=13&size=300x300&sensor=false" alt="" id="mapa">
+<script src="../../bibliotecas/jquery-1.10.2.min.js"></script>
+<script>
+
+function localizar() {
+	navigator.geolocation.getCurrentPosition(lerCoordenadas);
+}
+
+function lerCoordenadas(resposta) {
+	var latitude = resposta.coords.latitude;
+	var longitude = resposta.coords.longitude;
+
+	atualizarImagem(latitude, longitude);
+}
+
+function atualizarImagem(lat, long) {
+	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=13&size=300x300&sensor=false"
+		.replace("LAT", lat)
+		.replace("LONG", long);
+	$("#mapa").attr('src', url);
+	//var imagem = document.getElementById('mapa');
+	// 	  imagem.src = url;
+}
+
+$("#botaoAtualizarMapa").on('click', localizar);
+
+// var botaoAtualizarMapa = document.getElementById('botaoAtualizarMapa');
+
+// 	botaoAtualizarMapa.addEventListener('click', localizar, false);
+
+</script>
+</body>
+</html>
