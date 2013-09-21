@@ -22,13 +22,15 @@ function lerCoordenadas(resposta) {
 }
 
 function atualizarImagem(lat, lang) {
-	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=15&size=300x300&sensor=false&markers=color:red%7Clabel:C%7CLAT,LONG"
-		.replace(/LAT/g, lat)
-		.replace(/LONG/g, lang);
+	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=15&size=300x300&sensor=false&markers=color:red%7Clabel:C%7CLAT,LONG";
+		url = url.replace(/LAT/g, lat);
+		url = url.replace(/LONG/g, lang);
+
 	$("#mapa").attr('src', url);
 	//var imagem = document.getElementById('mapa');
 	// 	  imagem.src = url;
 }
+
 navigator.geolocation.watchPosition(lerCoordenadas);
 $("#botaoAtualizarMapa").on('click', localizar);
 
