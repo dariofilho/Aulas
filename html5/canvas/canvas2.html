@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="../../libs/jquery-1.7.1.min.js"></script>
+	<style>
+	body {
+		margin:0;
+		background-color: #999;
+	}
+	canvas {
+		border:1px solid navy;
+		background-color: white;
+	}
+	</style>
+</head>
+<body>
+<div id="meuDiv">
+	<canvas id="meuCanvas" width="480" height="440"></canvas>
+	<script>
+		var canvas = $("#meuCanvas").get(0);
+		// var canvas = document.getElementById('meuCanvas');
+		
+		var contexto = canvas.getContext("2d");
+
+		var img = new Image();
+
+		$(img)
+			.on('load', function() {
+				contexto.drawImage(img, 0, 0, 100, 100);
+			})
+			.attr('src', 'imagens/thumbsUp.png');
+
+		//img.src = "imagens/thumbsUp.png";
+
+	</script>
+</div>
+</body>
+</html>
