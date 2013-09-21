@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+
+<button id="botaoLocalizar">Localizar</button>
+
+<script>
+
+function exibirResultado(resposta) {
+	var latitude = resposta.coords.latitude;
+	var longitude = resposta.coords.longitude;
+
+	console.debug("Você está em: ", latitude, longitude);
+}
+
+function interpretarErro(resposta) {
+	console.debug("Não foi possível localizar você: ", resposta.message);
+}
+
+function localizar() {
+	navigator.geolocation.getCurrentPosition(exibirResultado, interpretarErro); 
+}
+
+
+navigator.geolocation.watchPosition(exibirResultado, interpretarErro); 
+
+var botaoLocalizar = document.getElementById('botaoLocalizar');
+	botaoLocalizar.addEventListener('click', localizar, false);
+
+</script>
+</body>
+</html>
