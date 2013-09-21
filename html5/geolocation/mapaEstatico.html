@@ -21,21 +21,30 @@ function lerCoordenadas(resposta) {
 	atualizarImagem(latitude, longitude);
 }
 
-function atualizarImagem(lat, long) {
-	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=13&size=300x300&sensor=false"
-		.replace("LAT", lat)
-		.replace("LONG", long);
+function atualizarImagem(lat, lang) {
+	var url = "http://maps.googleapis.com/maps/api/staticmap?center=LAT,LONG&zoom=15&size=300x300&sensor=false&markers=color:red%7Clabel:C%7CLAT,LONG"
+		.replace(/LAT/g, lat)
+		.replace(/LONG/g, lang);
 	$("#mapa").attr('src', url);
 	//var imagem = document.getElementById('mapa');
 	// 	  imagem.src = url;
 }
-
+navigator.geolocation.watchPosition(lerCoordenadas);
 $("#botaoAtualizarMapa").on('click', localizar);
 
 // var botaoAtualizarMapa = document.getElementById('botaoAtualizarMapa');
 
 // 	botaoAtualizarMapa.addEventListener('click', localizar, false);
 
+
+/*
+
+-8.008, -34.859
+38.80, 35.52
+52.3, 18.7
+55.4, -105
+-34.880416839310016, -8.041415278699754
+ */
 </script>
 </body>
 </html>
