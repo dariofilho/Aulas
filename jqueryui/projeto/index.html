@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="js/jqueryui/css/start/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<style>
+	#formularioDeCadastro {
+		display: none;
+
+		width: 400px;
+		height: 300px;
+		background-color: #ccc;
+		border: 1px solid black;
+	}
+	</style>
+
+</head>
+<body>
+	
+<form action="" id="formularioDeCadastro">
+	<label for="aniversario">Aniversário</label>
+	<input type="text" id="aniversario">
+</form>
+<!-- Scripts de Terceiros -->
+<script src="js/jquery.js"></script>
+<script src="js/jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
+
+<!-- Meus Scripts -->
+<script>
+	$("#aniversario").datepicker();
+</script>
+
+
+</body>
+</html>

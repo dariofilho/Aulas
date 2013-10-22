@@ -45,11 +45,30 @@ function resgatar() {
 		var canvasAntigoImg = new Image();
 			canvasAntigoImg.src = canvasAntigo;
 
-		
+
 		contexto.drawImage(canvasAntigoImg, 0, 0);
 	}
 }
 
+
+function pretoEBranco() {
+			var dadosDaImagem = 
+				contexto.getImageData(0, 0, canvas.width, canvas.height);
+			
+			var dados = dadosDaImagem.data;
+			
+			for (var i = 0; i < dados.length; i += 4) {
+				var brilho = 0.34 * dados[i] + 0.5 * dados[i + 1] + 0.16 * dados[i + 2];
+				
+				dados[i] = brilho; //Canal vermelho
+				dados[i+1] = brilho; //Canal verde
+				dados[i+2] = brilho; //Canal azul
+			// i+3 is alpha (the fourth element)
+			}
+			
+			contexto.putImageData(dadosDaImagem, 0, 0);
+	
+}
 
 function salvar() {
 	var dadosDoCanvas = canvas.toDataURL();
@@ -66,11 +85,6 @@ $("#botaoCarregar").on('click', carregarImagem);
 $("#botaoExportar").on('click', exportar);
 
 resgatar();
-
-
-
-
-
 </script>
 </body>
 </html>

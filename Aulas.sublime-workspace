@@ -4,12 +4,48 @@
 		"selected_items":
 		[
 			[
-				"op",
-				"opacity"
+				"ol",
+				"oldCanvasImg"
+			],
+			[
+				"c",
+				"contexto"
 			],
 			[
 				"font",
-				"font-size"
+				"font-family"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"on",
+				"online"
+			],
+			[
+				"indi",
+				"indicador"
+			],
+			[
+				"indic",
+				"indicador1"
+			],
+			[
+				"onl",
+				"online"
+			],
+			[
+				"up",
+				"updateready"
+			],
+			[
+				"app",
+				"applicationCache"
+			],
+			[
+				"op",
+				"opacity"
 			],
 			[
 				"fnt",
@@ -194,10 +230,6 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"c",
-				"caixa"
 			],
 			[
 				"cur",
@@ -482,38 +514,6 @@
 			[
 				"append",
 				"appendChild"
-			],
-			[
-				"carreg",
-				"carregou"
-			],
-			[
-				"mouse",
-				"mousePorCima"
-			],
-			[
-				"fn",
-				"font-size"
-			],
-			[
-				"font-s",
-				"font-style"
-			],
-			[
-				"STA",
-				"stage-760x420"
-			],
-			[
-				"STAGE",
-				"stage-150x420"
-			],
-			[
-				"ob",
-				"objetoDeImc"
-			],
-			[
-				"im",
-				"imc"
 			]
 		]
 	},
@@ -572,14 +572,31 @@
 	},
 	"file_history":
 	[
-		"/Users/denniscalazans/Sites/Aulas/html5/cache/index.html",
-		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/cache.php",
-		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/js/vendor/jquery-1.10.1.min.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/canvas/resgantadoCanvasGuardado.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas_x_video.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/APP.Geolocation.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/APP.Lista.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/historico.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/geo/index.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/mapaEstatico.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/APP.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/index.html",
+		"/Users/denniscalazans/Sites/Aulas/bibliotecas/jquery-1.10.2.min.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/.htaccess",
 		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/js/main.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/offline/detectionTransition.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/offline/detection.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/webstorage/localstorage/index.html",
+		"/Users/denniscalazans/Sites/Aulas/css/transition/banner.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/index.php",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.php",
+		"/Users/denniscalazans/Sites/Aulas/webapps/reversr/js/vendor/jquery-1.10.1.min.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/cache/index.html",
 		"/Users/denniscalazans/Sites/Aulas/webapps/preprojeto/js/main.js",
 		"/Users/denniscalazans/Sites/Aulas/webapps/preprojeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/cache.appcache",
-		"/Users/denniscalazans/Sites/Aulas/webapps/relogio/index.php",
 		"/Users/denniscalazans/Sites/Aulas/webapps/aula/index.php",
 		"/Users/denniscalazans/Sites/Aulas/webapps/aula/teste2.txt",
 		"/Users/denniscalazans/Sites/Aulas/webapps/aula/cache.php",
@@ -593,13 +610,9 @@
 		"/Users/denniscalazans/Sites/Aulas/webapps/index.php",
 		"/Users/denniscalazans/Sites/Aulas/webapp/index.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.appcache",
-		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.php",
-		"/Users/denniscalazans/Sites/Aulas/html5/cache/.htaccess",
 		"/Users/denniscalazans/Sites/Aulas/html5/cache/cache.manifest",
 		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.php",
 		"/Users/denniscalazans/Sites/Aulas/labs/less/estilo.css",
-		"/Users/denniscalazans/Sites/Aulas/html5/offline/detection.html",
-		"/Users/denniscalazans/Sites/Aulas/html5/webstorage/localstorage/index.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/less/estilo.less",
 		"/Users/denniscalazans/Sites/Aulas/jquery/introducao/index.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/03 escopo/escopo_funcao.html",
@@ -664,7 +677,6 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/singleton/scripts/App.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/video/videojs.html",
 		"/Users/denniscalazans/Sites/Aulas/libs/HTML5.Canvas.js",
-		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas_x_video.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/audio/index_autoplay.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/audio/index.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/webapp/index.html",
@@ -687,19 +699,7 @@
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexRefatorado.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexResposta.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.MySQL.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/curtirfeed.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/curtirTagDB.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.Instagram.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/Instagram.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/curtirTags.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/class.MySQL.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/citar/header.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/curtirTag.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_personalizando/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/bootstrap_pernsonalizando/index.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/galeria.php",
-		"/Users/denniscalazans/Sites/Aulas/css/estilopadrao/galeria.html"
+		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.MySQL.php"
 	],
 	"find":
 	{
