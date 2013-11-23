@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"est",
+				"estadoSelecionado"
+			],
+			[
+				"_ele",
+				"_elementoCidades"
+			],
+			[
+				"cre",
+				"createDocumentFragment"
+			],
+			[
+				"i",
+				"iCidade"
+			],
+			[
+				"cidade",
+				"cidades"
+			],
+			[
+				"pre",
+				"preencherCidades"
+			],
+			[
+				"_eleme",
+				"_elementoEstados"
+			],
+			[
+				"es",
+				"estadoSelecionado"
+			],
+			[
+				"estado",
+				"estados"
+			],
+			[
+				"esa",
+				"estados"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"form",
+				"formularioDeCadastro"
+			],
+			[
 				"ol",
 				"oldCanvasImg"
 			],
@@ -156,10 +208,6 @@
 				"slider1"
 			],
 			[
-				"con",
-				"container1"
-			],
-			[
 				"inlin",
 				"inline"
 			],
@@ -226,10 +274,6 @@
 			[
 				"pto",
 				"prototype"
-			],
-			[
-				"i",
-				"italic"
 			],
 			[
 				"cur",
@@ -470,50 +514,6 @@
 			[
 				"Rec",
 				"ReceitaDobrada"
-			],
-			[
-				"calc",
-				"calcular"
-			],
-			[
-				"obj",
-				"objetoDeImc"
-			],
-			[
-				"adi",
-				"adicionarIngrediente"
-			],
-			[
-				"Receit",
-				"ReceitaDeBolo"
-			],
-			[
-				"marin-",
-				"margin-left"
-			],
-			[
-				"marin",
-				"margin-left"
-			],
-			[
-				"nn",
-				":nth-child(|)"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"nth",
-				":nth-child(|)"
-			],
-			[
-				"ca",
-				"carregar"
-			],
-			[
-				"append",
-				"appendChild"
 			]
 		]
 	},
@@ -572,8 +572,28 @@
 	},
 	"file_history":
 	[
+		"/Users/denniscalazans/Sites/Aulas/experimentos/cidades/css/estilos.css",
+		"/Users/denniscalazans/Sites/Aulas/experimentos/cidades/index.html",
+		"/Users/denniscalazans/Sites/Aulas/experimentos/cidades/js/APP.FormularioDeContato.js",
+		"/Users/denniscalazans/Sites/Aulas/experimentos/cidades/js/APP.Dados.js",
+		"/Users/denniscalazans/Sites/Aulas/html5/video/video/controlesPersonalizados.html",
+		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas2.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/canvas/resgantadoCanvasGuardado.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/canvas/canvas_x_video.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/calculadora/js/APP.Operacoes.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/calculadora/js/APP.Interface.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/calculadora/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/calculadora/js/APP.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/js/APP.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/js/APP.Home.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/js/APP.Produtos.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/index.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/produtos.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/js/APP.Contato.js",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/contato.html",
+		"/Users/denniscalazans/Sites/Aulas/webapps/empresa/js/APP.Contato.Validacao.CartaoDeCredito.js",
+		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelayRecomendado.html",
+		"/Users/denniscalazans/Sites/Aulas/jqueryui/projeto/index.html",
 		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/APP.Geolocation.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/APP.Lista.js",
 		"/Users/denniscalazans/Sites/Aulas/html5/geolocation/historico.html",
@@ -621,7 +641,6 @@
 		"/Users/denniscalazans/Sites/Aulas/javascript/dom/intro1.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelay.html",
 		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao dinamica/inclusaoMultiplaTradicional.html",
-		"/Users/denniscalazans/Sites/Aulas/javascript/01 inclusao/externoDelayRecomendado.html",
 		"/Users/denniscalazans/Sites/Aulas/labs/less/index.html",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/Associacao.php",
 		"/Users/denniscalazans/Sites/Aulas/php/classes/Polimorfismo2.php",
@@ -680,26 +699,7 @@
 		"/Users/denniscalazans/Sites/Aulas/html5/audio/index_autoplay.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/audio/index.php",
 		"/Users/denniscalazans/Sites/Aulas/html5/webapp/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/delay/script.php",
-		"/Users/denniscalazans/Sites/Aulas/labs/delay/index.php",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/elementos.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/exemploActive.html",
-		"/Users/denniscalazans/Sites/Aulas/css/seletores/exemploSelection.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/exemploScale.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/exemploLayoutFIxo.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/static.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/absolute.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/eixos.html",
-		"/Users/denniscalazans/Sites/Aulas/css/boxmodel/boxmodel.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/absolute_sem_pai.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/relative.html",
-		"/Users/denniscalazans/Sites/Aulas/css/position/position_absolute1.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/linear/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/linear/indexResposta.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexRefatorado.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/indexResposta.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/navegacao/naoLinear/index.html",
-		"/Users/denniscalazans/Sites/Aulas/labs/instagram/conjobs/class.MySQL.php"
+		"/Users/denniscalazans/Sites/Aulas/labs/delay/script.php"
 	],
 	"find":
 	{
@@ -707,7 +707,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 123.0,
 		"where_history":
 		[
 			"/Users/denniscalazans/Sites/Aulas",
@@ -801,6 +801,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			";\n",
 			"{ \n backg",
 			" ",
 			"",
@@ -887,6 +888,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 246.0,
+	"side_bar_width": 92.0,
 	"status_bar_visible": true
 }

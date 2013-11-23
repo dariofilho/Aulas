@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu próprio controle</title>
+	<link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
+<link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.2/video.js"></script>
+	<style>
+	#botaoPlay {
+
+	}
+
+	#meuVideo {
+
+	}
+	</style>
+</head>
+<body>
+	<h1>Controlando conteúdo multi-mídia</h1>
+
+	<video src="http://www.denniscalazans.com/temp/video.mp4" width="320" height="240" loop   id="meuVideo"  poster="imagens/poster.png"></video>
+
+
+
+	<div id="progresso"></div>
+<br>
+	<button class="controle" id="botaoPlay">Play</button>
+	<button class="controle" id="botaoPause">Pause</button>
+	<button class="controle" id="botaoStop">Stop</button>
+	<button class="controle" id="botaoCarregarVideo1">Carregar Video 1</button>
+	<button class="controle" id="botaoCarregarVideo2">Carregar Video 2</button>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+
+	<script>
+
+
+
+	var meuVideo = $("#meuVideo").on("timeupdate", function() {
+		var total = (this.currentTime*100)/this.duration;
+		//console.log(total);
+		barra.slider( "option", "value", total );
+	});
+
+	var barra = $("#progresso").slider().on("slidechange", function(event, ui) {
+
+		var total = ui.value;
+		var duration = meuVideo.get(0).duration;
+		var currentTime = meuVideo.get(0).currentTime;
+		var tempo = (duration*currentTime)/100;
+
+		//meuVideo.get(0).currentTime = tempo;
+
+	});
+	
+	$("button").button();
+
+	$("#botaoPlay").on("click", function() {
+		$("#meuVideo").get(0).play();
+	});
+
+	$("#botaoStop").on("click", function() {
+		$("#meuVideo").get(0).pause();
+		$("#meuVideo").get(0).currentTime = 0;
+	});
+
+	$("#botaoPause").on("click", function() {
+		$("#meuVideo").get(0).pause();
+	});
+
+	$("#botaoCarregarVideo1").on("click", function() {
+		$("#meuVideo").attr('src', 'video.mp4');
+	})
+	$("#botaoCarregarVideo2").on("click", function() {
+		$("#meuVideo").attr('src', 'video2.mov');
+	})
+
+
+	</script>
+
+
+</body>
+</html>

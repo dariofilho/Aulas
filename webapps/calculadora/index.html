@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<style>
+	#resultado {
+		font-size: 2em;
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Calculadora</h1>
+
+	<output id="resultado">0</output>
+
+	<form action="" id="formularioCalculadora">
+		<label for="entrada">Entrada</label>
+		<input type="number" id="entrada">
+
+
+		
+		<div id="operacoes">
+			<input type="radio" name="operacao" value="soma" id="operacaoSoma">
+			<label for="operacaoSoma">Soma</label>
+
+			<input type="radio" name="operacao" value="subtracao" id="operacaoSubtracao">
+				<label for="operacaoSubtracao">Subtração</label>
+		
+			<input type="radio" name="operacao" value="multiplicacao" id="operacaoMultiplicacao">
+			<label for="operacaoMultiplicacao">Multiplicação</label>
+
+			<input type="radio" name="operacao" value="divisao" id="operacaoDivisao">			<label for="operacaoDivisao">Divisão</label>
+
+		</div>
+		
+		<input type="submit" name="acao" value="Calcular">
+
+	</form>
+
+</body>
+<script src="js/APP.js"></script>
+<script src="js/APP.Operacoes.js"></script>
+<script src="js/APP.Interface.js"></script>
+<script>APP.iniciar();</script>
+</html>
